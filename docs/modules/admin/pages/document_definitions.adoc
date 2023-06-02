@@ -1,0 +1,93 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Document definitions
+
+A Document Definition is a file type.
+When you add a file/document to a case or person record, you select the document definition for the file.
+The document definition has metadata information about the file that can be used throughout the system.
+
+You can get to the Document Definitions settings page by going to menu:Left navigation pane[System Administration > Document Definitions].
+From there, you can search for or add a Document Definition.
+
+
+== Search document definitions
+
+The Document Definitions search screen:
+
+image::SearchDocumentDefinitions.png[Document Definitions Search Screen]
+
+From this screen, you can define criteria in the *Search Criteria* panel to find Document Definitions you would like to look at or change.
+
+You can also create a new Document Definition by clicking the *New Definition* button at the bottom of the *Search Criteria* panel.
+
+If you click an existing Document Definition or create a new one, the Document Definition details screen shows, where you can edit the settings and metadata.
+
+image::DocumentDefinitionDetails.png[Document Definition Details Screen]
+
+You can find information about the various settings in the following sections.
+
+== Document definition information
+
+|===
+| Field
+| Description
+
+| *Number*
+| A unique number that identifies the Document Definition
+
+| *Short Name*
+| A unique name that describes the Document Definition.
+
+| *Name*
+| A more descriptive name than Short Name.
+
+| *Start*
+| The date after which this record starts showing as a File Type option.
+  If no date is entered, then it defaults to being shown.
+
+| *End After*
+| The date after which this record stops showing as a File Type option.
+  If no date is entered, then the record does not expire and continues to show indefinitely.
+|===
+
+Most other fields on the Document Definition are metadata fields that can be referenced in searches, reports, or business rules.
+
+
+== Attributes
+
+The only attribute you need to worry about setting is the *Form Type* attribute.
+Here are the Form Types you can choose from:
+
+|===
+| Form Type
+| Description
+
+| JDA 4
+| Set the Form Type to JDA 4 when the Document Definition has a JDA template attached to it.
+
+| Mugshot
+| Use this Form Type for Document Definitions that represent a mugshot.
+
+| Scan/Upload
+| Set the Form Type to Scan/Upload to have a Document Definition show on the *File Type* field on the Add File forms for a case or person.
+|===
+
+
+== Template information
+
+The Template Information section is used to set the JDA template for the Document Definition.
+This allows you generate documents from a case or person record.
+
+To add a JDA template to a Document Definition, expand the *Template Information* section, then click the *JDA Template* radio button.
+Finally, click the *Select JDA Template* and choose your template.
+
+See below for an example:
+
+image::JDAChooseTemplate.png[Document Definition details screen with an arrow pointing to the Select JDA Template button and an arrow pointing to a template in a popup window that is displayed.]
+
+Click the *Save* button at the bottom of the screen after selecting your template.
+
+Now you can generate a document using the template you picked for that Document Definition by going to a Case and selecting *Generate Template* from the *File Cabinet* menu.
+
+image::GenerateTemplateOption.png[Arrow pointing to Generate Template option in the File Cabinet menu item on a case record.]
+
+NOTE: If you add a JDA template to a Document Definition, it is recommended that you change the <<attributes,Form Type>> to `JDA 4`.

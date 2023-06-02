@@ -1,0 +1,27 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Access {product}
+
+{product} is a web app that is securely managed by Journal Technologies in the AWS GovCloud.
+The web app can be accessed from computers (PC or Mac), smartphones (iPhone, Android) and mobile devices (such as iPad, Galaxy, Surface).
+Users only need a web browser  to securely access the system.
+
+
+== Log in
+
+Your administrator provides a link to {product} and a set of user credentials to login with.
+
+image::about/loginPage.png[Log in page]
+
+. Enter your username and password into the appropriate fields.
+. Click the btn:[Login] button to login to {product}.
+. You may tick the `Stay Logged In` checkbox to stay logged in across browser sessions.
+. If you forget your password, click btn:[`I forgot my password`].
+  You may be prompted to answer a security question.
+  You should then get an email with further steps to finish resetting your password.
+
+
+== Log out
+
+image::about/logout.png[Log out]
+
+To logout, click the logout icon image:about/logoutIcon.png[Log out icon] in the top navigation bar.

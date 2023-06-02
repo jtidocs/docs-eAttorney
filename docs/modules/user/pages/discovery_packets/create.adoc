@@ -1,0 +1,17 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Create discovery packets
+
+Create a discovery packet with the case folder view by clicking menu:Discovery[Add Discovery Packet].
+
+image::discovery_packets/creatingDiscoveryPacket.png[Discovery Tab]
+
+For information on case navigation, see xref:cases/index.adoc[].
+
+On the add discovery packet page:
+- All fields with a red asterisk are required.
+- An effective to date can be added to limit the time the packet is available.
+  If no time is selected the packet does not expire.
+- Documents can than be selected and are stored as a Zip file.
+
+NOTE: Documents must be marked as approved for disclosure before a document can be added to a discovery packet.
+      For information on how to mark a document approved, see xref:documents/file_cabinet.adoc[].

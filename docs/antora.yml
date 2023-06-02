@@ -1,0 +1,12 @@
+name: eAttorney
+title: eAttorney documentation
+version: 2022.x
+nav:
+- modules/ROOT/nav.adoc
+- modules/user/nav.adoc
+- modules/admin/nav.adoc
+- modules/business/nav.adoc
+- modules/JDA/nav.adoc
+asciidoc:
+  attributes:
+    product: eAttorney

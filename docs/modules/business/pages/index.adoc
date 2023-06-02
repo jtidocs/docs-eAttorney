@@ -1,0 +1,4 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Business processes
+
+This section describes the business processes available in {product}.

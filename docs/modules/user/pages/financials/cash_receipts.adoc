@@ -1,0 +1,170 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Cash receipts
+
+The Cash Receipts screen allows the payment of invoices and transfer of money.
+
+
+[#open]
+== Opening a till
+
+Before accessing the Cash Receipts screen, you need to open a till.
+Opening a till can be accomplished one of 2 ways:
+
+. You can access the Cashier section from the left navigation, expand the Cash Receipts option and click btn:[Open Till]:
++
+image::financials/cash_receipts_left_nav.png["Open Till option from left navigation."]
+
+. Or from a case, click the Financials tab drop-down and select Cash Receipts:
++
+image::financials/cash_receipts_from_case.png["Accessing Cash Receipts from case."]
+
+After selecting your option to open your till, you are prompted to open a till if it is the first time you have accessed Cash Receipts for the day.
+
+NOTE: If you have an unclosed till from a previous day, you are prompted to close that till before you can proceed.
+
+image::financials/cash_receipts_security.png["Till login page."]
+
+You can easily see if you have opened your till by looking at the top of {product} in your browser.
+Your till number and a cash register icon displays at the top of the screen.
+
+image::financials/cash_receipts_till_top_nav.png["Open till indicator."]
+
+[#navigate]
+== Navigate the cash receipts screen
+
+If you access Cash Receipts from a case you can see the owed financials for that case.
+Otherwise, you need to search for the case if you are wanting to take payments for that case.
+
+The Search Cases field in the Cash Receipts screen can be used to display a Case Assessment Detail panel.
+
+By typing in the case number, or name of the case, the search displays a list of cases:
+
+image::financials/cash_receipts_search.png["Cash Receipts case search."]
+
+By choosing a case from the list, the Case Assessment Detail panel is displayed.
+By searching and choosing another case, multiple panels can be displayed.
+A benefit of opening multiple cases is the ability to take payments over more than one case at once.
+
+image::financials/cash_receipts_case_assessment_detail.png["Case assessment detail panel."]
+
+[#switch]
+== Switch till modes
+
+Users that are taking mailed in payments can switch their Till Mode in the cash receipts screen.
+By default, tills are set to use the Counter mode.
+The background for this is set as blue and the top left icon displays a cash register icon.
+This is part of core and cannot be customized.
+
+image::financials/cash_receipts_counter.png["Counter/default till mode."]
+
+If a user needs to record a payment made by mail, they click the cash register icon in the upper left corner of the Cash Receipts screen.
+This changes the background to yellow and updates the cash register icon to an envelope icon.
+This option is only used if you need to separate how you rec\eive your payments and is not required to take payments.
+
+image::financials/cash_receipts_mail.png["Mail till mode."]
+
+
+[#payments]
+== Process payments
+
+The Process Payments mode option allows you to take payments and assess a fee, fine, or service.
+The screen displays three panels: `Assessment Details` panel, `Payment Methods` panel, and the `Payor Information` panel:
+
+image::financials/cash_receipts_process_payment.png["Cash Receipts panel overview."]
+
+The Assessment Details panel displays fees, fines, or services assessed to the case.
+It is also possible to display more than one case Assessment Details panel using the Case Search field.
+
+The Payment Methods panel allows you to take payments on the items listed in the Assessment Details panel.
+By default one payment method is displayed on the list, but multiple payment methods can be added to the panel.
+For example, payment is made with cash and the rest with credit card.
+
+The Payor Information panel allows you to select the payor, if it is a party from the case.
+If payor is not a party on the case, you can select Other and enter in the payors information.
+
+
+[#add-fee]
+=== Add a fee
+
+With a case open, click the btn:[+] Fee/Service button.
+Enter the desired fee or service type.
+You can continue to add fees/services by clicking the + button on the right side of the panel.
+Once you are finished entering the fees/services, click btn:[Save Fee].
+
+image::financials/cash_receipts_add_fee.png["Adding fee to case."]
+
+The following options are available when adding a fee:
+
+[cols="a,a", options="header"]
+|===
+| Option
+| Description
+
+| Fee/Service
+| The Fee/Service Lookup displays a dialog box that allows you to choose a fee, fine, or service.
+
+| Fee Date
+| This populates with the current date and is the date the Fee or service is being added.
+
+| Fee Due Date
+| This is the date that the fee is due by.
+
+| Party
+| The Party field allows you to choose which party members the fee, fine, or service should be assessed to.
+
+| Quantity
+| Number of fees/services to add.
+
+| Rate
+| Single amount for the fee/service.
+
+| Amount
+| Shows the calculated total (Quantity x Rate).
+
+| Save Fee
+| Saves the fees/services added.
+
+| btn:[`+`]
+| The btn:[`+`] button, found in the bottom right of the panel, allows you to add an another item to the list.
+|===
+
+
+[#take-payment]
+=== Take a payment
+
+Payments are made in the Cash Receipts screen.
+If a case is not loaded into the screen, search for a case to take a payment on.
+
+image::financials/cash_receipts_search.png["Cash Receipt search."]
+
+Once the cases are loaded, you can see the open invoices for the cases you are accessing.
+By default, all open invoices are select for taking a payment.
+If you need to apply the payment to a single invoice, you can do so by deselecting the other invoices that should not be part of the payment.
+After making the desired invoice selections, choose the payment method being used for the payment and enter in the amount tendered.
+
+image::financials/cash_receipts_make_payment_1.png["Making a payment."]
+
+Next, fill in the Payor Information.
+If a party on the case is making the payment, you can select them from the Payor field.
+Otherwise, select `other` and enter the payor information.
+After selecting the Payor, click the submit button at the bottom of the screen.
+
+image::financials/cash_receipts_payor_info.png["Payor information panel."]
+
+If the Invoice is paid in full, it no longer displays on the Cash Receipts screen and a printable receipt is displayed.
+The receipt can be reprinted from the Case Ledger Screen.
+
+
+[#multiple-payment-methods]
+=== Use multiple payment methods
+
+When processing payments on a transaction, you can use multiple payment methods at once.
+For example, pay half with cash, and the other half with check.
+There is no limit to the payment methods that can be added to a transaction.
+
+Add an extra payment method to the panel and fill in the information like you would normally do for a single payment method.
+
+image::financials/cash_receipts_multi_pay_method.png[Using multiple payment methods.]
+
+WARNING:  When using multiple payment methods, the Payor Information is applied to each of the payment methods.
+          If the Payor Information needs to be different on each transaction, each payment should be taken individually using the partial pay method.

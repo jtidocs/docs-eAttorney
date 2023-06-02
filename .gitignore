@@ -1,0 +1,50 @@
+# Things to ignore for JTI documentation projects
+
+# archives
+*.zip
+*.tgz
+*.tar.gz
+
+# auto-installed binaries
+bin/vale*
+bin/htmltest*
+bin/task*
+
+# Antora
+build/
+pdf/
+antora-assembler.dist.yml
+antora-playbook.dist.yml
+
+# dotenv environment files
+.env
+.env.test
+
+# htmltest
+htmltest.dist.yml
+tmp/
+
+# Node.js
+logs
+*.log
+npm-debug.log*
+node_modules/
+.npm
+.node_repl_history
+
+# Ruby bits
+.bundle/
+Gemfile*
+
+# Task
+Taskfile.dist.yml
+bin/completion/
+
+# Vale
+vale/Google/
+vale/JTI/
+vale/vale.dist.ini
+
+# Vim
+*.swp
+*.swo

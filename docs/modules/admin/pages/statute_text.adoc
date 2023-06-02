@@ -1,0 +1,25 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Statute text
+
+Statute text can be found in the `System Administration` tab on the left hand side navigation under menu:Statutes[Search Statute Text].
+
+
+== Searching for statute text
+
+Statute texts can be found by searching for a section name or number of a statute.
+When the search is applied, a filtered list of statutes is displayed.
+To toggle the view of statute texts on a statute, simple click the plus or minus icon (shown below as 1) next to the section number.
+
+image::statute-text.png[Statute text search screen]
+
+
+== Add or change statute text
+
+Statute text can be changed directly by clicking the `Statute Text Type` label next to an expanded statute (shown as 3).
+Statute text can also be edited or changed by clicking on the edit button next to the statute (shown as 2).
+
+Click the edit button shows the update statute text screen.
+On the update statute text screen, texts can be added or removed by clicking the `+/-` signs next to the text.
+Or statutes texts can be added by clicking the btn:[Statute Text] at the bottom of each statute text.
+
+image::edit-statute-text.png[Update statute text screen]

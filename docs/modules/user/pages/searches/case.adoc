@@ -1,0 +1,24 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Search case
+
+This search helps you find cases based on your search criteria.
+
+The *Search Case* can be accessed by going to menu:Left navigation pane[Searches & Reports > Search Case].
+
+image::searches/search-case-link.png[Search Case Link Left Nav.]
+
+
+== Parameters
+
+image::searches/search-case-params.png[Search Case Parameters Guide]
+
+. *Case Number* - (Free Text) Search for case by Case Number.
+. *Case Name* - (Free Text) Search for case by Case Name.
+. *Case Type* - Limit results to selected Case types.
+. *Case Id* - (Free Text) Search for case records by Case Id.
+  This is a special field added using Add Criteria.
+  For more information on Criteria, see xref:./controls.adoc[].
+. *Status* - Limit results to selected Statuses.
+. *Received Date From/To* - Limit results to Date Ranges.
+
+NOTE: If you would like to change how parameters are being matched, see xref:./controls.adoc[].

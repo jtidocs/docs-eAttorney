@@ -1,0 +1,22 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Communication
+
+The communication tab has all documented communication between legal personnel and involvements.
+Communications can be accessed by clicking communications on the case folder view.
+
+image::cases/communication.png["Communication"]
+
+For information on how to access the case view, see xref:./index.adoc[].
+
+The main display for the communications tab displays all the documented communications added to the case.
+To add an item, select the add item on top or bottom of the page:
+
+image::cases/communicationAddItem.png["Adding communication"]
+
+
+== Add item
+
+When adding an item, a communication type must be selected, for example Fax, Letter, or Phone.
+A date can be added to document the day and time of occurrence, and notes and involved personnel:
+
+image::cases/addCommunication.png["Adding communication"]

@@ -1,0 +1,9 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Financial reports
+
+Financial reports can be accessed using the accounting tab in the left navigation pane, under financial reports (shown as 1).
+When viewing the financial report screen, reports can be selected from the drop-down combo box (shown as 2).
+Once selected, the report shows (in box 3).
+If parameters are required, input must be entered before viewing a report.
+
+image::reports/FinancialReports.png[financial Reports]

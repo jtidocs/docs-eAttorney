@@ -1,0 +1,43 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Archived search gadget
+
+The Saved Searches gadget displays a list of saved searches with the option to quickly run or open them directly.
+The search can also be expanded to display the search parameters.
+
+== Add the gadget
+
+. Open the dashboard.
+
+. At the top of the dashboard, find the "Dashboard" button, and click the gear icon to go to User Settings:
++
+image::dashboard/user-settings.png[User settings icon]
+
+. Click the `+` button next to the Archived Searches item:
++
+image::dashboard/add-archived-searches.png[Saved Search add button]
+
+
+== Create an archived search
+
+. Browse to a search in the system.
+
+. Fill out the parameters as required and click the btn:[Search] button.
+
+. Scroll down to the bottom of the search results and click the Archive Button.
+
+. A dialog opens prompting you to give the Archived Search a name, and to specify the save format.
+
+. Click the Save Icon to finish creating the Archived Search.
++
+image::dashboard/create-archived-search.png[User settings icon]
+
+
+== Use the archived searches gadget
+
+The Archived Searches gadget must first be added to the Dashboard.
+Once added, Archived Searches are displayed:
+
+image::dashboard/archived-searches-gadget.png[Archived searches gadget]
+
+. Each Archived Search is listed by Date.
+. Click the name of the Archived Search to download the associated file.

@@ -1,0 +1,10 @@
+// vim: tw=0 ai et ts=2 sw=2
+= View involvements
+
+To view the involvements on a Directory Person, from the Directory Person folder view click menu:Summary[View Involvements].
+
+image::directory_person/updateDirectoryPerson.png[Directory Person View Involvements]
+
+The _View Involvements_ page displays the attached cases to the Directory Person and the role, type, number, and status of each case.
+
+image::directory_person/involvements.png[View Involvements Screen]

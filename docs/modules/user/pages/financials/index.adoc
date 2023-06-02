@@ -1,0 +1,86 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Financials
+
+Financials is only approved for individuals with the financial workflow enabled on their account.
+Financials can be broken down in the following categories: bail, cash receipts, check writing, creating invoices, deposits, pay plans, refund, restitution, transfers, and vouchers.
+Each category is defined more in detail on a separate page.
+
+
+== Bail
+
+Bail can be found in the case folder view under `Case Involvements` tab:
+
+image::financials/bail_location.png[Bail location in case]
+
+For information on creating, posting, forfeiting, and refunding cash bails, see xref:./bail.adoc[].
+
+
+== Cash receipts
+
+The Cash Receipts screen allows for the payment of invoices and transfer of money.
+Cash Receipts can be found under case folder view under menu:Financials[Cash Receipts] or under menu:Accounting[Cash Receipts] in the left hand side navigation bar.
+
+image::financials/cash_receipts_location.png[Cash receipts location.]
+
+For information on opening a till, switching till modes, adding fees, and taking payments, see xref:./bail.adoc[].
+
+
+== Check writing
+
+Once there is money that is ready to be vouchered out of the system, you can go to the Check Writing screen to search for existing vouchers and write checks for them.
+The check numbers can be saved to each voucher and then archived as complete.
+Check writing can be accessed under menu:Accounting[Payables > Check Writing] in the left navigation pane.
+
+image::financials/check_writing_location.png[Check writing location.]
+
+For information on check writing, see xref:./check_writing.adoc[].
+
+
+== Creating invoices
+
+Invoices are created when fees are added from the cash receipts screen.
+
+
+== Deposits
+
+Deposits are used to record money taken to the bank.
+Deposits can be found under menu:Accounting[Banking > Create/Search Deposits] in the left hand side navigation.
+
+image::financials/deposit_location.png[Deposits location.]
+
+For information on creating, searching, and editing deposits, see xref:./deposits.adoc[].
+
+
+== Payment plans
+
+Payment plans allow the payor to make small payments towards the obligations over an extended period of time.
+For information on pay plans, see xref:./pay_plans.adoc[].
+
+
+== Refund
+
+Refunds can be given to individuals that have already paid/overpaid a fine or fee on a case.
+For information on creating, approving, and sending a refund request, see xref:./pay_plans.adoc[].
+
+
+== Restitution
+
+Restitutions can be added to a case under menu:Financials[Add Restitution] inside of a case folder view.
+
+image::financials/restitution_location.png[Restitution location.]
+
+For information on adding restitution, see xref:./restitution.adoc[].
+
+
+== Transfers
+
+Transfers allow the transfer of payments from one obligation to another.
+This can happen across different cases if payments towards an incorrect obligation are selected.
+Transfers help keep a clear paper record of where money is coming from and going.
+For more information on transfers, see xref:./transfers.adoc[].
+
+
+== Vouchers
+
+A voucher is money you have in the system that needs to be sent out to some other entity.
+For information on searching, voiding, and writing a check for a voucher, see xref:./vouchers.adoc[].

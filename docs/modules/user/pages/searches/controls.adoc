@@ -1,0 +1,132 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Search controls
+
+== Controls
+
+All of the searches listed in this section use the same set of controls:
+
+image::searches/search-controls.png[Bottom Search Controls Toolbar.]
+
+. *Search Button* -  Execute the search.
+
+. *Reset Button* -  Reset all parameters and controls to the default values.
+
+. *Refine Button* -  Enable the Refine Controls on all parameters.
++
+Clicking the Refine button adds advanced refinement controls to each parameter on whatever search you are looking at.
++
+image::searches/search-controls-refine-dropdown.png[Refine Button Dropdown of Comparison Types.]
++
+|===
+| Comparison type
+| Affect on column
+
+| `not equals`
+| Results do not equal this exact value.
+
+| `starts with`
+| Results start with this exact value.
+
+| `ends with`
+| Results end with this exact value.
+
+| `contains`
+| Results have this exact value.
+
+| `not contains`
+| Results do not have this exact value.
+
+| `soundex`
+| Results 'sound like' this value.
+
+| `in`
+| Results are in this value.
+  <<opt-in-example,See example.>>
+
+| `not in`
+| Results are not in this value.
+  <<opt-in-example,See example.>>
+
+| `blank`
+| Results are blank.
+
+| `not blank`
+| Results are not blank.
+
+| (Comparison Type) + nulls
+| Include null value results in addition to your applied comparison type.
+|===
++
+--
+[discrete#opt-in-example]
+=== Example of in and not-in comparison types
+
+The *_in_* Comparison Type only works with multi select dropdown values.
+This example shows how the results are limited to the selected status values of Adult Drug Court and Declined for lack of Investigation.
+No other Statuses are returned in this search.
+
+image::searches/search-controls-refine-dropdown-in.png[Refine Button in Comparison Type example.]
+--
+
+. *Output Button* -  Execute the search.
++
+image::searches/search-controls-output-columns.png[Output Button Pop-up Configuration Dialog.]
++
+. The available results table columns which should be hidden.
+. The available results table columns which should be shown.
+. Move single selected column from Hide to Show.
+. Move all available columns from Hide to Show.
+. Move single selected column from Show to Hide.
+. Move all available columns from Show to Hide.
+. Move selected columns up one slot.
+  Only works on Show side.
+. Move selected columns down one slot.
+  Only works on Show side.
+. Group results by parameters.
+  Differs between Searches based on parameters available in that search.
++
+--
+_Group results by Parameters_ allows you to group the results based on 1 or more of the parameters available for the search.
+
+image:searches/search-controls-output-group-by-dropdown.png[Bottom Search Controls Results Dropdown.]
+
+Select the desired parameter to group your results by in the dropdown.
+To add more groupings, click the green plus button at the top.
+
+image::searches/search-controls-output-group-by-add.png[Bottom Search Controls Results Dropdown.]
+
+*Example of Group By results with _Case Name_ and _Case Type_ dual groupings*:
+
+If grouping is used and there are multiple results which fall under the same grouping, an expansion opens in the results which allows you to see all items in that group.
+This example shows that 4 cases were found which match the same Case Title and the same Case Type:
+
+image::searches/search-controls-output-group-by-results.png[Bottom Search Controls Group By Results Dropdown.]
+--
+
+. *Results Dropdown* -  Select the number of results you would like to see per results page.
+
+image::searches/search-controls-results-dropdown.png[Bottom Search Controls Results Dropdown.]
+
+. *Criteria Dropdown* -  Whittle down results based on criteria.
++
+The Criteria option only shows on the _Search Case_ and the _Search Person Business_ searches.
+This allows you to directly add the Case Id or Person Id into the Criteria Field when doing a search to net the exact result you are looking for.
+In the below example, the Add Criteria dropdown option of Person Id on the Search Person/Business search is selected.
+This enabled a new parameter for entry called Person Id.
+Person Id 2 is included in that Person Id Parameter.
++
+image::searches/search-controls-criteria.png[Bottom Search Controls Add Criteria Example.]
++
+The single result for the person associated with Person Id 2 is the only result as desired.
+
+. *Disk Folder Icon* - Open a previously xref:dashboard/saved_searches.adoc[saved search].
++
+If you have run this search before and saved the search, you can rerun that saved search by loading the search with this icon.
++
+image::searches/search-controls-load-saved-search.png[Bottom Search Controls Load Saved Search.]
+
+. *Disk Down Arrow Icon* - Save the search to your xref:dashboard/saved_searches.adoc[].
+
+If you would like to save this search for future use without selecting the same parameters, click this icon.
+
+image::searches/search-controls-save-search.png[Bottom Search Controls Save Search.]

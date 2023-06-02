@@ -1,0 +1,213 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Directory person
+
+_Directory Persons_ are individuals that are in your organization or another organization, such as attorneys, probation officers, police officers, and judges.
+
+
+== Searching for a directory person
+
+image::directory/DirectoryPersonSearchHeader.png[]
+
+Criteria:
+
+* Name: Enter the name of the person.
+* ID Number: Enter the ID number of the person.
+* Code: Enter the code used for the person.
+* Group: Can be used to filter results.
+* Firm Name: Enter the name Firm Name to filter results.
+* Status: current status of the person, choose from:
+** `All`
+** `Active`
+** `Inactive`
+
+* Role: Select one or more Directory Person Roles:
+** `All`
+** `Administrator`
+** `Defense Attorney`
+** `Judge`
+** `Law Enforcement Officer`
+** `Legal Staff`
+** `Probation, Parole, PreTrial`
+** `Prosecuting Attorney`
+
+* Organization: Enter all or part of an organization name to filter results.
+* Active: start and end date of activity of the person.
+
+Buttons:
+
+* Search: do the search with no criteria.
+  The search returns a paginated list.
+* Clear: reset search criteria.
+* <<add,Add New Person:>> open form to add a new Directory Person.
+* <<import,Import:>> import a Excel spreadsheet of Directory Persons.
+
+
+[#add]
+== Add a directory person
+
+To add a new Directory Person, click the btn:[Add New Person] button.
+
+image::directory/DirectoryPersonAddForm.png[]
+
+* Group:
+* Role: select one or more Directory Person Roles:
+** `Administrator`
+** `Defense Attorney`
+** `Judge`
+** `Law Enforcement Officer`
+** `Legal Staff`
+** `Probation, Parole, PreTrial`
+** `Prosecuting Attorney`
+
+* Secondary Roles: select one or more secondary Directory Person Roles:
+** `Administrator`
+** `Defense Attorney`
+** `Judge`
+** `Law Enforcement Officer`
+** `Legal Staff`
+** `Probation, Parole, PreTrial`
+** `Prosecuting Attorney`
+
+* First Name: The first name of the person.
+* Middle Name: The middle name of the person.
+* Last Name: The last name of the person.
+* Last Name 2: The second last name of the person.
+* Code: Unique code for the organization.
+  If you do not want to come up with one, use the btn:[Generate] button to generate one for you.
++
+image::directory/DirectoryPersonGenerateCodeButton.png[Generate code button]
+
+* Printed Name: The printed or deputized name.
+* Job Title: Job title of the person.
+* Firm Name: Name of the firm the person is associated with.
+* Prefix: Prefix of the person, such as: Mr., Mrs., Dr., Sir.
+* Suffix: Suffix of the person, such as: Junior, II, III, MD.
+* Phone 1, Phone 2 and Phone 3:
++
+image::directory/DirectoryPersonPhone.png[Directory person phone]
++
+.. Choose the phone type:
+*** `Cell Phone`
+*** `Fax`
+*** `Home Phone`
+*** `Work Phone`
+
+.. Enter the 10 digit phone number.
+.. Optionally enter the extension.
+
+* `Web Address`: the website for the person.
+* `Email`: main email for the person.
+* `Alt. Email`: place for a secondary email for the person.
+* `Notes`: notes relating to the person.
+* `Status`: defines if the person is active or inactive.
+  One of: `Active`, `Inactive`
+* Person Rank: Rank of the individual, configured by options in the DIR_PERSON_RANK lookup list [1].
+* Start Date: Date this person is available in drop downs in the system.
+* End Date: Date this person is no longer available in drop downs in the system.
+* End Reason: Reason the person is no longer a directory person.
+  This list is configured by options in the DIR_PERSON_END_REASON lookup list [1].
+
+\* Role, Code are required.
+
+[1] Lookup lists, such as DIR_PERSON_RANK are only editable by support.
+
+
+=== Optional items
+
+Optionally, you can add the following items to a person record:
+
+* xref:directory/identifications.adoc[Identifications].
+* xref:./addresses.adoc[Addresses].
+* xref:./off_time.adoc[Off-Time].
+* Attachments.
+* xref:directory/attribute.adoc[Attributes].
+
+
+[#import]
+== Bulk import directory persons
+
+Clicking the btn:[Import] button provides the format of the requisite Excel file for bulk import.
+The windows also includes a link to a sample file with the required column headers.
+Click the btn:[Choose File] button at the top to choose the file to import, then click the btn:[Import] button on the lower right to start the import.
+
+image::directory/DirectoryPersonImport.png[]
+
+
+== Edit a directory person
+
+If you click a person name, you are presented with the update form:
+
+image::directory/DirectoryPersonUpdateForm.png[]
+
+* Group:
+* Role: select one or more Directory Person Roles:
+** `Administrator`
+** `Defense Attorney`
+** `Judge`
+** `Law Enforcement Officer`
+** `Legal Staff`
+** `Probation, Parole, PreTrial`
+** `Prosecuting Attorney`
+
+* Secondary roles: select one or more secondary Directory Person Roles:
+** `Administrator`
+** `Defense Attorney`
+** `Judge`
+** `Law Enforcement Officer`
+** `Legal Staff`
+** `Probation, Parole, PreTrial`
+** `Prosecuting Attorney`
+
+* First Name: The first name of the person.
+* Middle Name: The middle name of the person.
+* Last Name: The last name of the person.
+* Last Name 2: The second last name of the person.
+* Code: Unique code for the organization.
+  If you do not want to come up with one, click the btn:[Generate] button to generate one for you.
++
+image::directory/DirectoryPersonGenerateCodeButton.png[Generate code button]
+
+* Printed Name: The printed or deputized name.
+* Job Title: Job title of the person.
+* Firm Name: Name of the firm the person is associated with.
+* Prefix: Prefix of the person, such as: Mr., Mrs., Dr., Sir.
+* Suffix: Suffix of the person, such as: Junior, II, III, MD.
+* Phone 1, Phone 2 and Phone 3:
++
+image::directory/DirectoryPersonPhone.png[Directory person phone]
++
+.. Choose the phone type:
+*** `Cell Phone`
+*** `Fax`
+*** `Home Phone`
+*** `Work Phone`
+.. Enter the 10 digit phone number.
+.. Optionally enter the extension.
+
+* `Web Address`: the website for the person.
+* `Email`: main email for the person.
+* `Alt. Email`: place for a secondary email for the person.
+* `Notes`: notes relating to the person.
+* `Status`: defines if the person is active or inactive.
+  One of: `Active`, `Inactive`
+
+* Person Rank: Rank of the individual, configured by options in the DIR_PERSON_RANK lookup list [1].
+* Start Date: Date this person is available in drop downs in the system.
+* End Date: Date this person is no longer available in drop downs in the system.
+* End Reason: Reason the person is no longer a directory person.
+  This list is configured by options in the DIR_PERSON_END_REASON lookup list [1].
+
+\* Role, Code are required.
+
+[1] Lookup lists, such as DIR_PERSON_RANK are only editable by support.
+
+
+=== Optional items
+
+Optionally, you can add the following items to a person record:
+
+* xref:directory/identifications.adoc[]
+* xref:./addresses.adoc[]
+* xref:./off_time.adoc[]
+* xref:directory/attachment.adoc[]
+* xref:directory/attribute.adoc[]

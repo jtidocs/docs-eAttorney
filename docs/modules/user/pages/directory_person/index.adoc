@@ -1,0 +1,20 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Summary
+
+In {product}, there are two types of people:
+
+- _Directory Person_: is someone working in the justice system, including law enforcement, legal personnel, judges.
+- _Person_: a defendant or involvement.
+
+In {product}, a Directory Person is denoted by a double person icon:
+
+image::directory_person/directoryPerson.png[Directory Person Icon]
+
+A Person is denoted by a single person icon.
+
+image::directory_person/person.png[Person Icon]
+
+A Directory Person is also able to be assigned to cases.
+If a Directory Person is assigned to a case, the case shows in the user work space where they are able to see details and tasks on the case.
+
+To access the Directory Person folder view, click the double person icon on a case, or use **Search Justice Personnel** in the search menu in the left navigation pane.

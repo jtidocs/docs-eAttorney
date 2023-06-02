@@ -1,0 +1,26 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Search person/business
+
+This search helps you find a person or business based on your search criteria.
+Click a result to show that name record.
+
+The *Search Person/Business* can be accessed by going to menu:Left navigation pane[Searches & Reports > Search Person/Business].
+
+image::searches/search-pers-bus-link.png[Search Person Business Link Left Nav.]
+
+
+== Parameters
+
+image::searches/search-pers-bus-params.png[Search Person Business Parameters Guide]
+
+. *First Name / Business Name* - (Free Text) Search for name by First/Business Name.
+. *Name Type* - Limit results to selected Name Types.
+. *Identification Type* - Limit results to selected Identification Types.
+. *Person Id* - (Free Text) Search for name records by Person Id.
+  This is a special field added using Add Criteria.
+  For more information on Criteria, see xref:./controls.adoc[].
+. *Last Name* - (Free Text) Search for person/business by Last Name.
+. *Status* - Limit results to selected Statuses.
+. *Identification Number* - (Free Text) Search for person/business by Identification Number.
+
+NOTE: If you would like to change how parameters are being matched, see xref:./controls.adoc[].

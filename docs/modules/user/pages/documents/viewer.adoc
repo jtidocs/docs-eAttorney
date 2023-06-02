@@ -1,0 +1,65 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Document viewer
+
+This section describes the Document Viewer and its features.
+
+The Document Viewer allows you to open, view, and edit contents of a file without leaving the browser window.
+
+The *Document Viewer* can be accessed from a Case/Person view using the menu:File Cabinet dropdown[Document Viewer].
+
+image::documents/doc-view-access.png[Document Viewer Access]
+
+
+== Controls
+
+image::documents/doc-view-controls.png[Document Viewer Controls]
+
+. *Stack Paper Icon* - Organize Documents.
+  Move files, add/remove/rename directories.
++
+image::documents/doc-view-organize.png[Document Viewer Organize]
+
+. *Double Arrows Icon* - show or hide the left side bar in the viewer.
+. *Minus Sign Icon* - zoom out the document view.
+. *Plus Sign Icon* - zoom in the document view.
+. *Print Icon* - print the document.
+  Requests desired number of copies.
+. `Email Icon` - email the document in your default email client.
+. *Copy Icon* - copy text from the selected area in the file.
+. *Link Icon* - copy the direct URL link for this document.
+. *Disk Down Arrow Icon* - download this document.
+. *Page Navigation* - navigate to the desired document page number.
+. *Book Icon/Paper Icon* - Change views between reading view and letter view.
+. *Left Arrow Icon* - navigate to the previous page.
+. *Right Arrow Icon* - navigate to the next page.
+. *Square Expand Icon* - enter/exit full screen mode.
+. *Double Arrows Icon* - show or hide the right side bar in the viewer.
+. *Marker Icon* - swap right sidebar content for annotations section.
++
+image::documents/doc-view-annotations.png[Document Viewer Annotations]
++
+Created annotations can be filtered in the Find bar.
+
+. *Stamp Icon* - Swap Right Sidebar content for Stamp section.
++
+image::documents/doc-view-stamp.png[Document Viewer Stamps and Signatures]
+
+. *Magnifying Icon* - Swap Right Sidebar content for Document Search section.
++
+image::documents/doc-view-search.png[Document Viewer Search]
++
+Search for terms in the Full Text content of the document and/or in Annotations you have created.
+
+. *Square Icon* - Swap Right Sidebar content for Redact section.
++
+image::documents/doc-view-redact.png[Document Viewer Redact]
++
+Redact a whole page or redact terms for the document.
+The preceding example redacted the word `test`.
+Click btn:[Redact Document] to apply redactions.
+
+. *Left Side Bar* - The left bar shows the documents and folder structure.
+  Also, you can filter the documents based on your Find criteria in the Find bar.
+
+. *Right Side Bar* - The right bar content changes based on the buttons you have clicked in previous steps.
+  Annotations, Stamps, Search and Redact.

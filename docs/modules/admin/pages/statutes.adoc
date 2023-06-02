@@ -1,0 +1,96 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Statutes
+
+Navigate to the statute search screen by clicking on the *Statutes* link in the *System Administration* menu in the left navigation pane:
+
+image::statute-search-nav.png[System Administration menu with an arrow pointing to the Statutes link]
+
+
+[#search]
+== Searching for a statute
+
+After navigating to the statutes search screen, you can search for, edit, and add new statutes:
+
+image::statute-search.png[Add statute configuration screen]
+
+. Enter the search criteria for a statute you want to search for.
+. Click the search button.
+. Search results are shown in the bottom section.
+  Click the _Section No._ link on one of the search results to edit it.
+. Click the *New Statute* button to <<add-edit,create a new statute>>.
+
+
+== Search results
+
+Statutes include these main parts listed in statute search results, plus other information shown below:
+
+* Section Number.
+* Section Name.
+* Short Name.
+* Code.
+* Category.
+* Classification.
+
+
+[#add-edit]
+== Adding and editing a statute
+
+Add a new statute by clicking on the *New Statute* button in the <<search,Statute Search>> screen.
+
+Edit an existing statute by clicking on the *Statute No.* link in the search results of the <<search,Statute Search>> screen.
+
+Below are the options available when adding or editing a statute:
+
+image::StatuteAddConfiguration.png[Add statute configuration screen]
+
+Among these options, `Config Code`, `Section Number`, and `Status` are required, while `Config Code` must also be unique.
+Most of these fields are text fields with the exceptions listed below:
+
+
+=== Lookup lists
+
+Dropdown options for some fields are configured to show values from the following Lookup Lists:
+
+[cols="<,>"]
+|===
+| Statute Field
+| Lookup List Name
+
+| Source
+| STATUTE_SOURCE
+
+| Category
+| STATUTE_CATEGORY
+
+| Subcategory
+| STATUTE_SUBCATEGORY
+
+| Report Category
+| STATUTE_REPORT_CATEGORY
+
+| Classification
+| STATUTE_CLASSIFICATION
+|===
+
+
+=== Collection fields
+
+image::StatuteCollectionConfiguration.png["The Statute Reporting Categories panel, Keywords panel, and Fines, Bails, and Sentencing Guidelines panel are shown on the New Statute screen"]
+
+Collection fields available on a statute consist of the following entity types and are configured in the panes below on the "Add Statute" screen:
+
+* Statute Reporting Categories.
+** Jurisdiction (Lookup List: JURISDICTIONS).
+** Type (Required).
+** Category (Lookup List: STATUTE_CATEGORY).
+** Value (Required).
+
+* Keywords:
++
+image:StatuteKeywords.png[Add Keywords Panel in the New Statute screen]
+
+* Fines, Bails, and Sentencing Guidelines:
++
+image:StatutesAddFinesBailsSentencing.png[Fines, Bails, and Sentencing Guidelines panel on the New Statute screen]
+
+NOTE: For information on adding statute texts, see xref:./statute_text.adoc[].

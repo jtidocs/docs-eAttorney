@@ -1,0 +1,8 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Users and security
+
+This section describes the administrative features that manage user accounts and the permissions granted to them:
+
+- xref:./accounts.adoc[]
+- xref:./navigation.adoc[]
+- xref:./security_groups.adoc[]

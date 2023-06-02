@@ -1,0 +1,41 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Help notes
+
+* You can add a Help note to a field in an edit form.
+* As an administrator, this allows you to show contextual help to the users.
+* You can show a Help note by a field you want to convey useful information.
+* An example of a Help note purpose is to pass along information on how to do a task.
+
+
+== Access a help note
+
+To access a help note, click the help note icon.
+Shown below is an example of a help note.
+
+image::Help-Notes1.png[Help Notes]
+
+
+== Add a help note
+
+To add a help note to a field, navigate to an edit form.
+
+image::Help-Notes2.png[Help Notes]
+
+Once in the edit form, click the field in which you want to add the help note.
+
+image::Help-Notes3.png[Help Notes]
+
+Once in the Edit Form Item, type in the help note box your entity, then a period, then your path.
+
+Click btn:[Update & Back] or btn:[Update].
+
+image::Help-Notes4.png[Help Notes]
+
+Once on your form, you can click the help note icon, then click btn:[Edit].
+
+image::Help-Notes5.png[Help Notes]
+
+In the Edit Help Topic screen, you can type the contents of your help note.
+Click btn:[Save].
+
+image::Help-Notes6.png[Help Notes,500]

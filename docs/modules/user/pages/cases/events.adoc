@@ -1,0 +1,26 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Events
+
+Events can be accessed by clicking the Events tab in the case folder view.
+
+image::cases/eventsTab.png[Event View Tab]
+
+For information on how to navigate to the case folder view, see xref:./index.adoc[].
+
+
+To add an event:
+
+. Click the drop-down button on menu:Events[Add Event]:
++
+image::cases/addEvent.png[Add Event on Case]
+
+. Fill out the add event screen.
+. Click btn:[Save].
+
+After the creation of an event, a user can edit and add notes.
+Notes can be added by clicking the notes icon for the corresponding event:
+
+image::cases/eventOptions.png[Event Options]
+
+Notes added on each even are also added to the case notes.
+Edit an event by clicking on the case type, which displays an editing page.

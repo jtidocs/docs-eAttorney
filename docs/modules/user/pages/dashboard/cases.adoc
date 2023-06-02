@@ -1,0 +1,52 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Cases
+
+The Cases Gadget displays a list of your recent cases.
+The gadget can be configured to show watched cases, assigned cases, upcoming events, recent activity, and workflow tasks.
+By default, the `Cases Dashboard Gadget` shows some information about your recent cases.
+
+
+== Add the cases gadget
+
+To Add the Cases Dashboard Gadget to your Dashboard, make sure you have the Dashboard tab selected (if you have multiple tabs available).
+
+. Click the Cog Wheel at the top of the Dashboard.
+. Click the Green Plus Sign `+` to add Cases to your Dashboard.
++
+image::dashboard/cases-add.png[Cases gadget dashboard]
+
+You should now be able to see the Cases Gadget at the bottom of your Settings screen.
+Click Close Settings to exit.
+
+
+== Use the cases gadget
+
+The Cases Gadget must first be added to the Dashboard.
+Once added, recent cases are displayed in a default view.
+Take a look at the Cases Gadget available actions:
+
+image::dashboard/cases-gadget.png[Cases gadget actions]
+
+. Click a CaseId to navigate to the recent case.
+. Click a Case Title to navigate to the recent case.
+. The `Paper Icon` opens the Case Notes in a popup.
+. View More... navigates to the `My Recent Cases` predefined screen.
+  It looks similar to the gadget.
++
+image::dashboard/cases-gadget-note.png[Cases gadget notes]
+
+. Clicking the `Cog Wheel` opens Gadget configuration.
+
+
+== Configure the cases gadget
+
+The Cases gadget can also be configured to show other case related information.
+To configure the gadget click the gear icon found in the top right corner of the gadget (#5):
+
+image::dashboard/cases-gadget-cog.png[Cases gadget notes]
+
+. Select which tabs you want displayed in the gadget.
+  The options are watched cases, assigned cases, upcoming events, recent activity, and workflow tasks.
+  Each selected item adds a new tab to the gadget.
+. Select the columns you would like to see in the table.
+. Choose the character length visible in the column.

@@ -1,0 +1,21 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Search scheduled event
+
+This search finds the corresponding cases of scheduled events based on your search criteria.
+
+The *Search Scheduled Event* can be accessed by going to menu:Left navigation pane[Searches & Reports > Search Scheduled Event].
+
+image::searches/search-sched-event-link.png[Search Scheduled Event Link Left Nav.]
+
+
+== Parameters
+
+image::searches/search-sched-event-params.png[Search Scheduled Event Parameters Guide]
+
+. *Type* - Limit results to selected Event Types.
+. *Start Date / To* - Requires values to be entered.
+  Limit results to a Date Range.
+. *Status* - Limit results to selected Statuses.
+. *Location* - Limit results to a Location.
+
+NOTE: If you would like to change how parameters are being matched, see xref:./controls.adoc[].

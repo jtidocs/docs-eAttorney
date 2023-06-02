@@ -1,0 +1,323 @@
+// vim: tw=0 ai et ts=2 sw=2
+= User navigation
+
+The menus available to a user on the xref:user:navigation/left.adoc[left navigation], xref:user:navigation/case.adoc[case navigation], and xref:user:navigation/person.adoc[person navigation] are determined by their user navigation settings.
+The navigation settings are determined by the xref:users/security_groups.adoc[security group] the user is a member of.
+
+Below are tables the describe what menus are available to each security group.
+
+
+== Left navigation
+
+This is a table the has the security groups in rows, and the xref:user:navigation/left.adoc[left-side navigation menus] in the columns.
+A check mark in a cell means that the security group in the row has access to the navigation menu in the column.
+
+[cols="<a,^,^,^,^,^,^,^,^"]
+|===
+| Security Group
+| Accounting
+| Add Case
+| Cashier
+| Financial Setup
+| Searches & Reports
+| System Administration
+| Tools
+| Workspace
+
+| `GeneralUser`
+|
+| ✔
+|
+|
+| ✔
+|
+| ✔
+| ✔
+
+| `General_Financial`
+|
+| ✔
+| ✔
+|
+| ✔
+|
+| ✔
+| ✔
+
+| `General_Seal`
+|
+| ✔
+|
+|
+| ✔
+|
+| ✔
+| ✔
+
+| `General_Seal_Financial`
+|
+| ✔
+| ✔
+|
+| ✔
+|
+| ✔
+| ✔
+
+| `LocalAdminUser`
+|
+|
+|
+|
+|
+| ✔
+| ✔
+|
+
+| `PowerUser`
+|
+| ✔
+|
+|
+| ✔
+|
+| ✔
+| ✔
+
+| `Power_Financial`
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+|
+| ✔
+| ✔
+
+| `Power_Seal`
+|
+| ✔
+|
+|
+| ✔
+|
+| ✔
+| ✔
+
+| `Power_Seal_Financial`
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+|
+| ✔
+| ✔
+
+| `Super`
+|
+| ✔
+|
+|
+| ✔
+| ✔
+| ✔
+| ✔
+
+| `Super_Financial`
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+
+| `Super_Seal`
+|
+| ✔
+|
+|
+| ✔
+| ✔
+| ✔
+| ✔
+
+| `Super_Seal_Financial`
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+| ✔
+
+| `ViewOnly`
+|
+|
+|
+|
+| ✔
+|
+| ✔
+| ✔
+|===
+
+
+== Case navigation
+
+This is a table the has the security groups in rows, and the xref:user:navigation/case.adoc[case navigation menus] in the columns.
+A check mark in a cell means that the security group in the row has access to the navigation menu in the column.
+
+[cols="<a,^,^,^"]
+|===
+| Security Group
+| Case Menus
+| Case Financial Menus*
+| Case Sealing Menus
+
+| `GeneralUser`
+| ✔
+| ✔
+|
+
+| `General_Financial`
+| ✔
+| ✔
+|
+
+| `General_Seal`
+| ✔
+| ✔
+| ✔
+
+| `General_Seal_Financial`
+| ✔
+| ✔
+| ✔
+
+| `LocalAdminUser`
+|
+|
+|
+
+| `PowerUser`
+| ✔
+| ✔
+|
+
+| `Power_Financial`
+| ✔
+| ✔
+|
+
+| `Power_Seal`
+| ✔
+| ✔
+| ✔
+
+| `Power_Seal_Financial`
+| ✔
+| ✔
+| ✔
+
+| `Super`
+| ✔
+| ✔
+|
+
+| `Super_Financial`
+| ✔
+| ✔
+|
+
+| `Super_Seal`
+| ✔
+| ✔
+| ✔
+
+| `Super_Seal_Financial`
+| ✔
+| ✔
+| ✔
+
+| `ViewOnly`
+| ✔
+| ✔
+|
+|===
+
+* Only available if the environment is configured to use financials.
+
+
+== Person navigation
+
+This is a table the has the security groups in rows, and the xref:user:navigation/person.adoc[person navigation menus] in the columns.
+A check mark in a cell means that the security group in the row has access to the navigation menu in the column.
+
+[cols="<a,^,^"]
+|===
+| Security Group
+| Person Menus
+| Person Financial Menus*
+
+| `GeneralUser`
+| ✔
+| ✔
+
+| `General_Financial`
+| ✔
+| ✔
+
+| `General_Seal`
+| ✔
+| ✔
+
+| `General_Seal_Financial`
+| ✔
+| ✔
+
+| `LocalAdminUser`
+|
+|
+
+| `PowerUser`
+| ✔
+| ✔
+
+| `Power_Financial`
+| ✔
+| ✔
+
+| `Power_Seal`
+| ✔
+| ✔
+
+| `Power_Seal_Financial`
+| ✔
+| ✔
+
+| `Super`
+| ✔
+| ✔
+
+| `Super_Financial`
+| ✔
+| ✔
+
+| `Super_Seal`
+| ✔
+| ✔
+
+| `Super_Seal_Financial`
+| ✔
+| ✔
+
+| `ViewOnly`
+| ✔
+| ✔
+|===
+
+* Only available if the environment is configured to use financials.

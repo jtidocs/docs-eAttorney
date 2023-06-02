@@ -1,0 +1,228 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Directory organization
+
+The directory organizations are TBW.
+
+
+== Searching for a directory organization
+
+image::directory/DirectoryOrganizationSearchHeader.png[]
+
+Criteria:
+
+* Name or Code: Enter the name or code of the organization.
+* Group: Can be used to filter results.
+* Status: current status of the organization, choose from:
+** `All`
+** `Active`
+** `Inactive`
+
+* Resource: Can be used to filter results.
+* Type: type of the organization, choose from:
+** `All`
+** `Court`
+** `Defense`
+** `Law Enforcement`
+** `Non-Agency Specific`
+** `Probation, Parole, Pretrial, Other`
+** `Prosecutor`
+
+* Active: start and end date of activity of the organization.
+
+Buttons:
+
+* Search: execute the search, with no criteria, to return a paginated list.
+* Clear: reset search criteria.
+* <<add-dir-org,Add new organization>>: open form to add a new Directory Organization.
+* <<import,Import>>: import a Excel spreadsheet of organizations.
+
+
+[#add-dir-org]
+== Add a directory organization
+
+To add a new Directory Organization, click the btn:[Add New Organization] button:
+
+image::directory/DirectoryOrganizationAddForm.png[]
+
+* `Org. Type`: Choose the organization type choosing from:
+** `Court`
+** `Defense`
+** `Law Enforcement`
+** `Non-Agency Specific`
+** `Probation, Parole, Pretrial, Other`
+** `Prosecutor`
+
+* Name: The name of the organization.
+* Short Name: The shortened version of the name, sometimes displayed on screens and can be used in documents and reports.
+
+* Code: Unique code for the organization.
+  If you do not want to come up with one, use the btn:[Generate] button to generate one for you.
++
+image::directory/DirectoryOrganizationGenerateCodeButton.png[Generate code button]
+
+* Start Date: Date this organization is available in drop downs in the system.
+
+* End Date: Date this organization is no longer available in drop downs in the system.
+
+* Status: Defines if the organization is active or inactive.
+  One of: `Active`, `Inactive`
+
+* `Web address`: the website for the organization.
+* `Email`: email for the organization.
+* `Notes`: notes relating to the organization.
+* `Phone 1, Phone 2 and Phone 3`:
++
+image::directory/DirectoryOrganizationPhone.png[Directory organization phone]
++
+.. Choose the phone type: `Cell Phone`, `Fax`, `Home Phone`, `Work Phone`
+.. Enter the ten digit phone number.
+.. Optionally enter the extension.
+
+`Org. Type`, `Name`, and `Code` are all required.
+
+
+=== Optional items
+
+Optionally, you can add:
+
+- xref:./identifications.adoc[] for an organization.
+- `Address`
+- `Contact`
+- `Personnel` (xref:./person/index.adoc[])
+- `Resources`
+- `Attachments`
+- `Attributes`
+
+
+[#import]
+== Bulk importing directory organizations
+
+Click the btn:[Import] button to enter the format of the requisite Excel file for bulk import.
+The window also includes a link to a sample file with the required column headers.
+Click the btn:[Choose File] button at the top to choose the file to import.
+Click the btn:[Import] button on the lower right to start the import.
+
+image::directory/DirectoryOrganizationImport.png[]
+
+
+== Edit a directory organization
+
+If you click an organization name, the Update form is shows:
+
+image::directory/DirectoryOrganizationUpdateForm.png[]
+
+* `Org. Type`: choose the organization type choosing from:
+** `Court`
+** `Defense`
+** `Law Enforcement`
+** `Non-Agency Specific`
+** `Probation, Parole, Pretrial, Other`
+** `Prosecutor`
+
+* Name: The name of the organization.
+
+* Short Name: The shortened version of the name, sometimes displayed on screens and can be used in documents and reports.
+
+* Code: Unique code for the organization.
+  If you do not want to come up with one, use the btn:[Generate] button to generate one for you.
++
+image::directory/DirectoryOrganizationGenerateCodeButton.png[Generate code button]
+
+* Start Date: Date this organization is available in drop downs in the system.
+
+* End Date: Date this organization is no longer available in drop downs in the system.
+
+* Status: Defines if the organization is active or inactive.
+  One of: `Active`, `Inactive`
+
+* `Web address`: the website for the organization.
+* `Email`: email for the organization.
+* `Notes`: notes relating to the organization.
+* `Phone 1, Phone 2 and Phone 3`:
++
+image::directory/DirectoryOrganizationPhone.png[Directory organization phone]
++
+.. Choose the phone type: `Cell Phone`, `Fax`, `Home Phone`, `Work Phone`
+.. Enter the ten digit phone number.
+.. Optionally enter the extension.
+
+`Org. Type`, `Name`, and `Code` are all required.
+
+
+=== Optional items
+
+Optionally, you can add:
+
+- xref:./identifications.adoc[] for an organization.
+- `Address`
+- `Contact`
+- `Off-time`
+- `Personnel` (xref:./person/index.adoc[Directory Persons])
+- `Resources`
+- xref:./attachment.adoc[Attachments]
+- xref:./attribute.adoc[Attributes]
+
+* **Addresses** - Addresses can be added by clicking the btn:[Add Address] button (shown as 1 below) and filling out the form that shows (shown as 2).
++
+image::directory/directory-organization-addresses.png[]
+
+* **Contact** - Contacts can be added by clicking the btn:[Add Contact] button (shown as 1 below) and filling out the form that shows (shown as 2).
++
+image::directory/directory-organization-contact.png[]
+
+* **Off-Time** - Off time for an organization can be added using the off-time tab (shown below) and clicking the btn:[Add off-time] button.
++
+image::directory/directory-organization-off-time.png[]
+
+* **Resources** - Resources can be found and added inside of a directory organization under the resources tab (shown below).
++
+image::directory/directory-organization-resource.png[]
+
+
+== Move an organization
+
+Organizations can be moved from one organization to another using the move to function located under `Organizations` on the left hand side, near the left hand side navigation, (shown as 1 below).
+
+**Organization Name** (shown as 2 below) -> **Move to** (shown as 6 below).
+Using this feature allows you to mimic the physical structure of an organization or building.
+
+
+== Merge organizations
+
+If there are two existing organizations with the same name, a merge operation may be performed to combine the two organizations into one.
+
+To merge two organizations choose one of the duplicated organizations from **Organizations** on the left hand side, near the left hand side navigation, (shown as 1 below).
+
+**Organization Name** (shown as 2 below) -> **Merge into** (shown as 7 below).
+A dialog opens asking which organization to keep ("keep" merges existing organization into current, "merge" takes current and merges into existing organization).
+
+image::directory/merge-into.png[]
+
+Also, one can create more details of an organization including Divisions (sub OrgUnit), Locations, Persons using the expanded Organizations panel.
+In the image below, the organization has a location named **Conference Room 1**:
+
+image::directory/DirectoryOrganizationUpdateFormExpanded.png[]
+
+
+== Add an orgunit
+
+Orgunits are subordinate organizations in an organization and can help organize the organization.
+
+To add an orgunit from the organization click btn:[Organizations] on the left hand side, near the left navigation pane, (shown as 1) ```Organization Name``` (shown as 2 below) > ```Add OrgUnit``` (shown as 3 below).
+
+
+== Add a location
+
+Multiple locations can be added in an organization.
+To add a location from the organization click ```Organizations``` on the left hand side, near the left hand side navigation, (shown as 1 below) ```Organization Name``` (shown as 2 below) > ```Add Location``` (shown as 4 below).
+
+
+== Add a person
+
+Adding a person can be done directly on a directory organization auto filling the individuals organization.
+To add a person from the organization click btn:[Organizations] on the left hand side, near the left navigation pane, (shown as 1 below) ```Organization Name``` (shown as 2 below) > ```Add Person``` (shown as 5 below).
+The Add person navigation shows the add new directory person screen.
+
+NOTE: For more information on Directory Person, see xref:./person/index.adoc[].
+
+image::directory/directory-organization-options.png[]

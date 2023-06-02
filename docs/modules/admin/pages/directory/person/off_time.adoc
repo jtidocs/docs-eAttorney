@@ -1,0 +1,34 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Directory off-time
+
+Off-time is a way to track when a Directory Person is off of work.
+This may include sick leave, schedule vacation, or other reasons.
+
+
+== Navigate to directory person off-time
+
+To view or schedule off-time for a Directory Person, navigate to the Directory Person search in the left-navigation:
+
+image::directory/dir-person-nav.png[System Administration menu in the left navigation menu with an arrow pointing to People]
+
+After navigating to the Directory Person search screen, enter the criteria for the individual you are trying to find (1), click the *Search* button (2), and then click the name of the individual:
+
+image::directory/dir-person-search.png[:Directory Person search screen with number 1 next to search criteria, number 2 next to the search button, and number 3 next to a search result."]
+
+
+== View and add off-time
+
+After clicking on the individual's name, the Directory Person edit screen shows.
+Click the btn:[Off-Time] tab to view and manage off-time for the person:
+
+image::directory/dir-person-off-time.png[Directory Person screen with the Off-Time tab selected and an arrow pointing to the Add Off-Time button.]
+
+To add Off-Time for the person, click the btn:[Add Off-Time] button.
+The following dialog shows:
+
+image::directory/dir-person-add-off-time.png[Add Off-Time pop-up]
+
+Fill in the information for when the off-time is scheduled and then click the btn:[Add] button.
+The new entry shows on the Off-Time tab.
+
+NOTE: Off-Time shows on the calendar for that Directory Person.

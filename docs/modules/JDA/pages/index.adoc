@@ -1,0 +1,34 @@
+// vim: tw=0 ai et ts=2 sw=2
+= JDA documentation
+
+== Login process
+
+. To access your JDA documentation, open Microsoft Word and click the Template Editing Menu.
++
+image::JDADocumentation01.png[JDA Documentation]
+
+. Select `Login`.
++
+image::JDADocumentation02.png[JDA Documentation]
+
+. In the JDA Login dialog box, enter the Server URL, your username, and your password.
+To have your credentials saved, select btn:[`Remember my credentials`].
+Then select btn:[Login].
++
+image::JDADocumentation03.png[JDA Documentation]
+
+. After you complete the login process, your server URL is included in the Template Editing ribbon.
++
+image:JDADocumentation04.png[JDA Documentation]
+
+
+== Accessing JDA help documentation
+
+. To access the JDA Help Documentation, select the drop down arrow under Help and then select the Help option.
++
+image::JDADocumentation05.png[JDA Documentation]
+
+. The JDA documentation web site opens in your browser.
+  This site covers several topics that are selected below.
++
+image::JDADocumentation06.png[JDA Documentation]

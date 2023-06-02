@@ -1,0 +1,24 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Investigation
+
+The investigation folder view shows all investigation requests, their status, and personnel assigned to the task.
+
+The investigation folder can be accessed on the case folder view by clicking on the Investigation tab.
+
+For information on navigating to the case folder view, see xref:./index.adoc[].
+
+Tasks can be added to the case and assigned to directory personnel.
+Once a task is assigned to an individual, the case is added to their workspace with details about the request.
+
+image::cases/investigation.png["Person Icon"]
+
+
+== Add an investigation request
+
+Requests can be added by clicking on the Investigation drop-down button and selecting `Add investigation request`.
+All fields denoted with a red asterisk are required.
+Adding a task to the request is optional.
+
+image::cases/investigation.png["Person Icon"]
+
+Once a request is made it can be assigned to an individual.

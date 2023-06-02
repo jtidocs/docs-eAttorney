@@ -1,0 +1,14 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Case reports
+
+Reports based off of case information can be found under the "Reports" tab (shown as 1) in the case folder view.
+For information on how to navigate to the case folder, see xref:cases/index.adoc[].
+
+The default report, set by the administrator, shows when navigating to the reports tab.
+
+Reports can be selected from the drop-down combo box (shown as 2), and they show, as shown by #3.
+
+For a case report, the `caseid` report parameter is populated with the id of the current case.
+Other required parameters need manual input before viewing a report.
+
+image::reports/caseReports.png[Case reports]

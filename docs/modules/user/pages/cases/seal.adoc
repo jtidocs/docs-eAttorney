@@ -1,0 +1,16 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Seal case
+
+A case sealing can be added by accessing menu:Summary[Add Case Special Status] on the case folder view.
+For information on how to access the case folder view, see xref:./index.adoc[].
+
+
+== Fields
+
+image::cases/addingCaseSeal.png["Adding Case Seal"]
+
+. Status - Seal.
+. Start Date - Date seal goes into affect.
+. End Date - Date seal is removed (if end date is left blank case is sealed indefinitely).
+
+IMPORTANT: Only individuals with the seal authority are able to seal a case.

@@ -1,0 +1,17 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Update screens
+
+== Update screen hyperlinks
+
+Hyperlinks in a folder screen open the update screen for that row of data.
+For example, clicking on the btn:[Defendant] link opens the update screen for that party record.
+
+image::links/hyperlinkUpdate.png[New note widget]
+
+From this screen you can update the record that you clicked on in the previous screen:
+
+image::links/updateParty.png[Update party]
+
+If that record is deletable, a btn:[Delete Record] button shows on the bottom right of the update screen.
+
+image::links/deleteButton.png[Delete button]

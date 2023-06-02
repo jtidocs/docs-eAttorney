@@ -1,0 +1,18 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Checklists
+
+Checklists are managed in the left navigation under menu:System Administration[Checklists]:
+
+image::ChecklistSetupNavigation.png[Checklist Setup Navigation button]
+
+To add a new checklist definition, click the btn:[Add Definition] button in the bottom right corner:
+
+image::AddChecklistDefinitionButton.png[Add Checklist Definition button]
+
+The "Code" and "Name" fields are required.
+Click btn:[Save] to create the definition and move on to adding items to the checklist.
+
+On each item only the "Instructions" field is required, but you may add a description and Due Date rules if desired.
+When you are finished, click btn:[Save].
+
+NOTE: For information on adding checklists to cases, see xref:user:/cases/tasks.adoc[].

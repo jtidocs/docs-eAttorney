@@ -1,0 +1,11 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Create a directory person
+
+A directory person can be created in the case view under menu:Case Involvements[Add Justice Personnel].
+Click the "+" button on the person field in the Add Justice Personnel screen:
+
+image::directory_person/creatingDirectoryPerson.png[Add Directory Person]
+
+A dialog opens where you can fill out the information required to save a directory person.
+
+image::directory_person/createDirectoryPersonDialog.png[Add Directory Person]

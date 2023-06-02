@@ -1,0 +1,40 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Managing special statuses
+
+Manage Special Statuses is used to configure whether a case or person special status is displayed before the person or case header.
+In addition, the background color for the case or person special status can also be configured from this screen.
+There are also links to the corresponding xref:lookup_lists.adoc[lookup lists] at the top.
+
+Full screen:
+
+image::ManageSpecialStatuses.png[Manage Special Status numbered graphic.]
+
+Case Special Status section:
+
+image::ManageSpecialStatusesCases.png[Manage Special Status Cases section numbered graphic.]
+
+Person Special Status Section:
+
+image::ManageSpecialStatusesPerson.png[Manage Special Status Person section numbered graphic.]
+
+. Link to open the CASE_SPECIAL_STATUS_TYPE lookup list in a new tab.
+. Link to open the PERSON_SPECIAL_STATUS list in a new tab.
+. Case Special Status configuration.
+. Person Special Status configuration.
+
+. When checked, the attribute is shown before the case header:
++
+image::CaseSpecialStatusOnCaseHeader.png[Case Special Status before case header.]
+
+. Background color of the status on the case page.
+. When checked, person special status is shown before the **person** header.
++
+image::PersonStatusOnPerson.png[Person Special Status before person header.]
+
+. When checked, person special status is shown before the **case** header, if anyone involved on the case has that status:
++
+image::PersonSpecialStatusOnCaseHeader.png[Person Special Status before case header.]
++
+image::CaseAndPersonStatusOnCaseHeader.png[Person and Case Special Status before case header.]
+
+. Background color of the status on the person and case header.

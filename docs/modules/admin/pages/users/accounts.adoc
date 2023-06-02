@@ -1,0 +1,77 @@
+// vim: tw=0 ai et ts=2 sw=2
+= User accounts
+
+The *User Accounts* section can be accessed by navigating to menu:Left navigation pane[System Setup > Security] and clicking the _Users_ tab.
+
+image::users/SecurityNav.png[Arrow pointing to Security link in System Setup section.]
+
+
+== Create a new user
+
+From the _Users_ page, click the btn:[New User] button at the bottom of the page.
+That button shows a page that allows you to create a new user.
+
+Fill in the information for the user:
+
+* `Username` - The username used by the new user to login to {product}.
+* `Real Name` - The real name of the person using the system.
+* `Directory Person` - This user account can be linked to a directory person by searching for the directory person in this field.
+  If the user account is associated with a directory person, the Real Name field is populated by the system.
+
+* `Email` - This is the user email address.
+  When the new account is created, an account creation email is sent to this email address so the user can finish setting up their account.
+  Password reset requests are also sent to this email.
+
+* `Security Group` - Permissions can be given to the user according to the xref:users/security_groups.adoc[Security Group] they are assigned to.
+
+\* Indicates required.
+
+
+== Manage user accounts
+
+As an administrator, you can delete user accounts, reset passwords, and updating user permissions.
+
+
+=== Delete user accounts
+
+. From the main user account screen (menu:Left navigation pane[System Setup > Security > Users tab]), search for the user account you want to delete.
+. Click the username of the user.
+. On the user account settings page, click the btn:[Delete] button at the bottom of the form.
+. You are prompted to confirm that you want to delete the user.
+Click btn:[OK] to delete the account.
+
+
+=== Reset passwords
+
+. From the main user account screen (menu:Left navigation pane[System Setup > Security > Users tab]), search for the user account.
+. Click the username of the user.
+. On the user account settings page, click the btn:[Reset] link on the *Password* field.
+. You are prompted to confirm that you want to reset the user password.
+  Click btn:[OK] to reset the password.
+. An email is sent to the user email address with a link to reset their password.
+
+
+=== Update user permissions
+
+. From the main user account screen (menu:Left navigation pane[System Setup > Security > Users tab]), search for the user account you want to update.
+. Click the username of the user.
+. On the user account settings page, change the *Security Group* of the user.
+  A description of the permissions available to each security group can be found xref:users/security_groups.adoc[here].
+. Click the btn:[Save] button at the bottom of the form.
+
+
+=== Workflow roles
+
+It may be required to set the Workflow Roles for some users.
+If a user is working with Financials, then they likely need to be assigned the Workflow Role _Financial General_ or _Financial Admin_, depending on whether they should administer financials or not.
+
+The Financial Workflow Roles grant access to workflows such as approving refund requests.
+
+To set the Workflow Roles:
+
+. From the main user account screen (menu:Left navigation pane[System Setup > Security > Users tab]), search for the user account you want to update.
+. Click the username of the user.
+. On the user account settings page, click the _Profile/Workflow Options_ tab.
+. Fill out the _Workflow Roles_ field and click btn:[Save].
+
+image::users/workflow-roles.png[A user security settings page with the Profile/Workflow Options tab selected and arrows point to the tab and the Workflow Roles field.]

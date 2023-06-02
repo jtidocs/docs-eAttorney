@@ -1,0 +1,358 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Case navigation
+
+The image below shows a case view.
+This page consists of three main parts:
+
+. <<header,A header>>.
+. <<buttons,Navigation buttons>>.
+. <<folder,The case folder view>>.
+
+image::navigation/case/full-case-page.png[The full case screen]
+
+
+[#header]
+== Header
+
+The Case header provides a lot of information at a glance and allows you to make quick updates to the case.
+
+image::navigation/case/case-header-numbered.png[case header with numbered]
+
+. Special Status Banner shows if there is a special status on the case being viewed.
+. Financials Banner shows if there is a balance on the case.
+. Charge and Case Number.
+. Case name.
+. Case status hyper linked to update form and <<sharebook-widget,sharebook>> button.
+
+. Event and Attorney Information:
+
+.. Received: The date the case entered the system.
+.. Next: The next scheduled event date.
+.. Attorney: Assigned Prosecuting Attorney.
+.. Defense: Defense attorney assigned.
+
+. Widgets:
+** Send email widget  -  Opens an email <<send-email-widget,pop up window>>:
++
+image:navigation/case/sendemail-icon.png[email icon]
+
+** Case watch widget - Adds this case to your watched cases list:
++
+image:navigation/case/casewatch-icon.png[case watch icon]
+
+** Joined case widget - Opens a <<joined-case-widget,popup>> that shows joined case information:
++
+image:navigation/case/case-joinder-icon.png[joined case icon]
+
+** Case note widget  -  Opens a <<case-note-widget,pop up window>> that allows quick adding of notes to the case:
++
+image:navigation/case/addnote-icon.png[add note icon]
+
+
+[#buttons]
+== Navigation buttons
+
+Directly below the header is a row of buttons.
+Each button when clicked changes the data displayed in the <<folder,case folder>> of the page.
+Most of the buttons have a caret beside it.
+The caret opens a dropdown menu with a list of links to add or update data on the case.
+
+image::navigation/case/navigation-buttons.png[navigation buttons]
+
+
+=== Add or update dropdown menus
+
+The caret symbol next to each navigation button, when clicked, displays a dropdown menu of available actions for the relevant subset of data.
+Each of these options navigates you to some version of a form (add or update).
+
+==== xref:cases/index.adoc[Case summary]
+
+image::navigation/case/summary-dropdown.png[summary dropdown menu]
+
+The summary dropdown menu provides links to update case information, add a special status or case number, or join cases.
+
+* The *Update Case Information* link navigates to the form pictured below.
+  This form allows you to update the received date of the case, the case type, the case status, and the status date.
+  _All fields on this form are required for submission_.
++
+image::navigation/case/update-case-info-form.png[update case info form]
+
+* If you want to add a special status to a case then the `Add Case Special Status` link takes you to the form you need.
+  This form has only two required fields _status and start date_.
+  The other included fields, which are optional, are category, value, and end date.
+  Category and Status are lookup list fields, which means the available options show in a dropdown when the fields are clicked.
++
+image::navigation/case/special-status-form.png[add case special status form]
+
+* The *Add Case Number* form can be reached through the link of the same name in the summary dropdown menu.
+  With this form case numbers from other agencies (court, defense) can be added to the system to compensate for data sharing needs.
++
+image::navigation/case/add-case-number-form.png[add case number form]
+
+* The *Join Case* link connects to a page built to manage case joinders.
+  This form has two panels, a view and an add form.
++
+image::navigation/case/join-case-form.png[join case form]
+
+.. The Case Joinders panel shows joinders that exist on the case.
+   A red icon shows next to the main case of the joinder and a blue icon shows beside the current case.
+
+.. Clicking this link allows you to edit the joinder on 4 fields, name, joinder type, description, and purpose.
+
+.. The Add Case Joinder Panel creates a new case joinder to the selected case.
+
+.. Clicking the green btn:[Add Case] button opens a xref:searches/case.adoc[case search] pop up.
+
+
+==== xref:../cases/involvements.adoc[Case involvement]
+
+image::navigation/case/case-involvement-dropdown.png[case involvement dropdown menu]
+
+* *Add Involvement* - Add existing/new person and involvement type (complainant, witness, victim) to the selected case.
++
+image::navigation/case/add-involvement-form.png[add involvement form]
+
+* *Add Justice Personnel* to the case adds the case to the `My Recent Cases` gadget to the corresponding justice personnel.
++
+image::navigation/case/add-justice-personnel.png[add justice personnel form]
+
+* *Add Defendant* - Create a sub case and a party to the case.
+  The sub case is added to help aid in financials.
++
+image::navigation/case/add-defendant.png[add defendant form]
+
+* *Add Bail* information and conditions for the selected case involvement in the drop-down selector.
++
+image::navigation/case/add-bail.png[add bail form]
+
+
+==== xref:cases/victim.adoc[Victim and VOCA reporting]
+
+image::navigation/case/victim-dropdown.png[victim dropdown menu]
+
+* *Add Victimization* type to the selected victim in the drop-down selector.
+  Adding victimization requires a victim in case involvements.
++
+image::navigation/case/add-victimization-form.png[add victimization form]
+
+* *Add Special Classification* type to a selected victim in the drop-down selector.
+  These special classifications are used inside of the VOCA report.
++
+image::navigation/case/add-special-classification.png[add special classification form]
+
+* *Add Service* provided to a selected victim in the drop-down selector.
+Services added show up in the VOCA report.
++
+image::navigation/case/add-special-classification.png[add services form]
+
+
+==== xref:cases/charges.adoc[Charges]
+
+image::navigation/case/charges-dropdown.png[charges dropdown menu]
+
+* *Add Charges* information to the selected involvement in the drop-down selector on the top of the form.
++
+image::navigation/case/add-charge.png[add charge form]
+
+* *Add Plea Offer* information to the selected involvement located in the drop-down selector.
++
+image::navigation/case/add-special-classification.png[add services form]
+
+* **Add Charge Characteristic**s to case charges (misdemeanor, felony).
+  The desired charge can be selected from the drop-down selector.
++
+image::navigation/case/charge-characteristic.png[add charge characteristic form]
+
+* *Add Charge Intoxicant* adds an intoxicant to selected individual from the drop-down selector.
++
+image::navigation/case/add-charge-intoxicant.png[add charge intoxicant form]
+
+* *Add Exhibit* to document and track history.
++
+image::navigation/case/add-exhibit.png[add exhibit form]
+
+* *Dispose Charges* by selecting the plea and disposition type for each count being disposed.
++
+image::navigation/case/dispose-charges.png[dispose charges form]
+
+* *Sentencing*  Add a sentence to a charge on this screen that is organized by count.
++
+image::navigation/case/sentencing.png[sentencing form]
+
+
+==== xref:cases/events.adoc[Events]
+
+image::navigation/case/events-dropdown.png[event dropdown menu]
+
+* *Add Event* - Add a scheduled event (hearing, conference, meeting) with related involvements or case personnel.
++
+image::navigation/case/add-event.png[add event form]
+
+
+==== xref:documents/file_cabinet.adoc[File cabinet]
+
+image::navigation/case/file-cabinet-dropdown.png[file cabinet dropdown menu]
+
+* `Add Case File(s)` by uploading or choosing to xref:documents/scan.adoc[scan].
+  Notes can be added to the file at the same time.
++
+image::navigation/case/add-file.png[add file form]
+
+* xref:documents/generation.adoc[*Generate template*] by selecting one of the templates in the dropdown.
++
+image::navigation/case/generate-form.png[generate template form]
+
+* *Utilities*:
+** *Bates Stamp* Apply this stamp to the chosen document.
+** *Merge Documents* - The merge document folder view allows you to merge documents that are located inside the case Filing Cabinet.
+   Multiple documents of different file extensions can be merged together into a single PDF.
+
+* xref:documents/viewer.adoc[*Document viewer*] allows you to view a selected document, annotate it, and apply stamps.
+  All files for the case are available for selection in the Documents menu on the left.
+
+
+==== Discovery
+
+image::navigation/case/discovery-dropdown.png[discovery dropdown menu]
+
+* *Add Discovery Packet* - Add documents to a packet to allow for sharing for a period of time.
+  Learn more about xref:discovery_packets/index.adoc[discovery packets] and how to xref:discovery_packets/create.adoc[create] them.
++
+image::navigation/case/add-discovery-packet.png[add discovery packet form]
+
+
+==== xref:financials/index.adoc[Financials]
+
+image::navigation/case/financials-dropdown.png[financials dropdown menu]
+
+* xref:financials/cash_receipts.adoc[*Cash Receipts*].
+
+* *Case Ledger*:
++
+image::navigation/case/add-special-classification.png[add services form]
+
+
+==== xref:cases/investigation.adoc[Investigation]
+
+image::navigation/case/investigation-dropdown.png[investigation dropdown menu]
+
+* *Add Investigative Request*:
++
+image::navigation/case/add-investigative-request.png[add investigative request form]
+
+
+==== xref:cases/tasks.adoc[Tasks]
+
+image::navigation/case/task-dropdown.png[tasks dropdown menu]
+
+* *Add Case Task* - Case tasks added show up in the manual work queue for individuals added to the Assign To field:
++
+image::navigation/case/add-task.png[add task form]
+
+
+==== xref:cases/communication.adoc[Communication]
+
+image::navigation/case/communication-dropdown.png[communications dropdown menu]
+
+* *Add Communication* - Document and store communication between case involvements:
++
+image::navigation/case/add-communication.png[add communication form]
+
+
+==== xref:cases/non-collectible_financial.adoc[Non-collectible financials]
+
+image::navigation/case/nc-financial-dropdown.png[Non-collectible financials dropdown menu]
+
+* *Add Non-collectible Financial* Document non-collectible financials not collected by this institution:
++
+image::navigation/case/add-nc-financial.png[Add non-collectible financial form]
+
+
+[#folder]
+== Case folder
+
+The body of the case page displays case data in panes (determined by the active link).
+
+* xref:cases/index.adoc[Case summary]: +
+  The case folder displays case involvements and involvement type, other case numbers attached to the case, justice personnel with their corresponding role in the case, the status of the case, and another special status.
+  The case folder view allows for easy editing by clicking on case numbers, justice personnel, and other links.
+
+* xref:cases/involvements.adoc[Case involvements]: +
+  Case involvement folder view has all information on a case about all involvements, justice personnel, and bail information.
+  The view also supports adding and editing notes for individuals on the case.
+
+* xref:cases/victim.adoc[Victim]: +
+  Victim folder view has all information and links to edit all victims, special victim classifications, and services provided to victims in a case.
+
+* xref:cases/charges.adoc[Charges]: +
+  The charge folder view shows all charges of involvements, charge characteristics, sentencing, exhibits, and inactive charges on the case.
+  The folder view also allows for easy editing by clicking on exhibits, charges, and other links.
+
+* xref:cases/events.adoc[Events]: +
+  The event folder view displays all events for a given case plus date/time, category, related personnel, notes, and type.
+  The folder view also allows for quick editing by clicking on the case text or note icon.
+
+* xref:documents/file_cabinet.adoc[File cabinet]: +
+  The file cabinet folder view shows all documents associated with the case.
+
+* xref:cases/discovery.adoc[Discovery]: +
+  The discovery folder view shows all discovery items associated with the case.
+
+* xref:cases/financials.adoc[Financials]: +
+  The financials button navigates to the case ledger which shows all financial interactions that have taken place on a case.
+
+* xref:cases/investigation.adoc[Investigation]: +
+  The investigation task folder view shows the collections tasks assigned to the selected case.
+  The folder view gives easy access to edit each task.
+  To edit a task, click the date.
+
+* xref:cases/tasks.adoc[Tasks]: +
+  The case tasks folder view shows all tasks attached to the case.
+
+* xref:cases/communication.adoc[Communication]: +
+  The communication folder view shows all communications in the case.
+  The folder view also allows for easy editing by clicking each communication item.
+
+* xref:cases/non-collectible_financial.adoc[Non-collectible financials]: +
+  Non-collectible Financials folder view shows the collections of non collectibles attached to the selected case.
+  The folder view gives easy access to edit each item.
+  To edit an item, click the paper icon.
+
+* xref:reports/case.adoc[Reports]: +
+  The report folder view loads the case summary report by default with a dropdown menu to select a different report to run on the case.
+
+
+=== Send email widget
+
+image::navigation/case/send-email-widget-modal.png[send email widget]
+
+The send email widget is a form that enables you to send a quick email regarding a case directly from the case page.
+There is also a checkbox that includes a link to the case directly in the email.
+
+
+=== Joined case widget
+
+image::navigation/case/joined-cases-modal.png[joined case widget]
+
+The joined case widget shows cases that are related to the current case.
+The lead case and related cases case numbers and titles are listed as links so that you can navigate quickly to a related case.
+There is also a link to the Related Case update form included in the pop up.
+
+
+=== Case note widget
+
+image::navigation/case/add-note-modal.png[case note widget]
+
+The case note widget allows you to search, print, edit, or add a case note.
+The widget shows a paged list of all notes added to a case.
+The search returns a list of all notes with the keyword in the body or the title.
+To edit a note, click the note you wish to edit in the list.
+The note transforms into an input field.
+
+
+=== Sharebook widget
+
+image::navigation/case/sharebook-modal.png[sharebook widget]
+
+The sharebook widget allows you to add informal notes to the case.
+The note only has the note text, the creation date, and the person who added it.

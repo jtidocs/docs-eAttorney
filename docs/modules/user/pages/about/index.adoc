@@ -1,0 +1,63 @@
+// vim: tw=0 ai et ts=2 sw=2
+= What is {product}?
+
+A web-based Case and Matter Management System with integrated document management.
+
+
+== Features
+
+{product} includes the following features:
+
+=== Case management
+
+* **Supports Civil and Criminal Case Types**.
+
+* *Basic Investigation Task Assignments*.
+
+* *CoDefendant or Joined defendant and plaintiff tracking* if codefendants or coplaintiffs are present in a single case filing.
+
+* *Conflict Checking* of parties, witnesses and codefendants for prior case involvements, status of defendants as a witness in a pending case, and prior representation of prosecution witnesses by the public defender or defense counsel.
+  Also, conflict checking of judge, defendant, defense counsel, and assigned prosecutor for personal or professional relationships that would create a conflict situation.
+
+* *Discovery*:
+
+** Get and disclose case-related documents, email, files or police reports, scan and assign to a case, notify a discovery clerk or investigator of the information received, and in-person, email, or public portal disclosure of electronic or physical discovery files to a defendant or their attorney.
+
+** Track disclosure of all items, with dates of disclosure, so undiscovered/undisclosed items can be easily identified.
+
+* *Asset Forfeiture*: Property seized due to arrests or investigations can be recorded, including serial numbers, descriptions, and estimated or assessed values.
+  Dispositions of forfeited property can be tracked through property sales records which can record bids and final sale amounts.
+
+* *Evidence and Exhibits*: Can be added to cases and a chain of custody can be established by tracking dates, times, locations and custodians in possessions of the evidence.
+  Images of evidence can be attached.
+
+* *Subpoena generation process*: System can generate physical subpoenas and victim/interested party notification letters for event dates for a case, and as a "`batched`" job of subpoenas for multiple cases.
+
+* *Witness Planning Sheet*: Provides a subpoena planning tool to direct the types of subpoenas to be generated and the type of involved names to be subpoenaed for each type of judicial event.
+
+* *Brief Bank for motions files and legal analysis of issues*: Prosecutor-created associated keywords that enable topical organization to documents so that the research can be performed now and located at a later date when similar issues arise.
+
+
+=== Document management
+
+* Native access to all your documents in the system.
+
+* Document repository input supported using drag and drop and file upload.
+
+* Document generation uses JDA4 (Journal Document Automation), an example of proprietary technology in {product}.
+
+* Supports document editing features including signatures, stamping, redaction, annotations, and bookmarks.
+
+* Provides full text searches.
+
+* Microsoft Outlook Add-in facilitates direct association of emails and attachments to case.
+
+* Microsoft Word Add-in enables downloading, editing and uploading of Word files directly to and from the system.
+
+=== Administration
+
+* Users with appropriate security privileges can:
+
+** Manage document templates.
+** Write custom searches.
+** Add and manage other users in the system.

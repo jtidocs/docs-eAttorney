@@ -1,0 +1,92 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Calendar administration
+
+== Holiday calendar
+
+The holiday calendar is used to setup recurring holidays that your agency observes.
+These holidays show on calendars in {product}, and aid you in scheduling.
+
+image::DashboardCalendarHolidays.png[A calendar with holidays showing on the user dashboard.]
+
+You can get to the Holiday Calendar by going to menu:Left navigation pane[System Administration > Calendar Admin > Holiday Calendar].
+
+image::HolidayCalendarNav.png[The screen for configuring holidays in {product}]
+
+After clicking on the Holiday Calendar link, Holidays Administration page shows.
+
+image::HolidayCalendarConfig.png[The screen for configuring holidays in {product}]
+
+This screen list all the holidays that are currently configured in the system.
+If you would like to add more holidays, there are two ways: manually or using import.
+
+
+=== Manual addition and editing
+
+To add a new holiday, click the btn:[Add New Holiday] button at the bottom of the screen.
+To edit an existing holiday, click the holiday name:
+
+image::EditHoliday.png[Edit holiday screen with numbers 1 through 8 labeling different controls.]
+
+. `Config Code` - System code used to identify the holiday.
+
+. `Name` - The name used for the holiday that shows on the calendars.
+
+. `Date` - The date the holiday occurs this year.
+
+. `Type` - There are three options: _Date_, _Cycle_, and _Cycle Last_.
+
+** `Date` - The holiday occurs on the day entered in the date field (example: Christmas is on December 25 every year).
+
+** `Cycle` - The holiday occurs every year on the same weekday from the start of the month (example: Labor day is the first Monday of September).
+
+** `Cycle Last` - The holiday occurs every year on the last occurrence of a weekday in a month (example: Thanksgiving is the last Thursday of November).
+
+. `Recurrence` - Set it to _This Year_ for the holiday to only occur once.
+  Set is to _Every Year_ for the holiday to show every year.
+
+. `Save & Back` - Saves the current settings and returns you to the Holidays Administration page.
+
+. `Save` - Saves the current settings, but keeps you on the Holiday Settings page.
+
+. `Cancel` - Discards the changes and returns you to the Holidays Administration page.
+
+
+=== Import holidays
+
+From the Holidays administration page, you can import holidays from an Excel XLS file by clicking the btn:[Import XLS] button at the bottom of the page.
+
+image::ImportHolidays.png[Import XLS dialog showing with an arrow pointing to the Import XLS button and numbers 1 through 4 labeling controls on the dialog.]
+
+. *File* - Choose an Excel XLS file in the proper format that has holiday data you want to import into {product}.
+. *Sample* - Download a sample Excel XLS file that has the expected format and a few samples (see below).
+. *Import* - Import the holidays from the file into {product}.
+. *Close* - Close the Import dialog.
+
+image::HolidayImportExample.png[Example XLS file with columns for Date, Name, Type, and Frequency.]
+
+After clicking the *Import* button, the new holidays show up in the list.
+
+
+=== Holiday schedule
+
+You can view what upcoming holidays there are by clicking the *Holiday Schedule* button at the bottom of the Holidays Administration page.
+
+image::HolidaySchedule.png[A red arrow pointing to the Holiday Schedule button and the Holiday Schedule dialog is open.]
+
+You can enter a date range and see what holidays exist based on your configured holidays.
+
+
+== Calendar sync test
+
+The Calendar Sync Test page is used for testing how events sync to a person calendar.
+Google mail and Microsoft Exchange servers are supported.
+
+image::CalendarSyncTest.png[Calendar Sync Test web page]
+
+To test how and event syncs to a calendar, you need to fill in the fields with the appropriate data.
+
+* *Type* - Choose Exchange or Google depending on which type of calendar you want to sync to.
+* *Server* - Enter the server URL for the Google or Exchange server.
+* *Username* - This is the email address for the calendar you want to sync to.
+* *Password* - Enter the password associated with the username.
+* *Event ID* - Enter an event id from {product} that you want to try syncing to the calendar.

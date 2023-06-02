@@ -1,0 +1,117 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Person navigation
+
+Like the xref:./case.adoc[case view], the person view displays a header and a body.
+From this screen it is possible to view and change all information associated with a person including involvements, profile information (name, address, phone), and documents.
+
+
+== Header
+
+The person header shows an image of the person, _if available_, plus their name, date of birth, gender, weight, ethnicity, and hair color.
+
+image::navigation/person/person-header.png[Person header]
+
+
+== xref:person/index.adoc[Summary]
+
+The person folder view has all information attached to the selected person and links to edit each piece of information.
+
+image::navigation/person/person-summary-folderview.png[Person summary folder view]
+
+
+=== Update person
+
+Click and change fields then click the Save button to update person information.
+
+image::navigation/person/update-person.png[Update person form]
+
+
+=== Update address
+
+Click and change fields then click the Save button to update address information.
+
+image::navigation/person/update-address.png[Update address form]
+
+
+=== Update telephone
+
+Click and change fields then click the Save button to update telephone information.
+
+image::navigation/person/update-telephone.png[Update address form]
+
+
+=== Update contact
+
+Click and change fields then click the Save button to update contact information:
+
+image::navigation/person/update-contact.png[Update contact form]
+
+
+== Dropdown
+
+image::navigation/person/person-summary-dropdown.png[Summary dropdown]
+
+* `Update Person` info including name, date of birth, and appearance (height, weight).
+  It is also possible to add an image here that shows in the <<header,header>>.
++
+image::navigation/person/update-person.png[Update person form]
+
+* `Add Address` information to the selected person in the drop-down selector.
++
+image::navigation/person/add-address.png[Add address to person form]
+
+* `Add E-mail` information to the selected person in the drop-down selector.
++
+image::navigation/person/add-contact.png[add contact form]
+
+* `Add Telephone` information to the selected person in the drop-down selector.
++
+image::navigation/person/add-telephone.png[Add telephone form]
+
+* `Add Identification` information to the selected person in the drop-down selector.
++
+image::navigation/person/add-identification.png[Add identification form]
+
+* `Add Person Attribute`:
+** Add special status to the selected person in the drop-down selector.
++
+image::navigation/person/add-attribute.png[Add person attribute form]
+
+* `Add Note` to the selected person in the drop-down selector.
++
+image::navigation/person/add-person-note.png[Add person note form]
+
+* `Search involvements`:
+** Find all involvements for a person by involvement type or date of involvement.
++
+image::navigation/person/search-involvements.png[search involvements form]
+
+* xref:person/merge.adoc[*Person merge*].
+
+
+== xref:documents/file_cabinet.adoc[File cabinet]:
+
+=== Dropdown
+
+image::navigation/person/file-cabinet-dropdown.png[file cabinet dropdown]
+
+
+=== Add person files to the selected person in the drop-down selector
+
+image::navigation/person/search-involvements.png[search involvements form]
+
+
+== xref:person/relationships.adoc[Relationships]
+
+The relationship folder view displays all relationships of the selected person and allows for quick editing by clicking on a relationship.
+
+image::navigation/person/relationships-folder.png[person relationship folder view]
+
+
+=== Dropdown
+
+image::navigation/person/add-person-relationship-dropdown.png[add person relationship dropdown]
+
+* *Add Person Relationship* to the selected person in the drop-down selector.
++
+image::navigation/person/add-relationship.png[add person relationship form]

@@ -1,0 +1,26 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Document generation
+
+Document Generation allows a user to generate documents from templates.
+These templates can be stand-alone without user input or require input from the user to finish generation.
+
+image::documents/file-cab-doc-gen-add.png[File Cabinet Generate Template Add]
+
+. *Form* - Select the form you wish to generate from the dropdown.
+. *Add* - Add a document to the Case or Person Filing Cabinet.
+. *Preview* - Download a document for preview.
+
+When generating a template, you have the choice to btn:[Add] or to btn:[Preview] the document.
+
+If btn:[Add] is chosen, the document generates and saves to the filing cabinet of the Case or Person record you are viewing.
+If btn:[Preview] is chosen, an example of the file which should be added is downloaded to your computer so you can examine the document before it is added to the filing cabinet.
+
+image::documents/file-cab-doc-gen-preview.png[File Cabinet Generate Template Preview]
+
+If a template requires user input or has dialogs, the user must enter data in a dialog pop-up.
+
+image::documents/file-cab-doc-gen-dialog.png[File Cabinet Generate Template Dialog]
+
+Once the user has finished entering the required data, the document should be available in the Filing Cabinet.
+
+If the template requires no input from the user, the template generates and saves to the filing cabinet without further interaction from the user.

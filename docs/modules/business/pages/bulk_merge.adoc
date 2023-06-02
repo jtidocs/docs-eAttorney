@@ -1,0 +1,30 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Bulk merge
+
+. To start a bulk merge, go to the person summary view by clicking the Open Person View icon:
++
+image::bulk_merge/bulk-merge01.png[Bulk Merging]
+
+. Click the drop-down arrow by Summary, hover over Utilities, hover over Person Merge, click btn:[Bulk Merge]:
++
+image::bulk_merge/bulk-merge02.png[Bulk Merging]
+
+. From the Bulk Merge search drop-down menu, choose the search to execute:
++
+image::bulk_merge/bulk-merge03.png[Bulk Merging]
+
+. From the Bulk Merge search screen, select the checkbox next to the person record that needs to merge with the current person record.
+
+. Click btn:[Merge]:
++
+image::bulk_merge/bulk-merge04.png[Bulk Merging]
+
+. The Person Bulk Merge Confirmation pop-up shows.
+  Click btn:[Merge] once more.
++
+image::bulk_merge/bulk-merge05.png[Bulk Merging]
+
+. The following message shows: `Person has been successfully merged.`.
+  Click btn:[OK].
++
+image::bulk_merge/bulk-merge06.png[Bulk Merging]

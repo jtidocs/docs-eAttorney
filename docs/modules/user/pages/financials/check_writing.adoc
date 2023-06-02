@@ -1,0 +1,17 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Check writing
+
+Once there is money that is ready to be vouchered out of the system, you can go to the **Check Writing** screen to search for existing vouchers and write checks for them.
+The check numbers can be saved to each voucher and then archived as complete.
+
+== Check writing process
+
+image::financials/check-writing.png[Check write screen showing one voucher that is ready for a check to be written.]
+
+. Enter the criteria for searching for the vouchers you want to write checks for.
+. Click the btn:[Search Vouchers] button to show a list of the vouchers.
+. Click the checkbox next to each of the vouchers for which you want to write a check.
+. Enter the starting check number you would like to assign to the checks and click the btn:[Assign Individual Check Numbers] button to assign the numbers to the selected vouchers.
+  The check number shows in the **Check No** column.
+. After applying the check numbers to each check, you can then print or write the checks manually.
+. Finally, click the btn:[Write Checks] button to apply the check numbers to the vouchers and archive them as being complete.

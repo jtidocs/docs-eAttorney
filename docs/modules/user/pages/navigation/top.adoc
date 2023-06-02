@@ -1,0 +1,284 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Top navigation
+
+== Left side
+
+The left side of the navigation bar should resemble the bar below:
+
+image::navigation/top-left-nav.png["Top left navigation bar"]
+
+Available actions and short descriptions:
+
+[cols="a,a", options="header"]
+|===
+| Item
+| Action
+
+| xref:dashboard/index.adoc[]
+| Clicking takes you to the Dashboard
+
+| Print Icon
+| Opens a print dialog to print the current page
+
+| Bell Icon
+| Check your notifications
+
+| Question Icon
+| Help Documentation
+
+| Door Exit Icon
+| Log Out
+
+| xref:searches/top.adoc[]
+| Quick Search Bar
+|===
+
+
+=== Hot keys
+
+The keyboard hot keys can be accessed in the top navigation by clicking on the Help button and then selecting Keyboard Hotkeys.
+
+image::navigation/hot-keys01.png[hot-keys]
+
+
+==== Custom hotkeys
+
+No custom hot keys are defined.
+
+
+==== General hotkeys
+
+:keycols: 10a,10a,15a
+
+[cols="{keycols}", options="header"]
+|===
+| Windows
+| Mac
+| Options
+
+
+| kbd:[Ctrl + H]
+| kbd:[⌘ + H]
+| Show the Dashboard home screen.
+
+| kbd:[Ctrl + S]
+| kbd:[⌘ + S]
+| Focus the top-bar search.
+
+| kbd:[Ctrl + F11] +
+  kbd:[Ctrl + ⇧ + Space]
+| kbd:[⌘ + F11] +
+  kbd:[⌘ + ⇧ + Space]
+| Opens the global search popup for menu items.
+|===
+
+
+==== Screens hotkeys
+
+[cols="{keycols}", options="header"]
+|===
+| Windows
+| Mac
+| Description
+
+| kbd:[Ctrl + ⏎]
+| kbd:[⌘ + ⏎]
+| Submit the current form.
+
+| kbd:[=]
+| kbd:[=]
+| Enters the current date into a date field.
+
+| kbd:[+]
+| kbd:[+]
+| Add 1 day in a date field.
+
+| kbd:[-]
+| kbd:[-]
+| Subtract one day in a date field.
+
+| kbd:[Ctrl + ⇧ + ↑]
+| kbd:[⌘ + ⇧ + ↑]
+| Navigate to the first item in the case header menu.
+
+| kbd:[Ctrl + ⇧ + ↓]
+| kbd:[⌘ + ⇧ + ↓]
+| Navigate to the first item in the bottom toolbar.
+
+| kbd:[Ctrl + ←] +
+  kbd:[Ctrl + ,]
+| kbd:[⌘ + ,]
+| Navigate to the previous stage (in wizards).
+
+| kbd:[Ctrl + →] +
+  kbd:[Ctrl + .]
+| kbd:[⌘ + .]
+| Navigate to the next stage (in wizards).
+
+| kbd:[Alt + C]
+| kbd:[⌥ + C]
+| Collapse or expand folder view panels.
+
+| kbd:[Ctrl + I]
+| kbd:[⌘ + I]
+| In form search fields, add a new item form.
+
+| kbd:[Ctrl + Space]
+| kbd:[⌘ + Space]
+| In form search fields, open the magnifying glass search form.
+|===
+
+
+==== Panels hotkeys
+
+[cols="{keycols}", options="header"]
+|===
+| Windows
+| Mac
+| Description
+
+| kbd:[Ctrl + ↑]
+| kbd:[⌘ + ↑]
+| Navigate to the panel preceding the current panel.
+  Loops around.
+
+| kbd:[Ctrl + ↓]
+| kbd:[⌘ + ↓]
+| Navigate to the panel following the current panel.
+  Loops around.
+
+| kbd:[⇧ + Delete]
+| kbd:[⇧ + Delete]
+| Clear the entered information in the current panel.
+
+| kbd:[Ctrl + Insert]
+| kbd:[⌘ + Insert]
+| Add a panel.
+
+| kbd:[Ctrl + Delete] +
+  kbd:[Ctrl + Backspace]
+| kbd:[⌘ + Delete] +
+  kbd:[⌘ + Backspace]
+| Remove the current panel.
+
+| kbd:[Ctrl + /]
+| kbd:[⌘ + /]
+| Navigate to the previous panel.
+
+| kbd:[Ctrl + ']
+| kbd:[⌘ + ']
+| Navigate to the next panel.
+|===
+
+
+==== Mass insert screens hotkeys
+
+[cols="{keycols}", options="header"]
+|===
+| Windows
+| Mac
+| Description
+
+| kbd:[Ctrl + ⇧ + ↓]
+| kbd:[⌘ + ⇧ + ↓]
+| Navigate to the submit button of the bulk lookup.
+
+| kbd:[Ctrl + Insert]
+| kbd:[⌘ + Insert]
+| Opens up bulk lookup.
+|===
+
+
+==== Cash receipts hotkeys
+
+[cols="{keycols}", options="header"]
+|===
+| Windows
+| Mac
+| Description
+
+| kbd:[Ctrl + ←] +
+  kbd:[Ctrl + ,]
+| kbd:[⌘ + ,]
+| Navigate to the previous stage (in wizards).
+
+| kbd:[Ctrl + →] +
+  kbd:[Ctrl + .]
+| kbd:[⌘ + .]
+| Navigate to the next stage (in wizards).
+
+| kbd:[Ctrl + ⇧ + ↓] +
+  kbd:[Ctrl + ⇧ + ⏎]
+| kbd:[⌘ + ⇧ + ↓] +
+  kbd:[⌘ + ⇧ + ⏎]
+| Navigate to the Submit & Pay Fee option.
+|===
+
+
+==== Minutes hotkeys
+
+[cols="{keycols}", options="header"]
+|===
+| Windows
+| Mac
+| Description
+
+| kbd:[Ctrl + ⇧ + ↓] +
+  kbd:[Ctrl + ⇧ + ⏎]
+| kbd:[⌘ + ⇧ + ↓] +
+  kbd:[⌘ + ⇧ + ⏎]
+| Navigate to the Submit & Pay Fee option.
+
+| kbd:[Ctrl + ⇧ + >]
+|
+| Commit and print minutes.
+
+| kbd:[Ctrl + ⇧ + ']
+|
+| Switch to another case, in multi case minutes.
+
+| kbd:[Alt + ↑]
+|
+| Move up one line.
+
+| kbd:[Alt + ↓]
+|
+| Move down one line.
+
+| kbd:[Escape]
+|
+| Move to the Command text area.
+|===
+
+
+==== System administration hotkeys
+
+[cols="{keycols}", options="header"]
+|===
+| Windows
+| Mac
+| Description
+
+| kbd:[Ctrl + F12]
+|
+| On the entities screen, open a global search popup for entities, fields, or lookup lists.
+
+| kbd:[Alt + 0] (zero)
+| kbd:[⌥ + 0] (zero)
+| Opens the form editor.
+|===
+
+
+== Right side
+
+At the far right of the Navigation bar there are some quick links for Recent Case navigation.
+
+Click the CaseId Folder icon to take you to the most recent Case you accessed:
+
+image::navigation/top-right-recent.png["Top right recent cases folder icon"]
+
+More quick-access Case actions can be taken from the dropdown arrow:
+
+image::navigation/top-right-dropdown.png["Top right folder icon, clicked dropdown"]
+
+NOTE: The top Navigation bar is the same visually for all users, regardless of account permissions.

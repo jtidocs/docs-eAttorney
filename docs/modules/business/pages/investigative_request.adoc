@@ -1,0 +1,108 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Investigation requests
+
+== Add an investigation request
+
+. Creating an investigative request can be done through the Investigation folder view by clicking the Investigation dropdown arrow and then btn:[Add Investigation Request]:
++
+image::investigate/investigation-dropdown.png[Investigation Drop-down]
+
+. Click the **Request Details** text box and add details:
++
+image::investigate/add-investigative-request.png[Add Investigative Request]
+
+. Click the date icon and choose the date.
+
+. In the Task pane, select the type of task from the drop down arrow.
+
+. In the Task pane, add a note.
+
+
+== Unassigned investigation requests
+
+. When an investigation request (caseResearchRecord) is added to the case:
++
+--
+- {product} sets the status to `Pending`.
+- A work queue assignment called `Unassigned Investigation Requests` is created.
+--
++
+The assignment shows in the queue for anyone with the `Investigator Supervisor` workflow role:
++
+image::investigate/InvestigatorSupervisorWFRole.png[Add workflow role]
+
+. Click the work queue to view the list of unassigned investigation requests:
++
+image::investigate/UnassignedWorkQueue.png[Unassigned Investigation Requests Queue]
+
+. Assigns the Investigation request by clicking the red `Unassigned` under the Assigned column:
++
+image::investigate/Unassigned.png[Unassigned link]
+
+. Click the btn:[`+`] button that shows to navigate into a directory search where you can choose the request assignee:
++
+image::investigate/+button.png[+ button to click when adding an assignment]
++
+image::investigate/SelectDirPerson.png[Search and select the Directory person to assign]
+
+. The chosen assignee is listed in red under the Assigned column.
+  The action of assigning the request closes out the workflow.
+  This work queue drops off the queue on screen refresh:
++
+image::investigate/AssignedColumn.png[view the assigned person]
+
+. You can cancel the investigation request by clicking the results and choosing `Cancel` from the drop down:
++
+image::investigate/1Result.png[Result]
+
+. This action also closes out the workflow and the work queue drops off the queue on refresh:
++
+image::investigate/CancelResult.png[Cancel result]
++
+NOTE: The workflow is also closed out when the status is manually changed to `Completed` or `Canceled` inside the Update Investigation Request form.
++
+image::investigate/CompleteStatus.png[Set status to complete]
+
+
+== Assigned investigation requests
+
+. Once an assignee is set on an Investigation Request, a work queue called `Investigation Requests` is assigned to the request assignee:
++
+image::investigate/InvestigationRequestsQueue.png[]
+
+. Clicks the work queue to view the list of unassigned investigation requests.
++
+image::investigate/InvestigationRequestTasks.png[]
+
+. When the request is complete, click the results and select `Complete` from the dropdown list:
++
+image::investigate/2Results.png[]
++
+image::investigate/CompleteResult.png[]
++
+This changes the status of the request to completed and closes out the workflow.
+The work queue drops off the queue on refresh.
+
+. You can reassign the request by clicking your username in the `Assigned` column.
++
+image::investigate/Assigned.png[]
+
+. Click the btn:[`+`] button that shows to navigate into a directory search where you can choose the new request assignee:
++
+image::investigate/+button.png[]
++
+image::investigate/SelectDirPerson.png[Search and select the Directory person to assign]
+
+. You can cancel the investigation request by clicking in the results:
++
+image::investigate/1Result.png[Result]
++
+Then choose "`Cancel`" from the drop down.
++
+image::investigate/CancelResult.png[Cancel result]
++
+This action also closes out the workflow and the work queue drop offs the queue on refresh.
++
+NOTE: The workflow is also closed out then the status is manually changed to `Completed` or `Canceled` inside the Update Investigation Request form:
++
+image::investigate/CompleteStatus.png[Set status to complete]

@@ -1,0 +1,80 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Subpoena process
+
+== Required conditions to generate a subpoena
+
+* Subpoenable Events - Events where witnesses are typically subpoenaed.
+* Subpoenable Parties - Parties that can be subpoenaed.
+* Subpoenable Case Assignments - Assignments that can be subpoenaed.
+
+
+== Update planning sheet
+
+. Start the subpoena process by clicking on the Events dropdown arrow, hover over Subpoenas, hover over Subpoena Planning, and click btn:[Update Planning Sheet]:
++
+image::subpoena/update-planning-sheet1.png[Update Planning Sheet]
+
+. From the Update Planning Sheet screen, there are two ways to choose an event:
++
+--
+- Use the drop-down arrow next to Event Types.
+  This allows choosing one event.
++
+image::subpoena/update-planning-sheet2.png[Update Planning Sheet]
+
+- Use the look-up list next to Event Types.
+  This allows choosing one or many events.
++
+image::subpoena/update-planning-sheet3.png[Update Planning Sheet]
+--
+
+. Select the Service Method:
++
+image::subpoena/update-planning-sheet4.png[Update Planning Sheet]
+
+. Select the Subpoena Type:
++
+image::subpoena/update-planning-sheet5.png[Update Planning Sheet]
+
+. Type a note.
+
+. When the planning sheet is finished, click btn:[Save and Back]:
++
+image::subpoena/update-planning-sheet6.png[Update Planning Sheet]
+
+
+== Subpoena planning
+
+. Generate a subpoena by clicking the Events dropdown arrow, hovering over Subpoenas, and then clicking on btn:[Subpoena Planning]:
++
+image::subpoena/subpoenas-dropdown.png[Subpoenas Drop-down]
+
+. In the View Planning Sheet folder view, click btn:[Generate Subpoena]:
++
+image::subpoena/view-planning-sheet-folder-view.png[View Planning Sheet Folder View]
+
+. In the Generate Subpoena pop-up, select the drop down arrow:
++
+image::subpoena/generate-subpoena-dialogue-box1.png[Subpoena image]
+
+. Choose the event for the Subpoena:
++
+image::subpoena/generate-subpoena-dialogue-box2.png[Subpoena image]
+
+. Click btn:[Generate]:
++
+image::subpoena/generate-subpoena-dialogue-box3.png[Subpoena image]
+
+
+== Subpoenas future and past events
+
+You can also generate a subpoena by clicking the Events dropdown arrow then clicking on btn:[Subpoenas]:
+
+image::subpoena/subpoenas1.png[Subpoena image]
+
+. Select the events that need subpoenas generated.
+. Select the parties that need to be served.
+. Select the assignments that need to be served.
+. Click btn:[Generate Subpoenas]:
++
+image::subpoena/subpoenas.png[Subpoena image]

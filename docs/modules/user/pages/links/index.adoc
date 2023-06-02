@@ -1,0 +1,7 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Using links
+
+This section describes two different ways that links work in {product}:
+
+- xref:./icons.adoc[]:
+- xref:./update_screens.adoc[]:

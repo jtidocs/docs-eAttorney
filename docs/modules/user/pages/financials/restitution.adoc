@@ -1,0 +1,62 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Restitution
+
+== Add restitution to a case
+
+To add restitution to a case, select menu:Financials[Add Restitution].
+
+image::financials/restitution-menu-item.png[The Financials navigation menu with the Add Restitution option selected.]
+
+Clicking on that button brings you to the *Add Restitution* screen.
+Fill in the amount, payee, and payor information.
+After you are satisfied with the entered data, click the btn:[Save & Back] button to finish adding the restitution to the case.
+
+image::financials/restitution-add-to-case.png[The Add Restitution screen.]
+
+
+== Taking a restitution payment
+
+Taking a payment for restitution is done in the same way as all other payments in the system, by going to the *Cash Receipts* screen and entering the payment information.
+
+See the xref:./cash_receipts.adoc[] for details on how to take a payment.
+
+
+== Disbursing restitution
+
+After taking a payment for restitution, it needs to be disbursed.
+To complete the disbursement process and prepare the payment for check writing, navigate to the *Cash Receipts* screen, then in the _More Actions_ drop-down, select the _Disbursement_ option (see below).
+
+image::financials/restitution-disbursement-menu-item.png[The Cash Receipts page with the More Options menu expanded and the Disbursement option selected.]
+
+This *Disbursement* screen shows.
+Create a disbursement by doing the following (see image below):
+
+. If you are coming from the *Cash Receipts* screen with a case already selected, then the _Cases_ search is populated from the current case.
+  If not, add the case to the _Cases_ search that you want to create a disbursement for, then click btn:[Search].
+
+. Enter the disbursement amount and click the button btn:[Update Disbursement Amount].
+  This is likely the same amount as the payment that you took on the *Cash Receipts* screen.
+
+. Verify the amount of each selected restitution record.
+  If there are multiple restitution records, you may need to manually adjust how much money is coming from where.
+
+. Select the payee and the address for who should rec\eive the restitution.
+
+. Verify the information is correct for the payee.
+  This is who the check should go to.
+
+. Click the _Create Disbursement Voucher_ button to finalize the disbursement.
+
+image::financials/restitution-disbursement-screen.png[The Disbursement page with numbers indicating steps taken to complete a disbursement.]
+
+After saving the disbursement, you should see a success message similar to what is shown below.
+The search results are cleared.
+
+image::financials/restitution-disbursement-success.png[The Disbursement page with a message stating, \'Disbursement for 450.00 successfully saved.']
+
+
+== Writing a check
+
+After a disbursement is successfully created, a check for the restitution can be written to the payee.
+
+See the xref:./check_writing.adoc[] for details on how to write checks.

@@ -1,0 +1,24 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Downloads
+
+On the left navigation bar at menu:Tools[Downloads], you can access the `Word Add-In` and the `Outlook Add-In` executables.
+
+image::tools/downloads-nav.png[Word Add-in example]
+
+
+== Word add-in
+
+There are three main tasks that the `Word Add-In` is used for:
+
+. Uploads documents to cases (add new or overwrite existing).
+. Open, Create, and Save RTF templates using Template Fields defined in {product}.
+. Creates and updates tentative rulings.
+
+image::tools/downloads-word-addin.png[Word Add-in example]
+
+
+== Outlook add-in
+
+The `Outlook Add-in` allows you to save an email and/or its attachments to a Case.
+
+image::tools/downloads-outlook-addin.png[Outlook Add-in example]

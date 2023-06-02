@@ -1,0 +1,82 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Calendar gadget
+
+The calendar gadget can be used to show events, holidays, and time off for persons or locations.
+It can be added by clicking on the gear icon at the top of your dashboard, then clicking the *+* button next to the Calendar gadget.
+After clicking the *Close Settings* button, the Calendar gadget shows on your dashboard.
+But, you still need to configure the gadget to display the calendar with the data you want.
+
+
+== Configure the calendar
+
+To configure the calendar gadget, click the gear icon in the top right corner of the gadget.
+
+image::dashboard/calendar-gear.png[An unconfigured Calendar gadget with an arrow pointing to the gear icon in the top right corner.]
+
+After clicking the gear icon, you can configure the gadget to display the information that is important to you.
+
+image::dashboard/calendar-config.png[Calendar gadget configuration screen with person information filled out.]
+
+In addition to a person, you can configure the calendar to show information for location:
+
+image::dashboard/calendar-config-location.png[Calendar gadget configuration screen with location information filled out.]
+
+
+=== Calendar fields
+
+* *Number of Weeks:* This is the number of weeks to show in the calendar.
+* *Mode:* Which entity to show data for.
+  _Person_ and _Location_ are the options that are most useful.
+* *Department:* If you select _Location_ as the Mode, then you can select the department.
+  Select the Courthouse first, then select the department in the selected courthouse.
+  Courthouses and departments (Directory Organizations) are configured by an administrator.
+* *Person:* If you select _Person_ as the Mode, then you can search for the person to show the calendar for.
+Commonly, you want to search for your own name here to see the events on your calendar, but if you are a supervisor, you may want to see the calendars of your employees.
+* *Time Format:* There are 3 formats to choose from:
+
+.. *Day*:
++
+image::dashboard/calendar-display-day.png[A single day from the calendar showing 2 events.]
+
+.. *AM PM*:
++
+image::dashboard/calendar-display-am-pm.png[A single day from the calendar showing 2 events, separated by AM and PM.]
+
+.. *Start Time*:
++
+image::dashboard/calendar-display-start-time.png[A single day from the calendar showing 2 events and what time they start.]
+
+* *Time Restriction*: You can filter the events by _AM_ or _PM_.
+  Selecting _None_ shows all events.
+
+* *Weekends:* If checked, then weekends show on the calendar.
+  Otherwise, weekends are hidden.
+
+
+== View the calendar
+
+After successfully configuring the calendar, it shows on your dashboard.
+
+image::dashboard/calendar-gadget.png[Calendar gadget showing events, holidays, and time off for the currently logged in user.]
+
+As you can see, the calendar shows events, holidays, and off time for the selected person.
+Holidays and off time are configured by the administrator.
+
+If you click an event or set of events, a popup shows information about the events:
+
+image::dashboard/calendar-event-popup.png[Popup showing 2 events]
+
+
+== Calendar day details
+
+If you are on the calendar and you click a day instead of an event, then the next screen shows the agenda for the day:
+
+image::dashboard/calendar-day-details.png[A screen listing all events for one day.]
+
+Here are some of the features of the Calendar Day Details view:
+
+. Change which day you are viewing by using the arrow keys or the calendar icon in the top left corner.
+. Filter the events you see by typing in the filter box.
+. Change which calendar you are viewing by clicking the gear icon in the top right.
+. View some quick details of the case that the event is on by clicking the btn:[`+`] button next to the event.
+. If you have applied a filter, you can click the *Total* button at the bottom to clear the filter and view all cases/events again.

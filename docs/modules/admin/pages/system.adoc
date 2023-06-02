@@ -1,0 +1,25 @@
+// vim: tw=0 ai et ts=2 sw=2
+= System documentation
+
+== Documentation
+
+. To view the system documentation, type in the following addition to your already existing URL: `/ecms/admin/documentation`.
+  An example is shown below.
++
+image::System-Documentation4.png[System Documentation]
+
+. A screen shows that includes your system documentation:
++
+image::System-Documentation1.png[System Documentation]
+
+
+== Data dictionary
+
+. To view the data dictionary, navigate to System Setup, click btn:[Metadata], and then select Entities.
++
+image::System-Documentation2.png[System Documentation]
+
+. Click the btn:[Data Dictionary] button on the far right.
+  This downloads your data dictionary.
++
+image::System-Documentation3.png[System Documentation]

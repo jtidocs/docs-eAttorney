@@ -1,0 +1,25 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Case involvements
+
+The case involvements page displays all individuals that are involved inside of a case (including directory personnel, defendant, victim).
+
+Case involvements can be found under the Case Involvements tab inside of the case folder view.
+For more information on navigating to the case folder view, see xref:./index.adoc[].
+
+image::cases/case-involvements-location.png["Case Involvements"]
+
+== Updates
+
+image::cases/case-involvements.png[Case Involvements]
+
+. Involvements can be updated by clicking on the involvement type, which displays the update screen where you can change the involvement type, person, status and more.
+
+. The person/directory person record can be seen by clicking on the person icon.
+
+. Click the folder icon to display a dialog pop-up displaying all involvements of the selected individual inside of the current database.
+
+
+NOTE: For more information on `Person` or `Directory Person`, see:
+
+- xref:person/index.adoc[]
+- xref:directory_person/index.adoc[]

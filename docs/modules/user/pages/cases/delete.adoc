@@ -1,0 +1,8 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Delete a case
+
+Deleting a case can be done on the case folder view by clicking menu:Summary[Update Case Information] and clicking delete in the lower right hand corner.
+
+image::cases/deleteCase.png["Deleting case"]
+
+For more information on accessing the case folder view, see xref:./index.adoc[].

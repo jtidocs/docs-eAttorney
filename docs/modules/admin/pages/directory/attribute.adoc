@@ -1,0 +1,23 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Directory person and directory organization attribute
+
+image::directory/DirectoryAttributes.png[]
+
+
+== Add an attribute
+
+Click the btn:[Add Attribute] to add a row to add the document to the grid.
+
+image::directory/DirectoryAttributesAddForm.png[]
+
+* Name: description of the attribute.
+* Value: value of the attribute.
+* Type: type of the attribute.
+* Effective from: first date this attribute is effective.
+* Effective to: last date this attribute is effective.
+
+
+== Update an attribute
+
+Click the `Name` of the attribute.
+This opens the Update Attribute form.

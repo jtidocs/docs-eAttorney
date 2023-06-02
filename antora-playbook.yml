@@ -1,0 +1,60 @@
+site:
+  title: eAttorney documentation
+  url: https://docs.journaltech.com/
+  start_page: eAttorney:ROOT:index.adoc
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    start_path: docs/
+  # The following two content sources are included to show how to
+  # include a "remote" content source.
+  # - url: https://gitlab.com/antora/antora.git
+  #   start_path: docs
+  #   branches: v3.+({0..9}).x
+  # - url: https://gitlab.com/antora/antora-ui-default.git
+  #   start_path: docs
+  #   branches: HEAD
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    linksattrs: ''
+    'source-highlighter': 'prism'
+    404-page-title: Page not found
+    SITE_SEARCH_PROVIDER: pagefind
+ui:
+  bundle:
+    # The Antora Default UI:
+    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/jtidocs/jti-antora-ui/releases/download/latest/jti-ui.zip
+    snapshot: true
+output:
+  dir: ./build
+urls:
+  redirect_facility: netlify
+antora:
+  extensions:
+  - require: '@jti/antora-extension-repeated_words'
+    enabled: true
+    debug: false
+    remote: false
+  - require: '@jti/antora-extension-ventilated_prose'
+    enabled: true
+    debug: false
+    remote: false
+  - require: '@jti/antora-extension-style_check'
+    enabled: true
+    debug: false
+    remote: false
+  - require: '@jti/antora-extension-images'
+    enabled: true
+    debug: false
+    remote: false
+  - require: '@jti/antora-extension-detect_assembler'
+    enabled: true
+    debug: false
+  - require: '@antora/pdf-extension'
+    enabled: true
+    debug: false

@@ -1,0 +1,63 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Document scanning
+
+Document scanning allows a user to scan documents to a Case or Person record.
+
+NOTE: The scanning app requires Java 8 to be installed.
+
+
+== Application
+
+To start a scan:
+
+. Select the Add File dropdown on Case or Person.
++
+image::documents/file-cab-scan-add.png[File Cabinet Scan Add]
+
+. Fill out the required form fields.
+
+. Click the btn:[Save and Scan] button.
++
+If your browser supports launching Java apps, a message dialog opens:
++
+image::documents/file-cab-scan-auto.png[File Cabinet Scan Auto]
++
+If your browser does not support launching Java apps, a manual message dialog opens:
++
+image::documents/file-cab-scan-manual.png[File Cabinet Scan Manual]
+
+. If an app does not launch, click one of the links in the message dialog.
+
+. Launch the downloaded Java app.
+
+When the Java app is launched, the scan window opens.
+
+NOTE: If you have a document already on a feeding scanner, the scanning app may start to scan the document the moment the app opens.
+
+Let's take a look at the controls.
+
+image::documents/file-cab-scan-controls.png[File Cabinet Scan Manual]
+
+. *Scan Now* - Scan the current document to the screen for review.
+. *All* - All scanned pages.
+. *First* - Go to the first scanned page.
+. *Middle* - Go to the middle of the scanned document.
+. *Last* - Go to the last scanned page.
+. *Left Arrow* - Go back one page.
+. *Right Arrow* - Go forward one page.
+. *Go* - Go to the desired page of document.
+  Enter number using pop-up window.
+. *Tray Type Dropdown* - Select the type, Duplex or Non Duplex.
+. *Color Settings* - Select the scan color settings.
+. *Size* - Choose the paper size.
+. *Options* - Show advanced scanner options.
++
+image::documents/file-cab-scan-options.png[File Cabinet Scan Options]
+
+. *Approve* - Send the scanned document to the Filing Cabinet.
+. *Clear / Reject* - Remove/Clear the current scan from the window and start fresh.
+. *Enter Batch* - Open the Batch window to Batch multiple scanned documents from this session together.
++
+image::documents/file-cab-scan-batch.png[File Cabinet Scan Batch]
+
+. *Page Rotation* - Select option to rotate document pages.

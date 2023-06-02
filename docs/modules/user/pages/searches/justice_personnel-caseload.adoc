@@ -1,0 +1,21 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Search justice personnel caseload
+
+This search helps you find cases with involved justice personnel.
+
+The *Search Justice Personnel Caseload* can be accessed by going to menu:Left Navigation Menu[Searches & Reports > Search Justice Personnel > Caseload].
+Click the sub item btn:[Caseload].
+
+image::searches/search-just-pers-caseload-link.png[Search Justice Personnel Caseload Link Left Nav.]
+
+
+== Parameters
+
+image::searches/search-just-pers-caseload-params.png[Search Justice Personnel Caseload Parameters Guide]
+
+. *Role* - Limit results to selected Role Types.
+. *Case Number* - (Free Text) Search for justice personnel cases by Case Number.
+. *Case Type* - Limit results to selected Case Types.
+. *Case Status* - Limit results to selected Case Statuses.
+
+NOTE: If you would like to change how parameters are being matched, see xref:./controls.adoc[].

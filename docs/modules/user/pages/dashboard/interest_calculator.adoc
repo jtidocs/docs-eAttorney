@@ -1,0 +1,21 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Interest calculator
+
+The interest calculator is a gadget you can add to your dashboard if you calculate interest a lot.
+The interest calculator widget can be added to you dashboard by clicking on the gear icon at the top of the dashboard, then selecting the `+` button next to the Interest Calculator.
+After adding the gadget and clicking the btn:[Close Settings] button, the interest calculator gadget shows on your dashboard.
+
+image::dashboard/interest-calculator.png[Interest calculator gadget with example values filled out.]
+
+
+== Field descriptions
+
+* *Starting Amount (PV):* PV stands for "Present Value" and is the starting amount you would like to use in your calculation.
+* *Annual Interest Rate:* The interest rate over a year that is applied to the Starting Amount.
+* *Number of Days:* This is how many days the interest accrues for.
+* *Start Date:* The date that interest starts accruing.
+* *End Date:* The date the interest stops accruing, or the date you want the interest calculation to stop.
+* *Days In Year:* Select the number of days in a year that the interest rate is based on.
+Valid values are 360, 364, 365.
+* *Interest Earned:* This is the amount of interest that is earned given the values you provided.
+* *Future Value:* This is the sum of the Starting Amount and the Interest Earned, and shows you the value of the money after earning interest over the time frame.

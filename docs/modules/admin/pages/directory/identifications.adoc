@@ -1,0 +1,28 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Directory person and directory organization identifications
+
+image::directory/DirectoryIdentifications.png[]
+
+Identifications are numbers associated with a person or organization.
+This number is assigned by some sort of organization, such as the Social Security Administration, Federal Bureau of Investigation, state drivers license division, and court identification number.
+
+
+== Add an identification
+
+Click the btn:[Add Identification] to open the Add Identification form:
+
+image::directory/DirectoryIdentificationEntryForm.png[]
+
+* Type: select the number type.
+* Number: enter the number.
+* Issue Name: name of the issuing organization.
+* Issue State: state of issuance.
+* Effective from: date identification is effective from, typically the issuance date.
+* Effective to: date identification is effective to, typically the expiration date.
+* Memo: enter anything of note about the identification.
+
+
+== Update an identification
+
+Click an identification number to open the identification form, which records information populated in the correct fields.
+Make the required changes and click the btn:[Update] button.

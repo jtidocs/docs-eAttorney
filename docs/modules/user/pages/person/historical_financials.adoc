@@ -1,0 +1,14 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Historical financials
+
+Historical financials can be found under the `Historic Financials` tab in the person folder view.
+For information on how to navigate to the person folder view, see xref:./index.adoc[].
+Historic financials display payments made to obligation by an individual and information about the payment: payment type, amount, reference number, date received, and receipt number.
+
+// image::person/historic_financials.png[Historic Financials Screen]
+
+Clicking on the view allocation button (#1) expands the payment details dialog (shown below) showing obligation type and case number associated with the fine/fee.
+
+// image::person/historic_financials_payment_details.png[Payment Details Dialog]
+
+NOTE: For more information on financials, see xref:financials/index.adoc[].

@@ -1,0 +1,13 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Discovery
+
+The discovery tab under the case view shows all the discovery packets, or sharable documents, for public or external agency view.
+Discovery packets can be viewed by clicking on the Discovery tab on the case summary screen.
+
+image::cases/discovery.png["Discovery Tab"]
+
+For more information on how to navigate to the case summary screen, see xref:./index.adoc[].
+
+For information on creating discovery packets, see xref:discovery_packets/create.adoc[].
+
+For information on discovery packets, see xref:discovery_packets/index.adoc[].

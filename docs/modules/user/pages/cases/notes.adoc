@@ -1,0 +1,19 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Case notes
+
+Case notes can be accessed and added by clicking on the page icon in the upper right hand corner of the case folder view.
+For information on how to navigate to the case folder view, see xref:./index.adoc[].
+
+image::cases/caseNotes.png[Viewing case notes]
+
+Once clicked, a dialog is displayed with options to add, print, and edit notes:
+
+image::cases/notesDialog.png[Case notes dialog box]
+
+. Closes dialog and launches case notes in a new browser tab.
+. Adds a new note on case.
+. Launches a printable screen of case notes in browser.
+. Clicking on a case note enables editing.
+. Choose note background color.
+. Add note macro.
+. Set active dates for note.

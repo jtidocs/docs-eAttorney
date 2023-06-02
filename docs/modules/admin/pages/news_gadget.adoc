@@ -1,0 +1,106 @@
+// vim: tw=0 ai et ts=2 sw=2
+= News gadget configuration
+
+The News Gadget displays a message from administrators on users dashboards.
+To learn how users can add the gadget to their dashboards, see xref:user:dashboard/news.adoc[].
+
+
+[#news-gadget-edit]
+== How to change the news gadget content
+
+. Go to menu:Left navigation pane[System Administration > News Gadget].
++
+image::NewsGadgetNavigation.png[News Gadget link on left hand navigation]
+
+. This opens the "Search Static Resources" form.
+  Click the "Add New Resource" button.
++
+image::NewsGadgetStaticResource.png[Static Resource page for news gadget configuration]
+
+. Give the resource a title, and enter `SYSMSG` as the code.
+  Leave the type as `HTML`.
++
+image::NewsGadgetConfiguration1.png[News gadget configuration, part 1]
+
+. In the text box, enter the message you want to display on users dashboard news gadget.
+  This is a WYSIWYG (What You See Is What You Get) editor, with a tool bar that allows for formatting items, inserting tables or links.
+  You can also click the btn:[Source Code] button circled in red to edit the HTML directly.
+  This needs to be done if adding an image.
+  See <<add-images>>.
++
+image::NewsGadgetConfiguration2.png[News gadget configuration, part 2]
+
+. Click btn:[Save] at the bottom to save the changes.
+
+
+== Add images as a static resource
+
+. Go to menu:Left navigation pane[System Administration > News Gadget].
++
+image:NewsGadgetNavigation.png[News Gadget link on left hand navigation]
+
+. This opens the "Search Static Resources" form.
+  Click the btn:[Add New Resource] button.
++
+image::NewsGadgetStaticResource.png[Static Resource page for news gadget configuration]
+
+. Fill in the upper part of the form:
++
+--
+- Title: Give your image a title.
+- Code: Type a unique code for your image in ALL CAPS and with no spaces.
+- Type: Change to be `File`.
+--
++
+image::NewsGadgetImageConfiguration1.png[News gadget configuration]
+
+. Click the btn:[Choose File] button to select the image to select the image.
+
+. Click btn:[Save] at the bottom to save the changes.
+. Click the btn:[Back to Static Resources] button.
+  The image is now added as a static resource.
+
+
+[#add-images]
+== Add images to news gadget
+
+. Go to menu:Left navigation pane[System Administration > News Gadget].
++
+image::NewsGadgetNavigation.png[News Gadget link on left hand navigation]
+
+. This opens the "Search Static Resources" form.
+  Hover over or click the open link icon on the right of the image name to open the image.
++
+Button to click:
++
+image::NewsGadgetStaticResourceImage.png[Static Resource page for news gadget configuration with image resource]
++
+Hover over button, showing URL at the bottom:
++
+image::NewsGadgetImageUrl.png[Static Resource page for news gadget configuration with image resource 2]
+
+. Note the id of the resource.
+  In this example URL `cms/content?dispatch=onViewResource&resource.id=2`, the id is 2.
+
+. If a News Gadget needs to be created, add one.
+  See <<news-gadget-edit>>.
+  Otherwise, ensure you are on the "Search Static Resources" form, and click a News Gadget.
+
+. In the text editor, click the btn:[Source Code] button in the tool bar.
+. Add the following line where you want the image to show:
++
+[source, html]
+----
+<p><img src="cms/content?dispatch=onViewResource&resource.id=2" /></p>
+----
+
+. Replacing the id (value 2 in the example) with the id noted in step 3.
+
+. Repeat this process for each image you want to add.
+  You can also add other HTML tags to add formatting, such as style, width, height.
+
+. Click btn:[Save] to save changes and close the source code editor.
+
+. Click btn:[Save] to save the gadget.
++
+image::NewsGadgetImageConfigurationSourceCode.png[Static Resource page for news gadget configuration with image resource 3]

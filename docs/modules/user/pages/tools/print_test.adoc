@@ -1,0 +1,92 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Print test
+
+image::tools/print-test.png[dashboard]
+
+The {product} scan and print service is a background service that runs on the client machine, and handles printing to the user local machine and scanning from the local machine into {product}.
+After launch, the service listens for print or scan requests and takes action when requests arrive.
+
+
+== Print test page
+
+Test the Service by printing a test page.
+
+
+== Open scanner
+
+Launch the scanning app.
+
+
+== Launch service
+
+Launching the service should only occur once.
+If the service is running, you should see the EC icon in the user system tray:
+
+image::tools/print-test.png[dashboard]
+
+Some modern browsers (Chrome, Firefox, or Edge) no longer support running Java Applets in the browser.
+For those users running a modern browser, start the service with a startup task:
+
+[source, terminal]
+----
+javaws -Xnosplash http://<<server:port>>/<<context>>/document/ec-service.jsp
+----
+
+.Example:
+[source, terminal]
+----
+javaws -Xnosplash http://lasccivil-config.ecourt.com/sustain/document/ec-service.jsp
+----
+
+
+.Using IcedTea:
+[source, terminal]
+----
+javaws -Xtrustnone -headless -jnlp http://<<server:port>>/<<context>>/document/ec-service.jsp
+----
+
+.Example:
+[source, terminal]
+----
+javaws -Xtrustnone -headless -jnlp http://ecourtuatcu.lacourt.org/ecourt/document/ec-service.jsp
+----
+
+This command runs in the startup folder and is available in the latest 2016-sr2, not 2016-sr3, 2016-sr4+.
+
+
+== Check service communication
+
+Test the communication to the service to make sure there are no connection issues.
+
+If the service is running on the user computer, testing communication and print test page should complete quickly.
+If not, investigate the networking / firewall issue mentioned in <<troubleshooting,Troubleshooting>>.
+
+
+[#troubleshooting]
+== Troubleshooting
+
+=== Problems launching the service
+
+Edge and Chrome due to security restrictions no longer support running Java Applets in the browser.
+For those user running Edge or Chrome it is recommend that the scan and print service be launched when logging on (see command to launch the service section below).
+For browsers that do still support applets (Internet Explorer) it is recommended that you verify java is installed correctly.
+The easiest way to do that is to visit java.com and click btn:[`Do I have Java?`].
+If java.com successfully verifies that everything is installed correctly you should have no problems launching the service in {product}.
+
+NOTE: the service should only launch once.
+
+If users see the service launches each time they try to print, then network issues are probably preventing proper communication between the server and user machines.
+See <<network>>.
+
+
+[#network]
+=== Networking issues
+
+Due to security restrictions from the browser, these requests do not come from the browser itself but from the {product} app server.
+The {product} app server tries to access the scan service on the client machine.
+The network settings must be setup correctly for the {product} service to run fast / correctly.
+By default these requests come from the {product} server to the client machine port 8383.
+This port must not be blocked on the user firewall.
+Under normal firewall setup this port is not blocked for local network traffic.
+
+In addition, if the {product} server is not a local server but a hosted or remote server, the router/firewall from the remote location must be allowed through.

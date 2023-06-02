@@ -1,0 +1,19 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Victim
+
+The victim tab on the case folder view holds all the information on a case about the victimizations, special classifications, and services provided to victims.
+
+image::cases/victim.png["Victim view tab"]
+
+The victim tab can be accessed by clicking on Victim.
+
+For information on reaching the case folder view, see xref:./index.adoc[].
+
+Victims can have many things added to them for VOCA reporting.
+In the case view, there are three items that can be added for automatic generation of the VOCA report:
+
+. Add Victimization - Adds victimization type.
+. Add Special Classification - Adds special classification of victimization (for example Homeless, LGBTQ, Veteran, and others).
+. Add Service - Add service provided to victim.
+
+For more information on VOCA reporting, see xref:searches/voca.adoc[].

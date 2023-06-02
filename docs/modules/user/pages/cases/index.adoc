@@ -1,0 +1,32 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Cases
+
+Cases are the main workspace for the majority of tasks on a daily basis.
+A case keeps track of:
+- Who: case-involved people like prosecutors or defendants.
+- What: charges against the defendant.
+- When: the date of occurrence or events.
+- Where: the `location`.
+
+These data points (and more) make up a typical case.
+
+
+== Case folder views
+
+The case folder view has all information about the case, including:
+
+- Involvements.
+- Connected cases.
+- Justice personnel.
+- Case status history.
+- Special status on the case.
+
+There are three ways to reach the case folder view:
+
+. Through the case search found in the navigation bar under menu:Searches & Reports[Search Case] and filling out case information.
+
+. If the current user has assigned cases cases, the view pops up in menu:Workspace[Recent Cases > Select Case].
+
+. Clicking on the most recent case in the top right corner.
+
+image:cases/caseViewNavigation.png["Person Icon"]

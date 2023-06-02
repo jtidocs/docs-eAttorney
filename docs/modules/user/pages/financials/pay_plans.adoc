@@ -1,0 +1,52 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Payment plans
+
+Payment plans allow the payor to make small payments towards the obligations over an extended period of time.
+
+
+== Accessing a payment plan
+
+To add a payment plan, you must first be on the `Cash Receipts` screen and have an open till.
+
+NOTE: Only Financial users can navigate to the Cash Receipts screen.
+      For more information about setting up a user as a Financial User, see xref:admin:users/navigation.adoc[].
+
+There are a couple of ways to get to this screen.
+
+. Access it using the left navigation pane:
++
+image::financials/pay_plan_cash_receipts_left_nav.png[Cash Receipts Navigation]
+
+. Access it using the current case:
++
+image::financials/cash_receipts_from_case.png[Cash Receipts Case Navigation]
+
+NOTE: If accessed using option 1, then the Case is not populated on the Cash Receipts screen.
+      You need to search for the case you would like to work with.
+      See xref:./cash_receipts.adoc[] for more information on searching.
+      If accessed using option 2, the Case Row is populated in the Cash Receipts screen.
+
+
+== Adding a payment plan
+
+Once you are on the Cash Receipts screen and you have an unpaid obligations Case Row available:
+
+Click the vertical ellipses (3 dots) and select `Pay Plan`.
+
+image::financials/pay_plan_cash_receipts_access.png[Add Pay Plan]
+
+A Pay Plan Add form shows:
+
+image::financials/pay_plan_add.png[Add Pay Plan]
+
+. The Paying Party.
+. Starting Date.
+. Recurring installment amount.
+. Select All Obligations.
+. Select a single Obligation.
+
+Click btn:[Create Pay Plan] and click btn:[`Ok`] on the confirmation pop-up.
+
+The Payment Plan shows under the Case Row in the Cash Receipts screen.
+
+image::financials/pay_plan_added.png[Added Pay Plan]

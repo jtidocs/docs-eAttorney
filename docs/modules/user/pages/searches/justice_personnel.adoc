@@ -1,0 +1,21 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Search justice personnel
+
+This search helps you find justice personnel name records.
+For example, Legal Staff or Defense Attorney.
+
+The *Search Justice Personnel* can be accessed by going to menu:Left navigation pane[Searches & Reports > Search Justice Personnel].
+Click the top level name and not the sub search Caseload.
+
+image::searches/search-just-pers-link.png[Search Justice Personnel Link Left Nav.]
+
+
+== Parameters
+
+image::searches/search-just-pers-params.png[Search Justice Personnel Parameters Guide]
+
+. *Role* - Limit results to selected Role Types.
+. *First Name* - (Free Text) Search for justice personnel by First Name.
+. *Last Name* - (Free Text) Search for justice personnel by Last Name.
+
+NOTE: If you would like to change how parameters are being matched, see xref:./controls.adoc[].

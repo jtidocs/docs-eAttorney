@@ -1,0 +1,22 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Non-collectible financials
+
+The non-collectible financials folder view shows all non-collectible financials with their type, date, alleged amount, ordered amount and status.
+
+image::cases/nc-financials-nav.png["Non-collectible financials folder view"]
+
+The non-collectible financials folder can be accessed on the case folder view by clicking on the NC Financials tab.
+For information on navigating to the case folder view, see xref:./index.adoc[].
+
+Click the Type on a row to edit that non-collectible financial.
+
+
+== Add a non-collectible financial
+
+A non-collectible financial can be added by clicking on the NC Financials drop-down button and selecting "Add Non-collectible Financial":
+
+image::cases/create-nc-financial.png["Create non-collectible financial"]
+
+All fields denoted with a red asterisk are required.
+
+image::cases/nc-financial-add-view.png["Non-collectible financial add view"]

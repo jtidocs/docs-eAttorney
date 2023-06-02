@@ -1,0 +1,7 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Discovery packets
+
+Discovery Packets are Zip files that can be shared between agencies and people.
+In {product} discovery packets are shared using the portal.
+The {product} system creates invites and sends emails to the end user inviting them to the portal instance.
+The invites are revalidated at the server end and all individuals that have permissions are able to access discovery packets on the case level.

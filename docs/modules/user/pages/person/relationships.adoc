@@ -1,0 +1,7 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Relationships
+
+Relationships on individuals can be added on the person folder view to show relationships between involvements.
+The inverse section can also be added to reflect and save the inverse relationship on the counterpart.
+
+image::person/inverseRelationship.png[Inverse Relationship Field]

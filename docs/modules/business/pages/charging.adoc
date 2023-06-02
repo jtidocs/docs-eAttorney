@@ -1,0 +1,120 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Charging
+
+== Charges folder view
+
+. The Charges folder view displays active charges, plea offers, sentencing and charge history:
++
+image::charging/image001.png[Charging]
+
+. From the Charges folder view, click the dropdown menu and click btn:[Charging]:
++
+image::charging/image002.png[Charging]
+
+. The Charging widget shows, where the charge can be selected: filed, declined or amended:
++
+image::charging/image003.png[Charging]
+
+. You have ability to make different Decisions on the requested Charges:
++
+image::charging/image004.png[Charging]
+
+. If the Decision is the same for all requested Charges, you can add the decision to all by selecting the Decision from the Decision for all dropdown:
++
+image::charging/image005.png[Charging]
+
+. You can also Replace a charge and select a new charge from the search option provided on the Replace with field:
++
+image::charging/image006.png[Charging]
+
+** You can start typing the name of the statute, or click the magnifying glass, to find the new charge:
++
+image::charging/image007.png[Charging]
+
+. Once you have completed the Charging decision, click the btn:[Save] or btn:[Save and Back] button.
+  The Charges folder view shows the active charges and Charge History:
++
+image::charging/image008.png[Charging]
+
+
+== Generate charging paragraphs
+
+. To generate the Charging Paragraphs, from the Charges folder view, click the dropdown menu, hover over Charging, and click btn:[Charging Paragraphs]:
++
+image::charging/image009.png[Charging]
+
+. In the Charging Paragraphs folder view, click the btn:[Generate Paragraphs] button:
++
+image::charging/image010.png[Charging]
+
+** Charging Paragraphs:
++
+image::charging/image011.png[Charging]
+
+
+== Plea offer
+
+. To add a Plea Offer, from the Charges folder view, click the dropdown menu, and click btn:[Add Plea Offer]:
++
+image::charging/image012.png[Charging]
+
+. The Add Plea Offer form shows.
+  Once the form is filled, click the btn:[Save & Back] button:
++
+image::charging/image013.png[Charging]
+
+. The Plea Offer shows in the Plea Offers panel in the Charging folder view:
++
+image::charging/image014.png[Charging]
+
+
+== Disposing charges
+
+. To dispose charges, from the Charges folder view, click the dropdown menu and click btn:[Dispose Charges]:
++
+image::charging/image015.png[Charging]
+
+. The Dispose Charges form, where different dispositions can be added to each charge, shows:
++
+image::charging/image016.png[Charging]
+
+. You can add the same disposition to all charges by clicking on the btn:[Mass Update] button:
++
+image::charging/image017.png[Charging]
+
+. Click some or all of the charges that have the same disposition type and select Update Charge Disposition from the Choose Action menu.
+
+. If all charges have the same disposition, you can select the checkbox in the column header:
++
+image::charging/image018.png[Charging]
+
+. After clicking on the btn:[Update Charge Disposition], all the selected charges show in the top panel, and a blank disposition form shows.
+Once the form is completed, click the btn:[Update Records] button.
+
+** The disposition is added to the selected charges:
++
+image::charging/image019.png[Charging]
+
+. The Charges and corresponding Dispositions show in the Sentencing panel of the Charges folder view:
++
+image::charging/image020.png[Charging]
+
+
+== Sentencing
+
+. To add Sentencing information, from the Charges folder view, click the dropdown menu, hover over Add Sentencing, and click btn:[Per Charge].
++
+image::charging/image021.png[Charging]
+
+. The Sentencing form, where sentencing can be added per charge, shows:
++
+image::charging/image022.png[Charging]
+
+. If multiple sentences need to be added to a single charge, click the add item button btn:[`+`].
+If you inadvertently added panels, click the delete button btn:[`-`].
++
+image::charging/image023.png[Charging]
+
+. The Charges and corresponding Sentencing shows in the Sentencing panel of the Charges folder view:
++
+image::charging/image020.png[Charging]

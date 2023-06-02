@@ -1,0 +1,71 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Person merge or split
+
+== Person merge
+
+. To start a person merge, go to the person summary view by clicking on the Open Person View icon:
++
+image::person_merge/person-merge-split01.png[Person Merge/Split]
+
+. Click the drop-down arrow by Summary, hover over Utilities, hover over Person Merge, click btn:[Merge/Split]:
++
+image::person_merge/person-merge-split02.png[Person Merge/Split]
+
+. From the person summary view, select Search Person Organization:
++
+image::person_merge/person-merge-split03.png[Person Merge/Split]
+
+. From Search Person/Business, you can search on First Name/Business Name, Last Name, Identification Number, Date of Birth, and Person Type.
+  Enter your search criteria and select btn:[Search]:
++
+image::person_merge/person-merge-split04.png[Person Merge/Split]
+
+. From Results, select the person you want to merge:
++
+image::person_merge/person-merge-split05.png[Person Merge/Split]
+
+. After executing the search, three results show which include your original person, the person to merge with, and the merged result:
++
+image::person_merge/person-merge-split06.png[Person Merge/Split]
+
+. To finish your merge, you need to select which subentities you want to omit for your merged result.
+  Select to omit the subentity from the original person or select to omit the subentity from the person to merge with:
++
+image::person_merge/person-merge-split07.png[Person Merge/Split]
+
+. After you finish selecting the subentities you want to keep, click the Preview Changes button at the bottom of your screen:
++
+image::person_merge/person-merge-split08.png[Person Merge/Split]
+
+. Review your changes from the Preview Changes screen.
+  Click btn:[Save] to save the changes, or btn:[Close] to edit the changes:
++
+image::person_merge/person-merge-split09.png[Person Merge/Split]
+
+. Click btn:[Cancel] or btn:[Save] on your Person Merge:
++
+image::person_merge/person-merge-split10.png[Person Merge/Split]
+
+
+== Person split
+
+. To start a person split, go to the person summary view by clicking on the Open Person View icon:
++
+image::person_merge/person-merge-split01.png[Person Merge/Split]
+
+. Click the drop-down arrow by Summary, hover over Utilities, hover over Person Merge, click btn:[Merge/Split]:
++
+image::person_merge/person-merge-split02.png[Person Merge/Split]
+
+. Select Switch To Split to the right of your screen.
++
+image::person_merge/person-merge-split11.png[Person Merge/Split]
+
+. You can choose to copy all information over, or copy items individually with the arrow buttons.
+  When you are finished copying the desired information, click btn:[Preview Changes] at the bottom of the screen:
++
+image::person_merge/person-merge-split12.png[Person Merge/Split]
+
+. Preview your changes then click btn:[Save]:
++
+image::person_merge/person-merge-split13.png[Person Merge/Split]

@@ -1,0 +1,25 @@
+// vim: tw=0 ai et ts=2 sw=2
+= {product} documentation
+
+Choose one of the following documentation sets:
+
+[.cols-3]
+--
+[.touchable]
+.User guide
+****
+Learn how to navigate, use, and work with {product}.
+****
+
+[.touchable]
+.Admin guide
+****
+Learn how to administer an {product} installation.
+****
+
+[.touchable]
+.Business process
+****
+Learn about {product} processes and workflows.
+****
+--

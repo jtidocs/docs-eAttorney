@@ -1,0 +1,36 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Financials
+
+Case financials consist of three different screens:
+
+image::cases/caseFinancials.png[Case Financials]
+
+. Cash Receipts.
+. Case Ledger.
+. Historic Financials.
+
+
+== Cash receipts
+
+Cash receipts are used by a financial user to open and balance tills.
+For more information on cash receipts, see xref:financials/cash_receipts.adoc[].
+
+
+== Case ledger
+
+In this section individual receipts can be printed and emailed to individuals.
+
+image::cases/caseLedger.png[Case ledger]
+
+. The case ledger folder view displays the fines and fees associated with the current case.
+
+. Receipts for individual payments can be found under the fines and fees.
+
+
+== Historic financials
+
+Historic financial folder view displays all obligations attached to the case.
+The obligations show the "original amount" and "balance at conversion" (If the {product} instance comes from a converted database).
+From the list you can view the payments and the full payment record by clicking on the credit card icon (view payments) or the person icon (full payment record).
+
+image::cases/caseHistoricFinancials.png[Case historic financials]

@@ -1,0 +1,42 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Saved search results gadget
+
+The Saved Search Results gadget displays the real-time results of a saved search.
+
+
+== Add the gadget
+
+. Open the dashboard.
+. At the top of the dashboard, find the "Dashboard" button, and click the gear icon to go to User Settings:
++
+image::dashboard/user-settings.png[User settings icon]
+
+. Click the btn:[`+`] button next to the Saved Search Results item:
++
+image::dashboard/save-search-results.png[Saved search results add button]
+
+. Click the "Close Settings" button (found below the list of available gadgets).
+
+. Find the "Saved Search Results" widget, and click the gear icon to go to settings:
++
+image::dashboard/saved-search-results-gear.png[Saved search results configure button]
+
+. Configure the Gadget by setting the Saved Search to use.
+. The Number of results to show per page.
+. Click btn:[Submit].
++
+image::dashboard/save-search-results-configure.png[Saved search results configuration]
+
+
+== Use the saved search results gadget
+
+The Saved Search Results gadget must first be added to the Dashboard and configured.
+Once added, saved search results show on your Dashboard.
+Results can be used to:
+
+. Quickly link to associated search results.
+. Execute actions:
+** Bulk schedule.
+** Export case events.
+** Join cases.
+** Cash receipts.

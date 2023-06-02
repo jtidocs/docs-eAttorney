@@ -1,0 +1,27 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Person
+
+In {product}, there are two types of people: a person and directory person.
+A directory person is someone working in the judicial system, including law enforcement, legal personnel, and judges.
+A person is anybody who is a defendant or involvement.
+In {product}, a person is denoted by a single-person icon:
+
+image::person/person.png[Person Icon]
+
+A directory person is denoted by a double-person icon:
+
+image::person/directoryPerson.png[Directory Person Icon]
+
+To access the person folder view, click the person icon, or click a person in the Person/Business search.
+
+The person view is split into five different sections:
+
+. Summary - Gives basic information on the selected individual, for example First Name, Last Name, DOB, and Address.
+. xref:documents/file_cabinet.adoc[].
+. xref:./relationships.adoc[].
+. xref:./historical_financials.adoc[].
+. xref:reports/person.adoc[].
+
+The summary folder view shows all general information about the individual:
+
+image::person/personView.png[Person Folder View]

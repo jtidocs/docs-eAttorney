@@ -1,0 +1,29 @@
+// vim: tw=0 ai et ts=2 sw=2
+* xref:index.adoc[]
+
+** xref:users/index.adoc[]
+*** xref:users/accounts.adoc[]
+*** xref:users/navigation.adoc[]
+*** xref:users/security_groups.adoc[]
+
+** xref:directory/index.adoc[]
+*** Directory organization
+**** xref:directory/org_unit.adoc[]
+**** xref:directory/attachment.adoc[]
+**** xref:directory/identifications.adoc[]
+
+*** xref:directory/person/index.adoc[]
+**** xref:directory/person/addresses.adoc[]
+**** xref:directory/person/off_time.adoc[]
+
+** xref:statutes.adoc[]
+** xref:statute_text.adoc[]
+** xref:news_gadget.adoc[]
+** xref:document_definitions.adoc[]
+** xref:lookup_lists.adoc[]
+** xref:manage_special_statuses.adoc[]
+** xref:checklist.adoc[]
+** xref:calendar.adoc[]
+** xref:performance_logs.adoc[]
+** xref:help_notes.adoc[]
+** xref:system.adoc[]

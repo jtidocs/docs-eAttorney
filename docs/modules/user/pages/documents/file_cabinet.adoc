@@ -1,0 +1,126 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Filing cabinet
+
+This section describes the filing cabinet and its features.
+This includes the Case and Person view filing cabinets.
+
+The Filing Cabinet can be accessed from a Case or Person view with the tabs under the view header:
+
+image::documents/file-cab-access.png[File Cabinet Button]
+
+The available actions from the dropdown menu are as follows.
+
+
+== File cabinet dropdown: case and person
+
+image::documents/file-cab-quick.png[File Cabinet Dropdown Actions Numbered Image]
+
+image::documents/file-cab-quick-pers.png[File Cabinet Dropdown Actions Person]
+
+. `Add Case File(s)` or `Add Person File(s)`:
+  Open the corresponding form to insert a new file.
+
+. xref:./generation.adoc[*Generate Template*]:
+  Open the generation form to select and generate a document from a template.
+  Click the link to find out more information.
+
+. *Utilities* - Expand to access Utilities.
+
+. *Bates Stamp* - Bates stamp your document.
++
+image::documents/file-cab-bates.png[File Cabinet Bates Stamp]
++
+Choose your stamp location, docs to apply to and click the btn:[Stamp] button.
+
+. *Merge Documents* - Merge documents.
+  You can merge unrelated doc types to result in a PDF.
++
+image::documents/file-cab-merge.png[File Cabinet Merge Documents]
+
+. xref:./viewer.adoc[*Document Viewer*]:
+  View and edit a full preview of a selected file in the browser window.
+  Click the link to find out more information.
+
+. *Status* - Limit results to selected Statuses.
+
+. *Received Date From/To* - Limit results to Date Ranges.
+
+
+== Add file dropdown
+
+The Case and Person Add File Forms are nearly identical.
+This section covers the controls of the Case Add File Form.
+The same principles can be applied to the Person Add File Form.
+
+image::documents/file-cab-case-add-file-form.png[File Cabinet Case Add File Form]
+
+. *Type* - Choose the File Type.
+  This is unrelated to the file extension, for example `.pdf`.
+
+. *Date Filed* - Choose a Date Filed for the document.
+  Select a date from the pop-up calendar.
+
+. *Status* - Choose a Document Status.
+
+. *Location* - Choose a File Location.
+  Location may be something like a physical location.
+  Only on the Case Form.
+
+. *Category* - Choose a File Category.
+
+. `Select File(s)` - By clicking Add Files, you can add one or more files to the case with the same attributes you are currently entering.
+  To select multiple files in the pop-up File Selection window, use the `CTRL` or `SHIFT` keys on the keyboard while selecting rows.
+
+. *Notes -> Title* - Case Only.
+  Choose a title for the Note.
+
+. *Notes -> Content* - The Notes section on a Case can have style, sizing and highlighting applied, as in an RTF file.
+  The Notes section on Person is a plain-text note.
+
+
+== Filing cabinet controls
+
+image::documents/file-cab-controls.png[File Cabinet Controls]
+
+. *Folder Dropdown* - Add or Delete a Directory in the filing cabinet.
++
+image::documents/file-cab-folder.png[File Cabinet Folder Dropdown]
+
+. `File Name` - The selected filename.
+  If no file is selected, the Case or Person Name displays here.
+
+. *Search Bar* - Filter the files based on search criteria.
+
+. *List/Grid Icon* - Swap between List view and Grid view.
+
+. *Disk Down Arrow Icon* - Download the selected documents.
+  You can CTRL+Click to select more than one document.
+
+. *Plus Icon* - Add a document to this filing cabinet.
+  A document selection pop-up screen opens to allow you to select a document from your machine.
+
+. *Trash Icon* - Delete the selected documents from the filing cabinet.
+
+. *Vertical Ellipses Icon* - More File actions dropdown.
+  Move a document to a new Folder or update the document definition of this document type.
++
+image::documents/file-cab-move.png[File Cabinet Move Dropdown]
++
+See xref:admin:document_definitions.adoc[] for more info.
+
+. *Directory Structure* - The directory structure shows the files and folders on this Filing Cabinet view.
+The parenthesis indicates the number of Files in this filing cabinet.
+
+
+== Update or edit file
+
+Files can be updated by clicking on the name below the thumbnail (when in thumbnail view) and change the type, file, and filename.
+
+image::documents/file-cab-editFile.png[Edit/Update File Location]
+
+
+== File context menu
+
+A context menu can be found by right clicking on the document thumbnail to allow moving, editing, deleting, and viewing the document.
+
+image::documents/file-cab-viewFile.png[Edit/Update File Location]

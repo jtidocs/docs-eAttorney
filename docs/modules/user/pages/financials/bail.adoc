@@ -1,0 +1,130 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Bail
+
+NOTE: Do not forget to `Open a Till` if you have not already today.
+
+
+== Creating a cash bail record
+
+Cash Bail is created in the case by selecting Add Bail from the Case Involvement tab drop-down.
+
+image::financials/bail_add.png[Add Bail Dropdown]
+
+In the `Add Bail` screen fill out the Bail and Bail Condition panels.
+
+image::financials/bail_add_form.png[Add Bail Form]
+
+|===
+| Option
+| Description
+
+| `Bail Type`
+| Can input the option of Cash or Bail Bond/Surety.
+
+| `Bail Amount`
+| Input the amount of Bail.
+  This can be defaulted to a value derived from the statutes.
+
+| `Status Type`
+| Initially left blank.
+  The options are Active, Forfeiture, Never Collect, Pending, Posted, Set.
+
+| `Status Date`
+| Defaults to current data and is read-only.
+
+| `Condition`
+| Type of Bail Condition being applied with Bail.
+
+| `Begin Date`
+| Date that the Bail Condition takes effect.
+
+| `End Date`
+| Date that the Bail Condition ends.
+
+| `Notes`
+| Can be used to add further detail to the Bond Condition.
+|===
+
+Once you have entered in the data as needed, click btn:[Save & Back].
+You can now see the set Bail on the bottom of the Case Involvement screen.
+
+image::financials/bail_inv.png[Bail on Involvements screen]
+
+
+== Posting cash bail
+
+Posting a `Cash Bail` makes the Bail Record become a collectable financial and show on the `Case Ledger`.
+To make this happen, the Bail Record status needs to be set to `Posted`.
+To update the Bail Status, click the btn:[Cash] link in the **Type** column of the Bail panel at the bottom of the **Case Involvement** screen.
+
+image::financials/bail_inv_cash.png[Update Form link for Bail]
+
+Inside the Update Bail screen, select `Posted` from the Bail Status drop-down.
+Click btn:[Save & Back].
+
+image::financials/bail_posted.png[Bail Posted Status Update]
+
+You can now see the updated status on the `Case Involvement` screen.
+The Bail also shows on the `Case Ledger`.
+The Bail can now be paid into {product}.
+
+image::financials/bail_ledger.png[Bail on Case Ledger]
+
+Navigate to `Cash Receipts` and pull up the case you are taking the payment on.
+It is easier to do this from the drop-down of the `Financial` tab from the Case Record as it loads `Cash Receipts` with the case pulled up.
+Select the Bail Item under the **Bails** panel.
+
+In the `Payment Methods` panel, enter the Monetary Instrument type used to make the payment and the amount tendered.
+`Select the Payor` if they are involved on the case, that is the defendant is making the payment.
+Otherwise, choose the `Other` option in the Payor drop-down and fill in the information for the person making the payment.
+Click btn:[Submit].
+
+image::financials/bail_ledger.png[Bail Payment]
+
+After taking the payment, the `Cash Receipts` screen refreshes and shows an indicator that there is a `Bail Deposit` on the case.
+Also, a `Cash Receipt` Pop-up window shows giving you the payment information.
+In the following example, part of the bail is paid.
+
+image::financials/bail_payed.png[Bail cash paid receipt]
+
+The `Case Ledger` also shows the reflected bail payment, which also shows in the case header.
+
+
+== Forfeiting cash bail
+
+`Forfeiting a Cash Bail` creates a receivable from the Cash Bail and starts with updating the Bail Status.
+To update the Bail Status, click the link in the Type column of the **Bail** panel at the bottom of the **Case Involvement** screen:
+
+image::financials/bail_inv_cash.png[Update Form link for Bail]
+
+Inside the Update Bail screen, select `Forfeiture` from the `Bail Status` drop-down.
+Click btn:[Save & Back].
+
+image::financials/bail_forfeiture.png[Update Form Bail Forfeit]
+
+Navigate to `Cash Receipts` and pull up the case you are taking the payment on.
+It is easier to do this from the drop-down of the **Financial** tab from the Case Record as it loads **Cash Receipts** with the case pulled up.
+Now, create a `Transfer` from the paid Bail to the Bail Fee, created when Forfeited status is set.
+See xref:./transfers.adoc#create[Creating a transfer].
+Rule `Forfeit Cash Bail` is executed on the status update and creates the **Other Costs** invoice.
+
+
+== Refunding cash bail
+
+If money is collected for the forfeited cash bail and it needs to be `Transferred` or `Refunded`, see xref:./transfers.adoc[] or xref:./refunds.adoc[].
+
+
+== Bail bond/surety
+
+=== Creating bail bond/surety
+
+`Bail Bond/Surety` is created in the case by selecting menu:Case Involvement[Add Bail].
+
+image::financials/bail_add.png[Add Bail Dropdown]
+
+In the Add Bail screen, set the **Bail Type** to `Surety/Cash Bond`:
+
+image::financials/bail_surety.png[Add Bail Surety]
+
+Once you have entered in the data as needed, click btn:[Save & Back].
+You can now see the set Bail on the bottom of the **Case Involvement** screen.

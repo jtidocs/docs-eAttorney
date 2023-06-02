@@ -1,0 +1,143 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Left navigation
+
+Different Security Groups affect what the user sees in the left navigation pane.
+For more information, see xref:admin:users/navigation.adoc[].
+
+NOTE: Click a link for more information about the item.
+
+
+== Sections
+
+Here is the complete left navigation section with all possible routes:
+
+image::navigation/left-nav-complete.png["Left navigation all possible navigation actions"]
+
+
+=== Workspace
+
+image::navigation/left-nav-workspace.png["Left navigation Workspace section"]
+
+* `Recent Cases` - Links to a few of your recent cases for quick click-through to the case view.
+* xref:dashboard/saved_searches.adoc[] - Review, run or edit your saved searches.
+* `My Notebook` - Manage your notes and Shared Notes.
+** `Note Snippets / Macros` - Text Snippets for fast data entry or writing prompts.
+
+
+=== Add case
+
+image::navigation/left-nav-add-case.png["Left navigation Add Case section"]
+
+* Add Adult Case - Go to the case creation screen.
+  See xref:cases/create.adoc[].
+
+
+=== Searches and reports
+
+image::navigation/left-nav-searches.png["Left navigation Searches section"]
+
+* xref:searches/case.adoc[] - Search for cases.
+* xref:searches/person_business.adoc[] - Search for a Person or Business.
+* xref:searches/justice_personnel.adoc[] - Search for Justice Personnel.
+** xref:searches/justice_personnel-caseload.adoc[] - Search for Justice Personnel Caseload.
+* xref:searches/event.adoc[] - Search for Scheduled Events.
+* xref:searches/voca.adoc[] - Search VOCA data.
+
+
+=== Cashier
+
+image::navigation/left-nav-cashier.png["Left navigation Cashier section"]
+
+* xref:financials/cash_receipts.adoc[]:
+** xref:financials/cash_receipts.adoc#open[] - Open a Till for this financial user.
+** xref:financials/cash_receipts.adoc[] - Close the currently open Till for this financial user.
+
+
+==== Accounting
+
+image::navigation/left-nav-accounting.png[Left navigation Accounting section]
+
+* Tills:
+** Till Management - Search / manage Tills.
+** Till Search - Search and view existing Tills.
+** Till Participant Search - Search Users with Tills.
+
+* Payables:
+** Vouchers - Search Vouchers and Payables.
+** Checks - Search Vouchers / Search Checks.
+** Check Writing - Search for Money Available to write a Check.
+** Check RePrint - Reprint Checks.
+** Search Printed Checks - Search printed checks.
+
+* Banking:
+** Create / Search Deposits - Create or Search for existing Deposits.
+
+* NSF Checks - Search NSF Checks.
+* Financial Reports - Various SSRS Financial Reports.
+
+
+==== Financial setup
+
+image::navigation/left-nav-financial-setup.png[Left navigation Financial Setup section]
+
+* Assessment Engine:
+** Natural Accounts - Search / Create Natural Accounts.
+** Distributions - Search / Create Distributions.
+** Distribution Groups - Search / Create Distribution Groups.
+** Assessments - Search / Add Assessment Items.
+** Assessment Groups - Search / Add Assessment Groups.
+** Assessment Group Map - Manage Assessment Group Mappings.
+** Chart of Accounts - Search / Add Case Jurisdiction to Natural Account Connections.
+** GL Account Segment - Add GL Account Segment Items.
+** Reference Tables - Create financial reference tables.
+
+* Agency - Agency Accounts.
+* Bank - Manage Bank Accounts.
+
+* Payment Methods:
+** Monetary Instrument - Manage monetary payment types (Cash, Credit, Debit).
+** Non monetary - Manage non monetary payment types.
+
+* Till Setup - Create Till Groups, Assign Participants, Add Till Definitions, Add Till Stations.
+
+* Conversion:
+** Search Converted Invoices - Search Staging Invoices from the data conversion.
+** Search Historical NonCase Payment - Search NonCase Payments from the data conversion.
+** Search Historical Vouchers - Search Vouchers from the data conversion.
+
+
+==== System administration
+
+image::navigation/left-nav-system-administration.png[Left navigation System Administration section]
+
+* Security - Manage xref:admin:users/accounts.adoc[] and xref:admin:users/security_groups.adoc[].
+* xref:admin:lookup_lists.adoc[] - Manage Lookup Lists.
+* xref:admin:document_definitions.adoc[] - Manage Document Definitions.
+
+* Directory:
+** People - Manage Directory Persons.
+** Organizations - Manage Directory Organizations (Collection of People).
+
+* xref:admin:statutes.adoc[] - Takes you to the full statute search.
+** Search Statute Text - Search for statute text.
+
+* xref:admin:news_gadget.adoc[] - Manage content for the News Gadget on the Dashboard.
+* xref:admin:manage_special_statuses.adoc[] - Manage Case and Person Special Statuses.
+* xref:admin:calendar.adoc[] - Manage Holidays and Test Calendar Sync.
+** Holiday Calendar - Manage Agency Holidays.
+** Calendar Sync Test - Test Calendar Sync with Google or Exchange.
+
+
+==== Tools
+
+image::navigation/left-nav-tools.png[Left navigation Tools section]
+
+* Downloads - Download tools and Add-Ins.
+* xref:tools/print_test.adoc[] - Test the printing service.
+
+
+==== Double arrow
+
+image::navigation/left-nav-hide.png[Left navigation double left-arrow Hide action]
+
+Hide the Left Navigation Bar for greater screen size.

@@ -1,0 +1,67 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Administrator guide
+
+As an administrator, you are able to manage the {product} environment in several ways, including:
+
+- Managing users.
+- Creating and modifying document definitions.
+- Adding and editing items in lookup lists.
+
+All of the tasks that an administrator can execute are found in the *System Administration* left navigation menu.
+
+image::SystemAdministrationLeftNav.png[Document definition details screen]
+
+See the following sections for brief descriptions of each administration feature and links to detailed coverage.
+
+
+== Security
+
+The Security link takes you to a screen for creating and updating xref:users/accounts.adoc[] and assigning them a xref:users/security_groups.adoc[] and a xref:users/navigation.adoc[].
+
+
+== Lookup lists
+
+Lookup Lists are the items that show in dropdown boxes in {product}.
+To add, change, and delete items, see xref:lookup_lists.adoc[].
+
+
+== Document definitions
+
+xref:document_definitions.adoc[] are the different document types used when uploading or generating documents on a Case or Person record.
+The Document Definitions link in the System Administration menu gives you access to make changes, upload templates, and create new Document Definitions.
+
+
+== Directory
+
+The Directory allows you to change people and organizations that are used throughout {product}.
+
+
+== Statutes
+
+Manage the xref:statutes.adoc[] that are used when you add charges to a Case.
+
+
+== Checklist
+
+Manage xref:checklist.adoc[] used in the Case Task screen.
+
+
+== News gadget
+
+Add content for the xref:news_gadget.adoc[] that can be added to a user dashboard.
+
+
+== Manage special statuses
+
+This is for managing Case and Person xref:manage_special_statuses.adoc[].
+A Special Status can show in the header on a Case or Person record and can be various different colors so the special statuses can be easily identified when a record is opened.
+
+
+== Calendar
+
+The xref:calendar.adoc[] section is used for managing the holidays observed by your agency or for testing calendar sync with Microsoft Exchange or Google Calendar.
+
+
+== Report administration
+
+This takes you to a page where you can view and execute all the xref:report_admin.adoc[] for your agency.

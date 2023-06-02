@@ -1,0 +1,10 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Directory search gadget
+
+The directory search gadget can be used to search people and organizations in the directory.
+It can be added by clicking on the gear icon at the top of your dashboard, then clicking the `+` button next to the Directory Search gadget.
+After clicking the *Close Settings* button, the directory search gadget shows on your dashboard.
+
+image::dashboard/directory-search-gadget.png[The directory search gadget showings on a user dashboard.]
+
+After performing a search, you can click the mail icon to email individuals returned from the search.

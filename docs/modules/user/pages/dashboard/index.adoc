@@ -1,0 +1,87 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Dashboard
+
+The dashboard provides a configurable starting screen for each user.
+The screen is created by adding one or more _Gadgets_ from the dashboard settings, and then configuring associated settings from the dashboard itself.
+Once configured, the dashboard, it is accessed by clicking the {product} logo on the top-left of the screen.
+
+
+== Dashboard settings
+
+Dashboard settings are accessed one of two different ways:
+
+. If the dashboard is not yet configured, the dashboard settings screen opens as soon as a user first accesses the dashboard page.
+. Once configured, the dashboard settings can be accessed by:
++
+--
+. Viewing up the dashboard.
+. At the top of the dashboard, find the btn:[Dashboard] button, and click the gear icon to show User Settings:
++
+image::dashboard/user-settings.png[User settings icon]
+--
+
+Inside the user settings for the dashboard, a user can add or remove gadgets from their dashboard:
+
+|===
+| Gadget
+| Description
+
+| xref:./archived_searches.adoc[Archived searches]
+| View the latest archived searches
+
+| Assignments
+| View your current action items/assignments.
+
+| Calendar
+| View calendar for five weeks for given location.
+
+| Cases
+| View recent, assigned, upcoming events, recent activity, or open tasks on cases that you are working with or are assigned to you.
+
+| Collector Summary
+| View Collector Summary
+
+| Date Calculator
+| Calculate a date N number days out avoiding holidays or dark times.
+
+| Directory Search
+| Search the Directory
+
+| Interest Calculator
+| Calculate simple interest given a starting amount, interest rate and number of days.
+
+| xref:./news.adoc[News]
+| View court news
+
+| Notepad
+| Notepad for personal reminders and post-its
+
+| xref:./recent_reports.adoc[Recent reports]
+| View recent generated reports
+
+| xref:./saved_search_results.adoc[Saved search results]
+| Display the latest results from a saved search
+
+| xref:./saved_searches.adoc[Saved searches]
+| View your saved searches
+|===
+
+
+== Multiple tabs
+
+An individual dashboard may be configured to use an arbitrary number of Gadgets, including multiple copies of the same Gadget with different configurations.
+Despite this, users may find it more convenient to add more tabs to the dashboard, creating different screens for different types of information or tasks.
+
+To add more tabs:
+
+. Browse to the existing dashboards by clicking the {product} logo at the top-left of the screen.
+. Click the _Add New Tab_ button, represented as a `+`, next to the "User Settings" gear icon.
++
+image::dashboard/add-tab.png[Image of Add New Tab icon]
+
+. After the "Add New Tab" icon is clicked, a popup prompts you for the new Page Name:
++
+image:dashboard/new-dashboard-popup.png[Image of the new dashboard popup]
+
+. Fill in the prompt with the name of the new dashboard, then click btn:[OK].
+. The new tab behaves exactly like the first dashboard, the only difference being separately configured Gadgets.

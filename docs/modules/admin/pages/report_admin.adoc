@@ -1,0 +1,28 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Report administration
+
+== SSRS reports
+
+The SSRS Reports screen displays all SQL Server Reporting Services (SSRS) Reports in the system.
+You can access it from the _System Administration_ section in the left navigation pane.
+
+image::SsrsReportsLink.png[Document Definition Details Screen]
+
+New Reports can be added by contacting Support and asking them to add the new/updated reports to the SSRS server.
+
+There are several different types of reports that are used throughout {product}, and all reports show up in their folders on the SSRS Reports screen.
+
+
+=== Sections
+
+. Case - Reports in this folder show in the Reports tab on a Case record.
+
+. Name/Person - Reports in this folder show in the Reports tab on a Person record.
+
+. Search - These reports are available from the _SSRS Reports_ link in the _System Administration_ section in the left navigation pane.
+
+. Financial - Reports in this folder can be accessed from the _Financial Reports_ link in the _Accounting_ section in the left navigation pane.
++
+NOTE: You must be part of a Security Group that has access to financials.
+
+. System - These reports, along with all other reports, can be accessed from the _SSRS Reports_ link in the _System Administration_ section in the left navigation pane.

@@ -1,0 +1,47 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Saved search gadget
+
+The Saved Searches gadget displays a list of saved searches with the option to quickly run or open them directly.
+The search can also be expanded to display the search parameters.
+
+== Add the gadget
+
+. Open the dashboard.
+. At the top of the dashboard, find the "Dashboard" button, and click the gear icon to go to User Settings:
++
+image::dashboard/user-settings.png[User settings icon]
+
+. Click the '+' button next to the Saved Searches item:
++
+image::dashboard/add-saved-search.png[Saved search add button]
+
+
+== Add a saved search
+
+. Browse to a search in the system.
+. Fill in parameters that should be included in the Saved Report.
++
+TIP: If you have a report you use constantly with slight variations, use a saved search to keep the settings that you use, and then do the fine tuning as part of running the report.
+
+. Click the Save Icon at the bottom right of the search header.
+  Type a name for the saved search and click the Save Icon again.
++
+image::dashboard/save-search.png[User settings icon]
+
+
+== Use the saved search gadget
+
+The Saved Search Gadget must first be added to the Dashboard.
+Once added, Saved Searches show on your Dashboard.
+
+image::dashboard/saved-search.png[User settings icon]
+
+. Each Saved Search is listed by name.
+. Saved Searches can be expanded to look at their saved parameters.
++
+TIP: This feature is generally only useful for local administrators who can configure lookup lists.
+
+. Clicking the 'Run' button opens and executes the Saved Search.
+. Clicking the 'Open' button opens the Saved Search but does not execute it.
++
+TIP: This feature is useful when your Saved Search includes only the common settings for the search but needs to have  changes made before it is run.

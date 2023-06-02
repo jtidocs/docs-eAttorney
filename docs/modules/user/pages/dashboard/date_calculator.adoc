@@ -1,0 +1,32 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Date calculator gadget
+
+The date calculator can be used to calculate dates based on several criteria.
+The gadget can be added by clicking on the gear icon at the top of your dashboard, then clicking the `+` button next to the Date Calculator gadget.
+After clicking the *Close Settings* button, the date calculator gadget shows on your dashboard.
+
+image::dashboard/date-calculator.png["Date calculator gadget that is calculating 3 months and 1 week out from January 1, 2021"]
+
+
+== Field descriptions
+
+* *Start Date:* The date to use as the start of your calculation.
+* *Period:* One of two options:
++
+--
+. A number that is based on the time frame selected in the `Timeframe` field.
+
+. A date expression that can use a combination of years (y), months (m), weeks (w), and days (d) as input.
+  Example: a Period of `5y+3m+1w-1d` would calculate the date that is 5 years, 3 months, 1 week, minus one day out from the date selected in the Start Date field.
+--
+
+* `Timeframe`: the unit of time to use for the Period.
+  Valid values are: Business Days, Calendar Days, Months, Weeks, Years.
+  Example: to calculate 15 business days from now, you would enter `15` as the Period and `Business Days` as the time frame.
+
+* *End Date:* This is the date that is calculated based on the criteria you enter.
+  Below the End Date field is a description of how many calendar days and business days are between the Start Date and the End Date.
+
+* *Avoid weekends and holidays:* If this is checked, and the end date would have fallen on a weekend or holiday (holidays are set by your administrator), then the end date is instead the next available work day.
+
+* *Avoid off times for <User Name>:* If this is checked, and the end date would have fallen on a day that you have scheduled off (off time is configured on the DirPerson record by an administrator), then the end date is instead the next available day after the scheduled time off.

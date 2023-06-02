@@ -1,0 +1,27 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Documents
+
+There are many ways to interact with documents in {product}.
+This section covers the filing cabinet usage on Case and Person views, plus the document manipulation tools.
+Document tools include printing, scanning, stamping, signing, redacting, emailing, and annotating.
+
+
+== Filing cabinet
+
+The xref:./file_cabinet.adoc[] allows users to add, update and edit documents in the Case or Person views.
+
+
+== Document generation
+
+xref:./generation.adoc[] allows users to generate documents based on document templates.
+These templates can be automated or allow user input to change the content of the template.
+
+
+== Document viewer
+
+The xref:./viewer.adoc[] makes it easy to review, stamp, redact, sign and annotate uploaded documents in the filing cabinet.
+
+
+== Document scanning
+
+xref:./scan.adoc[] allows the user to scan documents into a Case or Name filing cabinet.

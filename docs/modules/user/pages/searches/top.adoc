@@ -1,0 +1,11 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Top navigation search bar
+
+The top navigation search bar allows quick-open access to known Case Numbers.
+The bar is visible at the top of the app at all times.
+
+To open a known case in the case view, search for the case number in the Search Bar.
+
+image::searches/top-search-case-number.png[Arrow pointing to case number search in top navigation.]
+
+NOTE: Case Numbers can be found in the Title of the case in the Case Header.

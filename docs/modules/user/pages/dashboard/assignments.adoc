@@ -1,0 +1,43 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Assignments gadget
+
+The assignments gadget can be used to show your assignments, assignments for those you supervise, or unassigned items.
+It can be added by clicking on the gear icon at the top of your dashboard, then clicking the *+* button next to the Assignments gadget.
+After clicking the *Close Settings* button, the Assignments gadget show up on your dashboard.
+
+== Configure the assignments gadget
+
+To configure the Assignments gadget, click the gear icon in the top right corner of the gadget on the Dashboard.
+After clicking the icon, the following screen opens:
+
+image::dashboard/assignments-gadget-config.png[An unconfigured Calendar gadget with an arrow pointing to the gear icon in the top right corner.]
+
+There are two options to choose from when configuring the gadget:
+
+. `Summary of work assigned to me` - filters the list to show only items that are assigned to you.
+. `Summary of all work queues that I participate in` - display all work queues and assignments that you are responsible for.
+If you are a manager, you can see work assigned to others that you manage.
+
+
+== Use the assignments gadget
+
+The Assignments gadget shows a list of all items assigned to you.
+Click an assignment or a number in one of the columns to view more information.
+
+image::dashboard/assignments-gadget.png[An unconfigured Calendar gadget with an arrow pointing to the gear icon in the top right corner.]
+
+The columns highlight when each task is due.
+You can hover over each column header to see what the abbreviation means.
+
+Here is what the columns mean:
+
+* `Open` - Incomplete assignments.
+* `!` - High priority.
+* `UA` - Unassigned.
+* `PD` - Past due.
+* `TO` - Due today.
+* `Tmw` - Due tomorrow.
+
+Clicking the arrow or play button allows you to quickly claim the next unassigned task.
+
+Clicking on an assignment allows you to see more details or to navigate to the case where the assignment comes from.

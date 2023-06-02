@@ -1,0 +1,30 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Merge person records
+
+When multiple records of the same person exist in the system, those records can be merged into one person record.
+Merging person records can be done in the person folder view, under the menu:Summary[Person Merge].
+To merge person records, a search level needs to be set to match potential duplicate records:
+
+|===
+| Level
+| Search criteria
+
+| Level 1
+| Matching first and last names
+
+| Level 2
+| Matching first, last, and middle names
+
+| Level 3
+| Matching first, last names, and date of birth
+|===
+
+Once the search is complete, person records can be selected based on search criteria and merged together by clicking btn:[merge].
+
+image::person/mergePerson.png[Merge Person Button]
+
+After selecting people and clicking merge, a merge confirmation opens to ensure that no errors have occurred:
+
+image::person/mergePersonConfirmation.png[Merge Person Confirmation]
+
+After confirmation, the two records are combined into one.

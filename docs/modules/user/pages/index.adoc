@@ -1,0 +1,92 @@
+// vim: tw=0 ai et ts=2 sw=2
+= User guide
+
+[discrete]
+== Prerequisites
+
+*Preferred Browser:* latest Chrome browser.
+
+*Supported Browsers:* latest Chrome, Firefox, Safari, Edge browsers, or Internet Explorer 11+.
+
+[.sect1]
+--
+[discrete]
+== Navigation
+
+* xref:navigation/top.adoc[]
+* xref:navigation/left.adoc[]
+* xref:navigation/case.adoc[]
+* xref:navigation/person.adoc[]
+--
+
+[discrete]
+== Cases
+
+Add, edit, and view cases.
+
+See the xref:cases/index.adoc[] for help with cases.
+
+
+[discrete]
+== Persons
+
+Add, edit, and view person records.
+
+See the xref:person/index.adoc[] for help with person records.
+
+
+[discrete]
+== Dashboard
+
+* xref:dashboard/index.adoc[]
+* xref:dashboard/assignments.adoc[]
+* xref:dashboard/calendar.adoc[]
+* xref:dashboard/saved_searches.adoc[] and xref:dashboard/saved_search_results.adoc[].
+* xref:dashboard/archived_searches.adoc[]
+* xref:dashboard/recent_reports.adoc[]
+* xref:dashboard/date_calculator.adoc[]
+* xref:dashboard/directory_search.adoc[]
+* xref:dashboard/interest_calculator.adoc[]
+* xref:dashboard/news.adoc[]
+* xref:dashboard/notepad.adoc[]
+
+
+[discrete]
+== Documents
+
+* xref:documents/index.adoc[]
+* xref:documents/file_cabinet.adoc[]
+* xref:documents/generation.adoc[]
+* xref:documents/viewer.adoc[]
+* xref:documents/scan.adoc[]
+
+
+[discrete]
+== Financials
+
+* xref:financials/index.adoc[]
+* xref:financials/cash_receipts.adoc[]
+* xref:financials/pay_plans.adoc[]
+* xref:financials/bail.adoc[]
+* xref:financials/restitution.adoc[]
+
+
+[discrete]
+== Reports
+
+* xref:reports/case.adoc[]
+* xref:reports/person.adoc[]
+* xref:reports/financial.adoc[]
+
+
+[discrete]
+== Searches
+
+* xref:searches/top.adoc[]
+* xref:searches/controls.adoc[]
+* xref:searches/case.adoc[]
+* xref:searches/person_business.adoc[]
+* xref:searches/justice_personnel.adoc[]
+* xref:searches/justice_personnel-caseload.adoc[]
+* xref:searches/event.adoc[]
+* xref:searches/voca.adoc[]

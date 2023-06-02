@@ -1,0 +1,85 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Lookup lists
+
+A lookup list is a categorized list of values for a given thing.
+Examples of lookup lists are statuses, item types, or a group of values.
+They give a limited set of options to choose from in a dropdown box, when configured.
+
+
+== Tabs on configuration screen
+
+image::LookupListTabs.png[Tab options for a lookup list configuration items]
+
+
+=== General
+
+The main data of the lookup list items are configured here.
+
+image::LookupListGeneralItems.png[Tab options for a lookup list configuration items]
+
+The parts of an item consist of:
+
+|===
+| Item
+| Required
+| Description
+
+| `Code`
+| Yes
+| This is a unique value used like an ID by the system for the item.
+  Typically in all caps with no spaces.
+  For configuration purposes, it may be useful to distill the label into a shortened code.
+  Example: "STS" for an item whose label is `Send to Support`.
+
+| `Label`
+| Yes
+| A human readable value for what the item represents.
+
+| `Description`
+| No
+| A place to explain what this item means or what it should be used for.
+
+| `Active From`
+| No
+| You can use this to set a future date at which this item becomes active.
+
+| `Active To`
+| No
+| You can use this to set a future date at which this item becomes inactive.
+
+| `Attributes`
+| No
+| Hovering over this value shows what attribute values are associated with this item.
+  Clicking on this item allows you to edit the Attributes associated with this item.
+
+| `Sys`
+| No
+| Indicates whether or not this item is configured by the system.
+
+| `Last Edited Date`
+| No
+| Shows the person and change date of the last edit to the row.
+|===
+
+
+== Relationships
+
+This tab allows you to select an item from the list to create a relationship with a group of items from another list.
+
+
+== Attributes
+
+This tab allows you to select an attribute to associate with items in your list.
+The attributes are defined by the lookup list LOOKUP_ATTRIBUTE_TYPE.
+
+
+== Usages
+
+Reports a list of locations this lookup list is used.
+
+
+== Text
+
+This tab shows all items line separated in a plain readable list as `<code>,<description>`.
+
+image::LookupListText.png[Tab options for a lookup list configuration items]

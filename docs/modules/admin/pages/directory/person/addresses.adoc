@@ -1,0 +1,37 @@
+// vim: tw=0 ai et ts=2 sw=2
+= Directory organization and other addresses
+
+At the bottom of the xref:./index.adoc[] screen, addresses can be associated with the person record.
+An Organization Address or Other Address can be added:
+
+image::directory/organization-and-other-addresses.png[Directory Person screen with arrows pointing to the Organization Address panel and Other Addresses panel]
+
+
+== Organization addresses
+
+An Organization Address shows when a Directory Person is added to a xref:directory/org_unit.adoc[].
+
+To add a person to an organization, click the btn:[Add Organization] button.
+This shows the Organization Search pop-up:
+
+image::directory/organization-address-search.png["Organization search pop-up with number 1 labeling the search criteria section, number 2 labeling the search button, and number 3 labeling the search results."]
+
+In the pop-up window, enter the search criteria for the organization you want to add (1), click the btn:[Search] button (2), and click the organization link in the search results (3).
+
+After clicking on the organization in the search pop-up, the organization shows in the _Organization Address_ panel:
+
+image::directory/organization-address.png[Organization Address panel with an address showing.]
+
+After adding the organization, click the btn:[Save] button on the Directory Person record to save the changes.
+
+
+== Other addresses
+
+Besides organization addresses, other addresses can also be added to a Directory Person record.
+These addresses could represent a mailing address, physical address, or work address.
+
+To add a personal address to a Directory Person, click the btn:[Add Address] button in the _Other Addresses_ panel.
+
+image::directory/other-address.png[Other Addresses panel showing with a new address added]
+
+Enter the information for the address, then click the btn:[Save] button on the Directory Person record.
