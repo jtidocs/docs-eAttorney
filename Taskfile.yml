@@ -14,6 +14,7 @@ tasks:
     aliases: [build]
     silent: true
     cmds:
+      - task: vale-sync
       - task: antora
       - task: redirect_tense
       - task: pagefind
