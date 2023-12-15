@@ -3,7 +3,7 @@
 
 == Person merge
 
-. To start a person merge, go to the person summary view by clicking on the Open Person View icon:
+. To start a person merge, go to the person summary view by clicking the Open Person View icon:
 +
 image::person_merge/person-merge-split01.png[Person Merge/Split]
 
@@ -49,7 +49,7 @@ image::person_merge/person-merge-split10.png[Person Merge/Split]
 
 == Person split
 
-. To start a person split, go to the person summary view by clicking on the Open Person View icon:
+. To start a person split, go to the person summary view by clicking the Open Person View icon:
 +
 image::person_merge/person-merge-split01.png[Person Merge/Split]
 

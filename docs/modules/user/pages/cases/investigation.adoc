@@ -3,7 +3,7 @@
 
 The investigation folder view shows all investigation requests, their status, and personnel assigned to the task.
 
-The investigation folder can be accessed on the case folder view by clicking on the Investigation tab.
+The investigation folder can be accessed on the case folder view by clicking the *Investigation* tab.
 
 For information on navigating to the case folder view, see xref:./index.adoc[].
 
@@ -15,7 +15,7 @@ image::cases/investigation.png["Person Icon"]
 
 == Add an investigation request
 
-Requests can be added by clicking on the Investigation drop-down button and selecting `Add investigation request`.
+Requests can be added by clicking the Investigation drop-down button and selecting `Add investigation request`.
 All fields denoted with a red asterisk are required.
 Adding a task to the request is optional.
 

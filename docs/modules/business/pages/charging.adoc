@@ -78,7 +78,7 @@ image::charging/image015.png[Charging]
 +
 image::charging/image016.png[Charging]
 
-. You can add the same disposition to all charges by clicking on the btn:[Mass Update] button:
+. You can add the same disposition to all charges by clicking the btn:[Mass Update] button:
 +
 image::charging/image017.png[Charging]
 
@@ -88,7 +88,7 @@ image::charging/image017.png[Charging]
 +
 image::charging/image018.png[Charging]
 
-. After clicking on the btn:[Update Charge Disposition], all the selected charges show in the top panel, and a blank disposition form shows.
+. After clicking the btn:[Update Charge Disposition], all the selected charges show in the top panel, and a blank disposition form shows.
 Once the form is completed, click the btn:[Update Records] button.
 
 ** The disposition is added to the selected charges:

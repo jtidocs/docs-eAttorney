@@ -23,4 +23,4 @@ Once added, it shows on the dashboard:
 
 image::dashboard/recent-reports-gadget.png[Recent reports gadget]
 
-Individual PDF reports can be shared using email by clicking on the envelope icon next to the desired report.
+Individual PDF reports can be shared using email by clicking the envelope icon next to the desired report.

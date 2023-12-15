@@ -2,7 +2,7 @@
 = Assignments gadget
 
 The assignments gadget can be used to show your assignments, assignments for those you supervise, or unassigned items.
-It can be added by clicking on the gear icon at the top of your dashboard, then clicking the *+* button next to the Assignments gadget.
+It can be added by clicking the gear icon at the top of your dashboard, then clicking the btn:[`+`] button next to the Assignments gadget.
 After clicking the *Close Settings* button, the Assignments gadget show up on your dashboard.
 
 == Configure the assignments gadget
@@ -40,4 +40,4 @@ Here is what the columns mean:
 
 Clicking the arrow or play button allows you to quickly claim the next unassigned task.
 
-Clicking on an assignment allows you to see more details or to navigate to the case where the assignment comes from.
+Click an assignment to show more details or to navigate to the case where the assignment comes from.

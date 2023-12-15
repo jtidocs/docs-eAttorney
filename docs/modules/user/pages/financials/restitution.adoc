@@ -7,7 +7,7 @@ To add restitution to a case, select menu:Financials[Add Restitution].
 
 image::financials/restitution-menu-item.png[The Financials navigation menu with the Add Restitution option selected.]
 
-Clicking on that button brings you to the *Add Restitution* screen.
+Clicking that button brings you to the *Add Restitution* screen.
 Fill in the amount, payee, and payor information.
 After you are satisfied with the entered data, click the btn:[Save & Back] button to finish adding the restitution to the case.
 

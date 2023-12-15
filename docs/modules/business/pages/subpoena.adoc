@@ -10,7 +10,7 @@
 
 == Update planning sheet
 
-. Start the subpoena process by clicking on the Events dropdown arrow, hover over Subpoenas, hover over Subpoena Planning, and click btn:[Update Planning Sheet]:
+. Start the subpoena process by clicking the Events dropdown arrow, hover over Subpoenas, hover over Subpoena Planning, and click btn:[Update Planning Sheet]:
 +
 image::subpoena/update-planning-sheet1.png[Update Planning Sheet]
 
@@ -45,7 +45,7 @@ image::subpoena/update-planning-sheet6.png[Update Planning Sheet]
 
 == Subpoena planning
 
-. Generate a subpoena by clicking the Events dropdown arrow, hovering over Subpoenas, and then clicking on btn:[Subpoena Planning]:
+. Generate a subpoena by clicking the Events dropdown arrow, hovering over Subpoenas, and then clicking the btn:[Subpoena Planning] button:
 +
 image::subpoena/subpoenas-dropdown.png[Subpoenas Drop-down]
 
@@ -68,7 +68,7 @@ image::subpoena/generate-subpoena-dialogue-box3.png[Subpoena image]
 
 == Subpoenas future and past events
 
-You can also generate a subpoena by clicking the Events dropdown arrow then clicking on btn:[Subpoenas]:
+You can also generate a subpoena by clicking the Events dropdown arrow then clicking the btn:[Subpoenas] button:
 
 image::subpoena/subpoenas1.png[Subpoena image]
 

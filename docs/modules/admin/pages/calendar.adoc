@@ -12,7 +12,7 @@ You can get to the Holiday Calendar by going to menu:Left navigation pane[System
 
 image::HolidayCalendarNav.png[The screen for configuring holidays in {product}]
 
-After clicking on the Holiday Calendar link, Holidays Administration page shows.
+After clicking the Holiday Calendar link, Holidays Administration page shows.
 
 image::HolidayCalendarConfig.png[The screen for configuring holidays in {product}]
 

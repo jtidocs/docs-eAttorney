@@ -31,6 +31,6 @@ image::cases/caseLedger.png[Case ledger]
 
 Historic financial folder view displays all obligations attached to the case.
 The obligations show the "original amount" and "balance at conversion" (If the {product} instance comes from a converted database).
-From the list you can view the payments and the full payment record by clicking on the credit card icon (view payments) or the person icon (full payment record).
+From the list you can view the payments and the full payment record by clicking the credit card icon (view payments) or the person icon (full payment record).
 
 image::cases/caseHistoricFinancials.png[Case historic financials]

@@ -1,7 +1,7 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Statutes
 
-Navigate to the statute search screen by clicking on the *Statutes* link in the *System Administration* menu in the left navigation pane:
+Navigate to the statute search screen by clicking the *Statutes* link in the *System Administration* menu in the left navigation pane:
 
 image::statute-search-nav.png[System Administration menu with an arrow pointing to the Statutes link]
 
@@ -35,9 +35,9 @@ Statutes include these main parts listed in statute search results, plus other i
 [#add-edit]
 == Adding and editing a statute
 
-Add a new statute by clicking on the *New Statute* button in the <<search,Statute Search>> screen.
+Add a new statute by clicking the btn:[New Statute] button in the <<search,Statute Search>> screen.
 
-Edit an existing statute by clicking on the *Statute No.* link in the search results of the <<search,Statute Search>> screen.
+Edit an existing statute by clicking the *Statute No.* link in the search results of the <<search,Statute Search>> screen.
 
 Below are the options available when adding or editing a statute:
 

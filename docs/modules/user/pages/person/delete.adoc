@@ -1,7 +1,7 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Delete a person
 
-Deleting a person can be done using the person folder view (accessed by clicking on the person icon in a case view):
+Deleting a person can be done using the person folder view (accessed by clicking the person icon in a case view):
 
 [.procedure]
 . Click menu:Summary[Update Person].

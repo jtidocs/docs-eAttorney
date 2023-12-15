@@ -12,9 +12,9 @@ image::cases/case-involvements-location.png["Case Involvements"]
 
 image::cases/case-involvements.png[Case Involvements]
 
-. Involvements can be updated by clicking on the involvement type, which displays the update screen where you can change the involvement type, person, status and more.
+. Involvements can be updated by clicking the involvement type, which displays the update screen where you can change the involvement type, person, status and more.
 
-. The person/directory person record can be seen by clicking on the person icon.
+. The person/directory person record can be seen by clicking the person icon.
 
 . Click the folder icon to display a dialog pop-up displaying all involvements of the selected individual inside of the current database.
 

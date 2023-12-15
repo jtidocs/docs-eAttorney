@@ -20,7 +20,7 @@ image::directory/DirectoryAttachmentNewRow.png[]
 * Bulk Stamp: defines this as a stamp usable in scanning utilities.
 * Resizable: allows the stamp to be resized.
 * NOTE: enter note about the file.
-* Roles: choose the roles that have access to this attachment by clicking on the button and selecting all of the roles that can access this attachment.
+* Roles: choose the roles that have access to this attachment by clicking the button and selecting all of the roles that can access this attachment.
   If you select none, then it defaults to Everyone.
 +
 image::directory/DirectoryAttachmentRoles.png[]

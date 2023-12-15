@@ -275,7 +275,7 @@ The body of the case page displays case data in panes (determined by the active 
 
 * xref:cases/index.adoc[Case summary]: +
   The case folder displays case involvements and involvement type, other case numbers attached to the case, justice personnel with their corresponding role in the case, the status of the case, and another special status.
-  The case folder view allows for easy editing by clicking on case numbers, justice personnel, and other links.
+  The case folder view allows for easy editing by clicking case numbers, justice personnel, and other links.
 
 * xref:cases/involvements.adoc[Case involvements]: +
   Case involvement folder view has all information on a case about all involvements, justice personnel, and bail information.
@@ -286,11 +286,11 @@ The body of the case page displays case data in panes (determined by the active 
 
 * xref:cases/charges.adoc[Charges]: +
   The charge folder view shows all charges of involvements, charge characteristics, sentencing, exhibits, and inactive charges on the case.
-  The folder view also allows for easy editing by clicking on exhibits, charges, and other links.
+  The folder view also allows for easy editing by clicking exhibits, charges, and other links.
 
 * xref:cases/events.adoc[Events]: +
   The event folder view displays all events for a given case plus date/time, category, related personnel, notes, and type.
-  The folder view also allows for quick editing by clicking on the case text or note icon.
+  The folder view also allows for quick editing by clicking the case text or note icon.
 
 * xref:documents/file_cabinet.adoc[File cabinet]: +
   The file cabinet folder view shows all documents associated with the case.

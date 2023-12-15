@@ -18,7 +18,7 @@ image::directory/organization-address-search.png["Organization search pop-up wit
 
 In the pop-up window, enter the search criteria for the organization you want to add (1), click the btn:[Search] button (2), and click the organization link in the search results (3).
 
-After clicking on the organization in the search pop-up, the organization shows in the _Organization Address_ panel:
+After clicking the organization in the search pop-up, the organization shows in the _Organization Address_ panel:
 
 image::directory/organization-address.png[Organization Address panel with an address showing.]
 

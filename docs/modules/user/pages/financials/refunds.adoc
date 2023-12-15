@@ -20,7 +20,7 @@ image::financials/refund-cash-receipts-link.png[Cash receipts page with arrows p
 
 == Creating a refund request
 
-After clicking on the _Refund and Disbursement_ option, the **Refund** screen shows:
+After clicking the _Refund and Disbursement_ option, the **Refund** screen shows:
 
 image::financials/refund-screen-1.png[Refund screen showing payments made on the selected case.]
 
@@ -58,7 +58,7 @@ Those roles are xref:admin:users/accounts.adoc#workflow-roles[set by an administ
 If a refund request exists, and the user wanting to approve a request is a member of the appropriate Workflow Role, then the refund request shows on their Assignments gadget on their Dashboard.
 It is labeled as _Approve Refund Request_:
 
-image::financials/dashboard-approve-refund-request.png[A user's dashboard showing the assignments gadget with an unassigned task of \'Approve Refund Request'.]
+image::financials/dashboard-approve-refund-request.png[A user dashboard showing the assignments gadget with an unassigned task of \'Approve Refund Request'.]
 
 If the user clicks the btn:[▶] icon, it auto assigns them the task and displays the Refund Request screen where they can approve or deny the refund request (see below).
 

@@ -2,7 +2,7 @@
 = Calendar gadget
 
 The calendar gadget can be used to show events, holidays, and time off for persons or locations.
-It can be added by clicking on the gear icon at the top of your dashboard, then clicking the *+* button next to the Calendar gadget.
+It can be added by clicking the gear icon at the top of your dashboard, then clicking the btn:[`+`] button next to the Calendar gadget.
 After clicking the *Close Settings* button, the Calendar gadget shows on your dashboard.
 But, you still need to configure the gadget to display the calendar with the data you want.
 

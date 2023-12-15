@@ -36,7 +36,7 @@ Available actions and short descriptions:
 
 === Hot keys
 
-The keyboard hot keys can be accessed in the top navigation by clicking on the Help button and then selecting Keyboard Hotkeys.
+The keyboard hot keys are accessed in the top navigation by clicking the btn:[Help] button and then selecting *Keyboard Hotkeys*.
 
 image::navigation/hot-keys01.png[hot-keys]
 

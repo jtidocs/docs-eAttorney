@@ -50,7 +50,7 @@ The parts of an item consist of:
 | `Attributes`
 | No
 | Hovering over this value shows what attribute values are associated with this item.
-  Clicking on this item allows you to edit the Attributes associated with this item.
+  Click this item to edit the Attributes associated with this item.
 
 | `Sys`
 | No

@@ -4,7 +4,7 @@
 == Update screen hyperlinks
 
 Hyperlinks in a folder screen open the update screen for that row of data.
-For example, clicking on the btn:[Defendant] link opens the update screen for that party record.
+For example, clicking the btn:[Defendant] link opens the update screen for that party record.
 
 image::links/hyperlinkUpdate.png[New note widget]
 

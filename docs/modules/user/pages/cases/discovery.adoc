@@ -2,7 +2,7 @@
 = Discovery
 
 The discovery tab under the case view shows all the discovery packets, or sharable documents, for public or external agency view.
-Discovery packets can be viewed by clicking on the Discovery tab on the case summary screen.
+Discovery packets can be viewed by clicking the Discovery tab on the case summary screen.
 
 image::cases/discovery.png["Discovery Tab"]
 

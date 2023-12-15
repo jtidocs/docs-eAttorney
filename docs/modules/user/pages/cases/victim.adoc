@@ -5,7 +5,7 @@ The victim tab on the case folder view holds all the information on a case about
 
 image::cases/victim.png["Victim view tab"]
 
-The victim tab can be accessed by clicking on Victim.
+The victim tab can be accessed by clicking *Victim*.
 
 For information on reaching the case folder view, see xref:./index.adoc[].
 

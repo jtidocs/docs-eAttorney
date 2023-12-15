@@ -2,7 +2,7 @@
 = Date calculator gadget
 
 The date calculator can be used to calculate dates based on several criteria.
-The gadget can be added by clicking on the gear icon at the top of your dashboard, then clicking the `+` button next to the Date Calculator gadget.
+The gadget can be added by clicking the gear icon at the top of your dashboard, then clicking the btn:[`+`] button next to the Date Calculator gadget.
 After clicking the *Close Settings* button, the date calculator gadget shows on your dashboard.
 
 image::dashboard/date-calculator.png["Date calculator gadget that is calculating 3 months and 1 week out from January 1, 2021"]

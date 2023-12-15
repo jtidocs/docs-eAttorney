@@ -32,8 +32,8 @@ ui:
     snapshot: true
 output:
   dir: ./build
-urls:
-  redirect_facility: netlify
+# urls:
+#   redirect_facility: netlify
 antora:
   extensions:
   - require: '@jti/antora-extension-repeated_words'

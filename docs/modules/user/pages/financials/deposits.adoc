@@ -8,12 +8,12 @@ Individual tills are added to a deposit and all the money in each till makes up 
 [#navigate]
 == Navigate to deposits
 
-Navigate to the deposit search screen by clicking on the _Create/Search Deposits_ in the _Accounting_ section of the left navigation bar (see below).
+Navigate to the deposit search screen by clicking the _Create/Search Deposits_ in the _Accounting_ section of the left navigation bar (see below).
 If you do not have the Accounting section, contact your system administrator.
 
 image::financials/deposit-navigation.png[Left navigation bar with a red box around the Create/Search Deposits link]
 
-After clicking on the link, the *Search Deposit* screen shows:
+After clicking the link, the *Search Deposit* screen shows:
 
 image::financials/deposit-search-empty.png[The Search Deposit screen.]
 

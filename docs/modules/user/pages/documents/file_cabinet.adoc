@@ -114,13 +114,13 @@ The parenthesis indicates the number of Files in this filing cabinet.
 
 == Update or edit file
 
-Files can be updated by clicking on the name below the thumbnail (when in thumbnail view) and change the type, file, and filename.
+Files can be updated by clicking the name below the thumbnail (when in thumbnail view) and change the type, file, and filename.
 
 image::documents/file-cab-editFile.png[Edit/Update File Location]
 
 
 == File context menu
 
-A context menu can be found by right clicking on the document thumbnail to allow moving, editing, deleting, and viewing the document.
+A context menu can be found by right clicking the document thumbnail to allow moving, editing, deleting, and viewing the document.
 
 image::documents/file-cab-viewFile.png[Edit/Update File Location]

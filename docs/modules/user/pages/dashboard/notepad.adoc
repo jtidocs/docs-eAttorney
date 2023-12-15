@@ -2,7 +2,7 @@
 = Notepad gadget
 
 The notepad gadget can be added to a dashboard and allows you to take free-text notes.
-It can be added by clicking on the gear icon at the top of your dashboard, then clicking the btn:[`+`] button next to the Notepad gadget.
+It can be added by clicking the gear icon at the top of your dashboard, then clicking the btn:[`+`] button next to the Notepad gadget.
 After clicking the btn:[Close Settings] button, the notepad gadget shows on your dashboard.
 
 image::dashboard/notepad-gadget.png[Notepad gadget with an example note already added.]

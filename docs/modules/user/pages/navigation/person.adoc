@@ -103,7 +103,7 @@ image::navigation/person/search-involvements.png[search involvements form]
 
 == xref:person/relationships.adoc[Relationships]
 
-The relationship folder view displays all relationships of the selected person and allows for quick editing by clicking on a relationship.
+The relationship folder view shows all relationships of the selected person and allows for quick editing by clicking a relationship.
 
 image::navigation/person/relationships-folder.png[person relationship folder view]
 

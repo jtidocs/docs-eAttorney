@@ -2,7 +2,7 @@
 = Interest calculator
 
 The interest calculator is a gadget you can add to your dashboard if you calculate interest a lot.
-The interest calculator widget can be added to you dashboard by clicking on the gear icon at the top of the dashboard, then selecting the `+` button next to the Interest Calculator.
+The interest calculator widget can be added to you dashboard by clicking the gear icon at the top of the dashboard, then selecting the btn:[`+`] button next to the Interest Calculator.
 After adding the gadget and clicking the btn:[Close Settings] button, the interest calculator gadget shows on your dashboard.
 
 image::dashboard/interest-calculator.png[Interest calculator gadget with example values filled out.]

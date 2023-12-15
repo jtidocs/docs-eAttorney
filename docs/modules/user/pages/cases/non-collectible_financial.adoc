@@ -5,7 +5,7 @@ The non-collectible financials folder view shows all non-collectible financials 
 
 image::cases/nc-financials-nav.png["Non-collectible financials folder view"]
 
-The non-collectible financials folder can be accessed on the case folder view by clicking on the NC Financials tab.
+The non-collectible financials folder can be accessed on the case folder view by clicking the *NC Financials* tab.
 For information on navigating to the case folder view, see xref:./index.adoc[].
 
 Click the Type on a row to edit that non-collectible financial.
@@ -13,7 +13,7 @@ Click the Type on a row to edit that non-collectible financial.
 
 == Add a non-collectible financial
 
-A non-collectible financial can be added by clicking on the NC Financials drop-down button and selecting "Add Non-collectible Financial":
+A non-collectible financial can be added by clicking the *NC Financials* drop-down button and selecting "Add Non-collectible Financial":
 
 image::cases/create-nc-financial.png["Create non-collectible financial"]
 

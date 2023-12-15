@@ -18,7 +18,7 @@ image::directory/dir-person-search.png[:Directory Person search screen with numb
 
 == View and add off-time
 
-After clicking on the individual's name, the Directory Person edit screen shows.
+After clicking the individual's name, the Directory Person edit screen shows.
 Click the btn:[Off-Time] tab to view and manage off-time for the person:
 
 image::directory/dir-person-off-time.png[Directory Person screen with the Off-Time tab selected and an arrow pointing to the Add Off-Time button.]

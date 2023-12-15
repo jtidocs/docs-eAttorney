@@ -7,7 +7,7 @@ Historic financials display payments made to obligation by an individual and inf
 
 // image::person/historic_financials.png[Historic Financials Screen]
 
-Clicking on the view allocation button (#1) expands the payment details dialog (shown below) showing obligation type and case number associated with the fine/fee.
+Clicking the view allocation button (#1) expands the payment details dialog (shown below) showing obligation type and case number associated with the fine/fee.
 
 // image::person/historic_financials_payment_details.png[Payment Details Dialog]
 

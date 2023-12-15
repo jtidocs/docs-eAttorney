@@ -23,4 +23,4 @@ Notes can be added by clicking the notes icon for the corresponding event:
 image::cases/eventOptions.png[Event Options]
 
 Notes added on each even are also added to the case notes.
-Edit an event by clicking on the case type, which displays an editing page.
+Edit an event by clicking the case type, which shows an editing page.

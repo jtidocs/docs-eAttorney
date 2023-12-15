@@ -6,7 +6,9 @@ vars:
     sh: npx get_pbv output.dir
 
 tasks:
+
   # build tasks ------------------------------------------------------
+
   default:
     desc: "Generate HTML and run checks."
     aliases: [build]
@@ -55,7 +57,9 @@ tasks:
     cmds:
       - npx fix_redirect_tense
 
+
   # run validity checks ----------------------------------------------
+
   checks:
     desc: "Run validity checks on Asciidoc and HTML."
     silent: true
@@ -64,21 +68,36 @@ tasks:
       - task: links
       - task: vale
 
+
+  # htmltest tasks ---------------------------------------------------
+
   links:
     desc: "Test links in generated HTML with htmltest."
     silent: true
     cmds:
       - echo "Testing links in generated HTML..."
-      - bin/htmltest -c htmltest.yml -s {{.BUILD_DIR}}
+      - npx htmltest -c htmltest.yml -s {{.BUILD_DIR}}
+
+
+  # vale tasks -------------------------------------------------------
 
   vale:
-    desc: "Test prose in generated HTML with Vale."
+    desc: Test prose in generated HTML with Vale.
     silent: true
     cmds:
-      - echo "Testing prose..."
-      - bin/vale --config vale/vale.ini {{.BUILD_DIR}}
+      - echo -n "Testing prose..."
+      - npx vale --config vale/vale.ini {{.BUILD_DIR}}
+
+  vale-sync:
+    desc: "Sync the Vale styles."
+    silent: true
+    cmds:
+      - echo "Syncing the Vale styles..."
+      - npx vale --config vale/vale.ini sync
+
 
   # serve the HTML in the build folder -------------------------------
+
   serve:
     desc: "Preview the generated HTML."
     silent: true
@@ -87,6 +106,7 @@ tasks:
       - npx http-server {{.BUILD_DIR}} -r -c-1 -g
 
   # cleanup tasks ----------------------------------------------------
+
   cleanup:
     desc: Removes the build folder and temporary build files.
     cmds:

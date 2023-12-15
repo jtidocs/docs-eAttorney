@@ -27,6 +27,6 @@ There are three ways to reach the case folder view:
 
 . If the current user has assigned cases cases, the view pops up in menu:Workspace[Recent Cases > Select Case].
 
-. Clicking on the most recent case in the top right corner.
+. Clicking the most recent case in the top right corner.
 
 image:cases/caseViewNavigation.png["Person Icon"]

@@ -5,7 +5,7 @@ Charges can be accessed by clicking the "Charges" tab in the case folder view.
 For information on how to navigate to the case folder view, see xref:./index.adoc[].
 
 The charges screen displays all charges on defendants connected to the case.
-Charges can be updated by clicking on the corresponding charge:
+Charges can be updated by clicking the corresponding charge:
 
 image::cases/chargeOptions.png[Charge Options]
 
