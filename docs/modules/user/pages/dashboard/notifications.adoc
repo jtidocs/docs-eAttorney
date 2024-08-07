@@ -1,0 +1,73 @@
+= Notifications
+
+You can access and manage your ui:entity[Case] notifications from the ui:screen[Dashboard] screen.
+
+
+== Navigation
+
+To access the ui:screen[Case Notifications] configuration screen:
+
+[.procedure]
+. Click the ui:link[{product}] button, then click the gear icon.
++
+image::dashboard/User-Notifications01.png[User Notifications]
+
+. Click the ui:tab[Notifications] tab.
++
+image::dashboard/User-Notifications02.png[The Notifications tab]
++
+The ui:screen[Case Notifications] screen shows:
++
+image::dashboard/User-Notifications03.png[The Case Notifications screen]
++
+With this screen, you can set up notifications for the four different {product} areas.
+
+
+== Notification types
+
+The ui:screen[Case Notifications] screen supports the following notification types:
+
+. ui:option[Case Activity (ROA Messages)]: use this type to receive ui:entity[Register of Action] notifications.
++
+image::user:dashboard/User-Notifications09.png[User Notifications]
+
+. ui:option[Work Queue Tasks]: use this type to receive ui:entity[Work Queues] notifications.
++
+image::dashboard/User-Notifications10.png[User Notifications]
+
+. ui:option[Calendar Events]: use this type to receive ui:entity[Calendar Events] notifications.
++
+image::dashboard/User-Notifications11.png[User Notifications]
+
+. ui:option[Time Standards Expiration]: use this type to receive ui:entity[Time Standards Expiration] notifications.
++
+image::dashboard/User-Notifications12.png[User Notifications]
+
+
+=== Status
+
+For all notification types you can select from three notification options in the ui:dropdown[Status] dropdown:
+
+image::dashboard/User-Notifications04.png[User Notifications,350]
+
+. ui:option[No Notifications]: use this option to turn off notifications.
+
+. ui:option[Simple Notifications]: use this option to show a notification count beside the bell icon in your ui:nav[Top Navigation].
++
+image::dashboard/User-Notifications05.png[User Notifications]
++
+Click the bell icon to show the ui:screen[Notifications Center].
+The screen shows the time the notification timestamp, type of notification, subject, and ui:entity[Case] information.
++
+image::dashboard/User-Notifications06.png[User Notifications]
+
+. ui:option[Sticky Notifications]: use this option to show notifications as sticky pop-ups in the bottom right of your screen.
++
+image::dashboard/User-Notifications07.png[User Notifications,200]
+
+
+=== Case types
+
+Use the ui:dropdown[Case Types] dropdown to select the ui:entity[Case] types for notifications.
+
+image::dashboard/User-Notifications08.png[User Notifications]
