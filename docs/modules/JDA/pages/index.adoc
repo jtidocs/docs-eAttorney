@@ -29,6 +29,8 @@ image:JDADocumentation04.png[JDA Documentation]
 image::JDADocumentation05.png[JDA Documentation]
 
 . The JDA documentation web site opens in your browser.
-  This site covers several topics that are selected below.
+  This documentation covers several topics:
 +
 image::JDADocumentation06.png[JDA Documentation]
+
+// TODO: Do not use images for text.
