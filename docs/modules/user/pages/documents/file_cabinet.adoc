@@ -1,126 +1,134 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Filing cabinet
 
-This section describes the filing cabinet and its features.
-This includes the Case and Person view filing cabinets.
+This section describes the ui:form[File Cabinet] and its features.
+This includes the ui:form[Case File Cabinet] and the ui:form[Person File Cabinet].
 
-The Filing Cabinet can be accessed from a Case or Person view with the tabs under the view header:
+The ui:form[File Cabinet] can be accessed from a ui:entity[Case] or ui:entity[Person] view with the tabs under the view header:
 
 image::documents/file-cab-access.png[File Cabinet Button]
 
-The available actions from the dropdown menu are as follows.
 
-
-== File cabinet dropdown: case and person
+== File cabinet dropdown options: case and person
 
 image::documents/file-cab-quick.png[File Cabinet Dropdown Actions Numbered Image]
 
 image::documents/file-cab-quick-pers.png[File Cabinet Dropdown Actions Person]
 
-. `Add Case File(s)` or `Add Person File(s)`:
-  Open the corresponding form to insert a new file.
+. ui:option[Add Case File(s)] or ui:option[Add Person File(s)]:
+Open the corresponding form to insert a new file.
 
-. xref:./generation.adoc[*Generate Template*]:
-  Open the generation form to select and generate a document from a template.
-  Click the link to find out more information.
+. ui:option[Generate Template]:
+Open the generation form to select and generate a document from a template.
+Refer to xref:./generation.adoc[] for more information.
 
-. *Utilities* - Expand to access Utilities.
+. ui:option[Utilities]: Expand to access ui:screen[Utilities].
 
-. *Bates Stamp* - Bates stamp your document.
+. ui:option[Bates Stamp]: Bates stamp your document.
 +
 image::documents/file-cab-bates.png[File Cabinet Bates Stamp]
 +
-Choose your stamp location, docs to apply to and click the btn:[Stamp] button.
+Select your stamp location and the documents to apply the stamp to, then click btn:[Stamp].
++
+[IMPORTANT]
+===========
+Documents must be a PDF and have the Review Status set to `Approved for Disclosure` to show on the list.
+===========
++
+Once a document has received a Bates stamp, it cannot be stamped again.
 
-. *Merge Documents* - Merge documents.
-  You can merge unrelated doc types to result in a PDF.
+. ui:option[Merge Documents]: Merge documents.
+You can merge unrelated doc types to result in a PDF.
 +
 image::documents/file-cab-merge.png[File Cabinet Merge Documents]
 
-. xref:./viewer.adoc[*Document Viewer*]:
-  View and edit a full preview of a selected file in the browser window.
-  Click the link to find out more information.
+. ui:option[Document Viewer]:
+View and edit a full preview of a selected file.
+Refer to xref:./viewer.adoc[] for more information.
 
-. *Status* - Limit results to selected Statuses.
+. ui:option[Status]: Limit results to selected statuses.
 
-. *Received Date From/To* - Limit results to Date Ranges.
+. ui:option[Received Date From/To]: Limit results to date ranges.
 
 
 == Add file dropdown
 
-The Case and Person Add File Forms are nearly identical.
-This section covers the controls of the Case Add File Form.
-The same principles can be applied to the Person Add File Form.
+The ui:form[Case Add File] and ui:form[Person Add File] forms are nearly identical.
+This section covers the ui:form[Case Add File] form controls.
+The same principles can be applied to the ui:form[Person Add File] form.
 
 image::documents/file-cab-case-add-file-form.png[File Cabinet Case Add File Form]
 
-. *Type* - Choose the File Type.
-  This is unrelated to the file extension, for example `.pdf`.
+. ui:field[Type]: set the ui:entity[File Type].
+This is unrelated to the file extension, for example `.pdf`.
 
-. *Date Filed* - Choose a Date Filed for the document.
-  Select a date from the pop-up calendar.
+. ui:field[Date Filed]: set a filing date for the document.
+Select a date from the calendar dialog.
 
-. *Status* - Choose a Document Status.
+. ui:field[Status]: set the document status.
 
-. *Location* - Choose a File Location.
-  Location may be something like a physical location.
-  Only on the Case Form.
+. ui:field[Location]: set a physical location or identifier for the document.
+This field only shows on the ui:form[Case Add File] form.
 
-. *Category* - Choose a File Category.
+. ui:field[Category]: set a document category.
 
-. `Select File(s)` - By clicking Add Files, you can add one or more files to the case with the same attributes you are currently entering.
-  To select multiple files in the pop-up File Selection window, use the `CTRL` or `SHIFT` keys on the keyboard while selecting rows.
+. ui:field[Select File(s)]: By clicking btn:[Add Files], you can add one or more files to the case with the same attributes you are currently entering.
+To select multiple files, in the dialog File Selection window, use the kbd:[Shift] or kbd:[Control] keys while selecting rows.
+Press and hold kbd:[Shift] to select a contiguous range of files.
+Press and hold kbd:[Control] to select individual files.
 
-. *Notes -> Title* - Case Only.
-  Choose a title for the Note.
+. In the ui:panel[Note] panel, ui:field[Title]: set a title for the ui:entity[Note].
+This field only shows on the ui:form[Case Add File] form.
 
-. *Notes -> Content* - The Notes section on a Case can have style, sizing and highlighting applied, as in an RTF file.
-  The Notes section on Person is a plain-text note.
+. In the ui:panel[Note] panel, ui:field[Content]: set the content for the ui:entity[Note].
+The Notes section on the ui:form[Case Add File] form can have style, sizing, and highlighting applied.
+The Notes section on the ui:form[Person Add File] form only supports a plain text ui:entity[Note].
 
 
-== Filing cabinet controls
+== File cabinet controls
 
 image::documents/file-cab-controls.png[File Cabinet Controls]
 
-. *Folder Dropdown* - Add or Delete a Directory in the filing cabinet.
+. ui:dropdown[Folder]: Add or delete a directory.
 +
 image::documents/file-cab-folder.png[File Cabinet Folder Dropdown]
 
-. `File Name` - The selected filename.
-  If no file is selected, the Case or Person Name displays here.
+. ui:field[File Name]: The selected filename.
+If no file is selected, the case or person name shows here.
 
-. *Search Bar* - Filter the files based on search criteria.
+. ui:field[Search]: Filter the files based on search criteria.
 
-. *List/Grid Icon* - Swap between List view and Grid view.
+. The ui:icon[List/Grid] icon: Swap between List view and Grid view.
 
-. *Disk Down Arrow Icon* - Download the selected documents.
-  You can CTRL+Click to select more than one document.
+. The ui:icon[Disk down arrow] icon: Download the selected documents.
+You can btn:[Control + Click] to select more than one document.
 
-. *Plus Icon* - Add a document to this filing cabinet.
-  A document selection pop-up screen opens to allow you to select a document from your machine.
+. The ui:icon[Plus] icon: Add a document to the file cabinet.
+A document selection dialog opens to allow you to select a document from your machine.
 
-. *Trash Icon* - Delete the selected documents from the filing cabinet.
+. The ui:icon[Trashcan] icon: Delete the selected documents from the file cabinet.
 
-. *Vertical Ellipses Icon* - More File actions dropdown.
-  Move a document to a new Folder or update the document definition of this document type.
+. The ui:icon[Vertical Ellipses] icon: Shows a dropdown with more file actions.
+Move a document to a new folder or update the document definition of this document type.
 +
 image::documents/file-cab-move.png[File Cabinet Move Dropdown]
 +
-See xref:admin:document_definitions.adoc[] for more info.
+For more information, refer to xref:admin:document_definitions.adoc[].
 
-. *Directory Structure* - The directory structure shows the files and folders on this Filing Cabinet view.
-The parenthesis indicates the number of Files in this filing cabinet.
+. ui:field[Directory Structure]: The directory structure shows the files and folders in this ui:form[File Cabinet].
+The parenthesis indicates the number of files in the file cabinet.
 
 
 == Update or edit file
 
-Files can be updated by clicking the name below the thumbnail (when in thumbnail view) and change the type, file, and filename.
+Files can be updated by clicking the thumbnail name (when in thumbnail view), then change the type, file, and filename.
 
 image::documents/file-cab-editFile.png[Edit/Update File Location]
 
 
 == File context menu
 
-A context menu can be found by right clicking the document thumbnail to allow moving, editing, deleting, and viewing the document.
+Right-click a document thumbnail to open a context menu.
+The context menu allows you to move, edit, delete, and view the document.
 
 image::documents/file-cab-viewFile.png[Edit/Update File Location]
