@@ -1,130 +1,133 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Bail
 
-NOTE: Do not forget to `Open a Till` if you have not already today.
+IMPORTANT: Do not forget to `Open a Till` if you have not already today.
 
+// TBW: Describe bail and how {product} handles it.
+// Also describe what Open a Till means.
 
-== Creating a cash bail record
+== Create a cash bail record
 
-Cash Bail is created in the case by selecting Add Bail from the Case Involvement tab drop-down.
+Cash bail is created in the ui:entity[Case] by clicking the ui:dropdown[Case Involvements] dropdown, then selecting ui:option[Add Bail].
 
 image::financials/bail_add.png[Add Bail Dropdown]
 
-In the `Add Bail` screen fill out the Bail and Bail Condition panels.
+In the ui:screen[Add Bail] screen, fill in the ui:panel[Bail] and ui:panel[Bail Condition(s)] panels.
 
 image::financials/bail_add_form.png[Add Bail Form]
 
+[%autowidth, cols="a,a", options="header"]
 |===
-| Option
+| Field
 | Description
 
-| `Bail Type`
-| Can input the option of Cash or Bail Bond/Surety.
+| ui:dropdown[Bail Type]
+| Select between ui:option[Cash] or ui:option[Bail Bond/Surety].
 
-| `Bail Amount`
-| Input the amount of Bail.
-  This can be defaulted to a value derived from the statutes.
+| ui:field[Bail Amount]
+| Input the ui:entity[Bail] amount.
+This can be defaulted to a value derived from the statutes.
 
-| `Status Type`
-| Initially left blank.
-  The options are Active, Forfeiture, Never Collect, Pending, Posted, Set.
+| ui:dropdown[Status]
+| Set the Bail status to one of: ui:option[Active], ui:option[Forfeiture], ui:option[Never Collect], ui:option[Pending], ui:option[Posted], ui:option[Set].
 
-| `Status Date`
-| Defaults to current data and is read-only.
+| ui:field[Status Date]
+| Defaults to the current date and is read-only.
 
-| `Condition`
-| Type of Bail Condition being applied with Bail.
+| ui:dropdown[Condition Type]
+| Set the type of ui:entity[Bail Condition] applied with ui:entity[Bail].
 
-| `Begin Date`
-| Date that the Bail Condition takes effect.
+| ui:field[Begin Date]
+| Set the date when the ui:entity[Bail Condition] takes effect.
 
-| `End Date`
-| Date that the Bail Condition ends.
+| ui:field[End Date]
+| Set the date when the ui:entity[Bail Condition] ends.
 
-| `Notes`
-| Can be used to add further detail to the Bond Condition.
+| ui:field[Notes]
+| Use to add further detail to the ui:entity[Bail Condition].
 |===
 
-Once you have entered in the data as needed, click btn:[Save & Back].
-You can now see the set Bail on the bottom of the Case Involvement screen.
+Once you have entered the data, click btn:[Save & Back].
+The set ui:entity[Bail] now shows on the bottom of the ui:screen[Case Involvement] screen.
 
 image::financials/bail_inv.png[Bail on Involvements screen]
 
 
-== Posting cash bail
+== Post cash bail
 
-Posting a `Cash Bail` makes the Bail Record become a collectable financial and show on the `Case Ledger`.
-To make this happen, the Bail Record status needs to be set to `Posted`.
-To update the Bail Status, click the btn:[Cash] link in the **Type** column of the Bail panel at the bottom of the **Case Involvement** screen.
+Posting a ui:option[Cash] bail makes the ui:entity[Bail] record become a collectable financial and show on the ui:screen[Case Ledger].
+To make this happen, the ui:entity[Bail] ui:dropdown[Status] needs to be set to ui:option[Posted].
+To update the ui:entity[Bail] ui:dropdown[Status], click the ui:link[Cash] link in the ui:column[Type] column of the ui:panel[Bail] panel at the bottom of the ui:screen[Case Involvement] screen.
 
 image::financials/bail_inv_cash.png[Update Form link for Bail]
 
-Inside the Update Bail screen, select `Posted` from the Bail Status drop-down.
+In the ui:screen[Update Bail] screen, select ui:option[Posted] in the ui:entity[Bail] ui:dropdown[Status] dropdown.
 Click btn:[Save & Back].
 
 image::financials/bail_posted.png[Bail Posted Status Update]
 
-You can now see the updated status on the `Case Involvement` screen.
-The Bail also shows on the `Case Ledger`.
-The Bail can now be paid into {product}.
+The updated status shows on the ui:screen[Case Involvement] screen.
+The ui:entity[Bail] also shows on the ui:screen[Case Ledger].
+The ui:entity[Bail] can now be paid into {product}.
 
 image::financials/bail_ledger.png[Bail on Case Ledger]
 
-Navigate to `Cash Receipts` and pull up the case you are taking the payment on.
-It is easier to do this from the drop-down of the `Financial` tab from the Case Record as it loads `Cash Receipts` with the case pulled up.
-Select the Bail Item under the **Bails** panel.
+Navigate to ui:option[Cash Receipts] and pull up the case you are taking the payment on.
+It is easier to do this from the dropdown of the ui:tab[Financial] tab from the ui:screen[Case Record] as it loads ui:area[Cash Receipts] with the case pulled up.
+Select the ui:entity[Bail] item under the ui:panel[Bails] panel.
 
-In the `Payment Methods` panel, enter the Monetary Instrument type used to make the payment and the amount tendered.
-`Select the Payor` if they are involved on the case, that is the defendant is making the payment.
-Otherwise, choose the `Other` option in the Payor drop-down and fill in the information for the person making the payment.
+In the ui:panel[Payment Methods] panel, enter the ui:field[Monetary Instrument] type used to make the payment and the amount tendered.
+Select the ui:option[Payor] if they are involved on the case, when the defendant makes the payment.
+Otherwise, choose the ui:option[Other] option in the ui:dropdown[Payor] dropdown and fill in the information for the person making the payment.
 Click btn:[Submit].
 
+// TODO: Check if this is the correct screenshot, as this is a repeat.
 image::financials/bail_ledger.png[Bail Payment]
 
-After taking the payment, the `Cash Receipts` screen refreshes and shows an indicator that there is a `Bail Deposit` on the case.
-Also, a `Cash Receipt` Pop-up window shows giving you the payment information.
-In the following example, part of the bail is paid.
+After taking the payment, the ui:screen[Cash Receipts] screen refreshes and shows an indicator that there is a ui:entity[Bail Deposit] on the case.
+Also, a ui:dialog[Cash Receipt] popup window shows giving you the payment information.
+In the following example, part of the ui:entity[Bail] is paid.
 
 image::financials/bail_payed.png[Bail cash paid receipt]
 
-The `Case Ledger` also shows the reflected bail payment, which also shows in the case header.
+The ui:screen[Case Ledger] also shows the reflected ui:entity[Bail] payment, which also shows in the case header.
 
 
 == Forfeiting cash bail
 
-`Forfeiting a Cash Bail` creates a receivable from the Cash Bail and starts with updating the Bail Status.
-To update the Bail Status, click the link in the Type column of the **Bail** panel at the bottom of the **Case Involvement** screen:
+Forfeiting a ui:option[Cash] ui:entity[Bail] creates a receivable from the ui:option[Cash] ui:entity[Bail] and starts with updating the ui:entity[Bail] ui:dropdown[Status].
+To update the ui:entity[Bail] ui:dropdown[Status], click the link in the ui:column[Type] column of the ui:panel[Bail] panel at the bottom of the ui:screen[Case Involvement] screen:
 
 image::financials/bail_inv_cash.png[Update Form link for Bail]
 
-Inside the Update Bail screen, select `Forfeiture` from the `Bail Status` drop-down.
+In the ui:screen[Update Bail] screen, select ui:option[Forfeiture] in the ui:entity[Bail] ui:dropdown[Status] dropdown.
 Click btn:[Save & Back].
 
 image::financials/bail_forfeiture.png[Update Form Bail Forfeit]
 
-Navigate to `Cash Receipts` and pull up the case you are taking the payment on.
-It is easier to do this from the drop-down of the **Financial** tab from the Case Record as it loads **Cash Receipts** with the case pulled up.
-Now, create a `Transfer` from the paid Bail to the Bail Fee, created when Forfeited status is set.
+Navigate to ui:option[Cash Receipts] and pull up the case you are taking the payment on.
+It is easier to do this from the dropdown of the ui:tab[Financial] tab from the ui:screen[Case Record] as it loads ui:entity[Cash Receipts] with the case pulled up.
+Now, create a ui:entity[Transfer] from the paid ui:entity[Bail] to the ui:entity[Bail Fee], created when ui:option[Forfeiture] status is set.
 See xref:./transfers.adoc#create[Creating a transfer].
-Rule `Forfeit Cash Bail` is executed on the status update and creates the **Other Costs** invoice.
+Rule ui:rule[Forfeit Cash Bail] is executed on the status update and creates the ui:screen[Other Costs] invoice.
 
 
 == Refunding cash bail
 
-If money is collected for the forfeited cash bail and it needs to be `Transferred` or `Refunded`, see xref:./transfers.adoc[] or xref:./refunds.adoc[].
+If money is collected for the forfeited cash ui:entity[Bail] and it needs to be ui:option[Transferred] or ui:option[Refunded], refer to xref:./transfers.adoc[] or xref:./refunds.adoc[].
 
 
 == Bail bond/surety
 
 === Creating bail bond/surety
 
-`Bail Bond/Surety` is created in the case by selecting menu:Case Involvement[Add Bail].
+ui:option[Bail Bond/Surety] is created in the case by clicking the ui:dropdown[Case Involvements] dropdown, then selecting ui:option[Add Bail].
 
 image::financials/bail_add.png[Add Bail Dropdown]
 
-In the Add Bail screen, set the **Bail Type** to `Surety/Cash Bond`:
+In the ui:screen[Add Bail] screen, select ui:option[Surety/Cash Bond] in the ui:dropdown[Bail Type] dropdown.
 
 image::financials/bail_surety.png[Add Bail Surety]
 
-Once you have entered in the data as needed, click btn:[Save & Back].
-You can now see the set Bail on the bottom of the **Case Involvement** screen.
+Once you have entered the data, click btn:[Save & Back].
+The set ui:entity[Bail] shows on the bottom of the ui:screen[Case Involvement] screen.

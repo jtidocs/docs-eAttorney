@@ -6,47 +6,48 @@ Payment plans allow the payor to make small payments towards the obligations ove
 
 == Accessing a payment plan
 
-To add a payment plan, you must first be on the `Cash Receipts` screen and have an open till.
+To add a payment plan, you must have an open till and use the ui:screen[Cash Receipts].
 
-NOTE: Only Financial users can navigate to the Cash Receipts screen.
-      For more information about setting up a user as a Financial User, see xref:admin:users/navigation.adoc[].
+NOTE: Only Financial users can navigate to the ui:screen[Cash Receipts] screen.
+For more information about setting up a user as a Financial User, refer to xref:admin:users/navigation.adoc[].
 
-There are a couple of ways to get to this screen.
+There are two ways to show this screen:
 
-. Access it using the left navigation pane:
+. Navigate to menu:Left navigation[Cashier > Cashier Receipts].
 +
 image::financials/pay_plan_cash_receipts_left_nav.png[Cash Receipts Navigation]
 
-. Access it using the current case:
+. Access it using the current case.
+Click the ui:dropdown[Financials] dropdown, then select ui:option[Cash Receipts].
 +
 image::financials/cash_receipts_from_case.png[Cash Receipts Case Navigation]
 
-NOTE: If accessed using option 1, then the Case is not populated on the Cash Receipts screen.
-      You need to search for the case you would like to work with.
-      See xref:./cash_receipts.adoc[] for more information on searching.
-      If accessed using option 2, the Case Row is populated in the Cash Receipts screen.
+NOTE: If accessed using the Left navigation, the Case is not populated on the ui:screen[Cash Receipts] screen.
+You need to search for the case you would like to work with.
+Refer to xref:./cash_receipts.adoc[] for more information on searching.
+If accessed using the current case, the ui:entity[Case] row is populated in the ui:screen[Cash Receipts] screen.
 
 
 == Adding a payment plan
 
-Once you are on the Cash Receipts screen and you have an unpaid obligations Case Row available:
+On the ui:screen[Cash Receipts] screen, if you have an unpaid obligations ui:entity[Case] row available:
 
-Click the vertical ellipses (3 dots) and select `Pay Plan`.
+Click the vertical ellipses (three dots) to open the context menu, then select ui:option[Pay Plan]:
 
 image::financials/pay_plan_cash_receipts_access.png[Add Pay Plan]
 
-A Pay Plan Add form shows:
+The ui:form[Add Pay Plan] form shows:
 
 image::financials/pay_plan_add.png[Add Pay Plan]
 
-. The Paying Party.
-. Starting Date.
-. Recurring installment amount.
-. Select All Obligations.
-. Select a single Obligation.
+. Use the ui:dropdown[Party] dropdown to select the paying party.
+. Set the payment plan ui:field[First Installment Date].
+. Set the recurring ui:field[Installment Amount].
+. Select all obligations.
+. Select a single obligation.
 
-Click btn:[Create Pay Plan] and click btn:[`Ok`] on the confirmation pop-up.
+Click btn:[Create Pay Plan], then click btn:[`Ok`] in the confirmation dialog.
 
-The Payment Plan shows under the Case Row in the Cash Receipts screen.
+The ui:panel[Payment Plan] shows under the ui:entity[Case] row on the ui:screen[Cash Receipts] screen.
 
 image::financials/pay_plan_added.png[Added Pay Plan]

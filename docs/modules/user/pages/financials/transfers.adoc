@@ -8,100 +8,98 @@ The most common scenario of this is when a payment is applied to the wrong case 
 [#create]
 == Creating a transfer: between single case obligations
 
-For this example, assume there is a payment made to the wrong obligation on the same case.
-To fix that scenario.
+For this example, assume there is a payment made to the wrong obligation for the same case.
+To fix that scenario:
 
-Navigate to the `Cash Receipts` screen from the case.
+Navigate to the ui:screen[Cash Receipts] screen from the case: click the ui:dropdown[Financials] dropdown, then select ui:option[Cash Receipts].
 
 image::financials/cash_receipts_from_case.png[Cash Receipts Link]
 
-In this screen, notice the $20 payment towards Bail.
-That money should be moved from the Bail obligation to the DA FEE.
+In this screen, notice the $20 payment towards ui:entity[Bail].
+That money should be moved from the ui:entity[Bail] obligation to the ui:option[DA FEE].
 
 image::financials/xfer_cash_receipt_paid_wrong.png[Transfer screen from Cash Receipts Dropdown]
 
-While on this `Cash Receipts` screen, click the `More Actions` drop-down at the bottom right of the screen and click `Transfer`.
+While on the ui:screen[Cash Receipts] screen, click the ui:dropdown[More Actions] dropdown at the bottom right of the screen, then select ui:option[Transfer].
 
 image::financials/xfer_action.png[Transfer Dropdown]
 
 
 === Step 1: items deducting money
 
-Inside the `Transfer screen`, there should be a case with paid financials.
-If you accessed the screen from some other location and do not see a case, search for the case you need to transfer funds from.
-Payments made on this case should show in the `Selected Items to Deduct Money`.
+On the ui:screen[Transfer] screen, there should be a case with paid financials.
+If you accessed the screen from some other location and do not find a case, search for the case you need to transfer funds from.
+Payments made on this case should show in the ui:panel[Selected Items to Deduct Money] panel.
 
 image::financials/xfer_next.png[Transfer Step 1]
 
-Click the btn:[Next] button.
+Click btn:[Next].
 
 
 === Step 2: items receiving money
 
-After clicking the next button, an extra panel shows below the first.
+The ui:panel[Step 2: Manage Items to Receive Money] panel shows after the first:
 
 image::financials/xfer_step_2.png[Transfer Step 2]
 
 In this example, money should be moved from one obligation to another.
-In the **Choose and Add Items to R\eceive Money** section, select the items to transfer to.
+In the ui:panel[Choose and Add Items to Receive Money] section, select the items to transfer to.
 You can also select multiple obligations, if needed.
 
-Click the btn:[Add Selected Items for Receiving Money] button.
+Click btn:[Add Selected Items for Receiving Money].
 
-The `Items to R\eceive Money` panel should populate, allowing you to enter the amount you would like to transfer to the obligations.
+The ui:panel[Items to Receive Money] panel should populate.
+You can enter the amount you need to transfer to the obligations:
 
 image::financials/xfer_step_2_next.png[Transfer Step 2 Add]
-
-Once you have entered the amount you would like to transfer, move on to Step 3.
 
 
 === Step 3: transfer information
 
-The last step is to enter the `Invoice Action`, `Reason`, and `Comments` you would like to add.
+Select options for the ui:dropdown[Invoice Action] and ui:dropdown[Reason] dropdown, then add ui:field[Comments]:
 
 image::financials/xfer_step_3.png[Transfer Step 3]
 
-Click the btn:[Transfer Button].
+Click btn:[Transfer] to complete the transfer.
 
-Once the transfer is complete, you can optionally go to the Case Ledger and reviewing the changes.
-You should be able to see the money trail.
-In the following image, an original $20 payment for Bail is shown.
-It is now deducted and moved to the DA FEE.
-The DA FEE is reduced in the amount of $20.
-Notice there is a `Transferred Payment` marking on the DA FEE.
+Once the transfer is complete, you can navigate to the ui:screen[Case Ledger] and review the changes.
+You should be able to follow the money trail.
+In the following screenshot, an original $20 payment for ui:entity[Bail] is shown.
+It is now deducted and moved to the ui:option[DA FEE].
+The ui:option[DA FEE] is reduced in the amount of $20.
+Note the `Transferred Payment` badge on the ui:option[DA FEE].
 
 image::financials/xfer_complete.png[Transfer Complete Case Ledger]
 
-Also, there should be a receipt in reference to the transfer.
+There should also be a receipt in reference to the transfer.
 
 
 == Creating a transfer: case-to-case transfers
 
-For this example, assume that a payment is made to an obligation on the wrong case and it needs to go to another case.
-To start fixing that scenario, use the same exact case as in the previous example, so there is $20.00 on the Bail paid.
+For this example, assume that a payment is made to an obligation on the wrong case and it must be applied to another case.
+To start fixing that scenario, use the same exact case as in the previous example, so there is $20.00 on the ui:entity[Bail] paid.
 
-Navigate to the `Cash Receipts` screen from the case.
+Navigate to the ui:screen[Cash Receipts] screen from the case.
 
 image::financials/cash_receipts_from_case.png[Cash Receipts Link]
 
 
 === Step 1: items deducting money
 
-On the `Transfer screen`, you should see a case with paid financials.
-If you accessed the screen from some other location and do not see a case, search for the case you need to transfer funds from.
-Payments made on this case should show here in the `Selected Items to Deduct Money`.
+On the ui:screen[Transfer] screen, there should be a case with paid financials.
+If you accessed the screen from some other location and do not find a case, search for the case you need to transfer funds from.
+Payments made on this case should show here in ui:panel[Selected Items to Deduct Money] panel.
 
 image::financials/xfer_next_ex2.png[Transfer Example 2 Step 1]
 
-Click the btn:[Next] button.
+Click btn:[Next].
+An extra panel shows after the first.
 
 
 === Step 2: items receiving money
 
-After clicking the next button, an extra panel shows below the first.
-
 This example demonstrates how to move money from one case to another.
-To access a different case, use the case search.
+To access a different case, use the ui:entity[Case] search.
 
 image::financials/xfer_next_case_search.png[Transfer Example 2 Case Search]
 
@@ -109,31 +107,29 @@ Once you have found your case, click it and wait for the bottom panel to populat
 
 image::financials/xfer_next_case_search_click.png[Transfer Example 2 Case Search Click]
 
-In the `Choose and Add Items to R\eceive Money` section, select the items to transfer to.
-You can also select multiple obligations if you wish.
+In the ui:panel[Choose and Add Items to Receive Money] section, select the items to transfer to.
+You can also select multiple obligations.
 
-image::financials/xfer_case_to_case.png[Case to Case R\eceive Money]
+image::financials/xfer_case_to_case.png[Case to Case Receive Money]
 
-Click the btn:[Add Selected Items for Receiving Money] button once you have selected the different case obligation.
+After selecting obligations, click btn:[Add Selected Items for Receiving Money].
 
-The `Items to R\eceive Money` panel should populate, allowing you to enter the amount you would like to transfer to the obligations.
+The ui:panel[Items to Receive Money] panel should populate so you can enter the amount you would like to transfer to each obligation.
 
 image::financials/xfer_case_to_case_click.png[Case to Case R\eceive Money Amount]
-
-Once you have entered the amount you would like to transfer, move on to Step 3.
 
 
 === Step 3: transfer information
 
-The last step is to enter the `Invoice Action`, `Reason`, and `Comments` you would like to add.
+The last step is to select values for the ui:dropdown[Invoice Action] and ui:dropdown[Reason] dropdowns, then enter ui:field[Comments].
 
 image::financials/xfer_step_3.png[Transfer Step 3]
 
-Click the btn:[Transfer] button.
+Click btn:[Transfer].
 
-Once the transfer is complete, go to the case ledger for cases and review the changes.
-You should be able to see the money trail.
-In the following image, notice the original $20 payment for bail on the source case.
+Once the transfer is complete, navigate to the ui:screen[Case Ledger] for cases and review the changes.
+Use the ledger entries to follow the money trail.
+In the following images, note the original $20 payment for ui:entity[Bail] on the source case.
 It is now deducted and moved to the destination case.
 
 image::financials/xfer_case_to_case_src.png[Transfer Complete Case to Case Source]

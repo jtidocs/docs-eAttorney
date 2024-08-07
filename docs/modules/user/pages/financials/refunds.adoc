@@ -3,74 +3,74 @@
 
 A refund can be given when money needs to be returned to an individual that has already paid a fine or fee on a case.
 
-Processing a refund is a multi step process:
+Processing a refund is a multi-step process:
 
-. <<creating-a-refund-request,Create>> a refund request.
-. Have a different financial user <<approving-a-refund-request,approve>> the refund request.
-. <<sending-a-refund,Send>> the refund to the recipient.
+. <<create-a-refund-request,Create>> a refund request.
+. Have a different financial user <<approve-a-refund-request,approve>> the refund request.
+. <<send-a-refund,Send>> the refund to the recipient.
 
 
-== Navigating to refunds
+== Navigate to refunds
 
 Refunds can be accessed from the xref:./cash_receipts.adoc[Cash Receipts] page.
-Once on the Cash Receipts page, click the _More Actions_ drop-down box in the bottom right corner and select _Refund and Disbursement_ (see below).
+Once on the ui:page[Cash Receipts] page, click ui:dropdown[More Actions] in the bottom right corner and select ui:option[Refund and Disbursement]:
 
-image::financials/refund-cash-receipts-link.png[Cash receipts page with arrows pointing to the More Actions drop-down and the Refund and Disbursement option in the drop-down.]
+image::financials/refund-cash-receipts-link.png[Cash receipts page with arrows pointing to the More Actions dropdown and the Refund and Disbursement option in the dropdown]
 
 
-== Creating a refund request
+== Create a refund request
 
-After clicking the _Refund and Disbursement_ option, the **Refund** screen shows:
+After selecting the ui:option[Refund and Disbursement] option, the ui:screen[Refund] screen shows:
 
-image::financials/refund-screen-1.png[Refund screen showing payments made on the selected case.]
+image::financials/refund-screen-1.png[Refund screen showing payments made on the selected case]
 
 Start the refund by selecting the case payments that you would like to include in the refund.
-Do that by clicking the checkbox next to each payment you want to include.
+Do that by selecting the checkbox next to each payment to include.
 
-After selecting the payments, click the btn:[Add Selected Items for Deduction] button to add the payments to the refund request.
+After selecting the payments, click btn:[Add Selected Items for Deduction] to add the payments to the refund request.
 
-image::financials/refund-screen-2.png[Refund screen showing payments added to the refund.]
+image::financials/refund-screen-2.png[Refund screen showing payments added to the refund]
 
-The payments are added to the _Selected Items to Deduct Money_ section.
+The payments are added to the ui:area[Selected Items to Deduct Money] section.
 Review the payments and verify that everything is correct.
 
-If everything looks good, then click the btn:[Next] button to fill out the payee information:
+If everything looks good, click btn:[Next] to fill in the payee information:
 
-image::financials/refund-screen-3.png[Refund screen that shows how to select the payees and allocate the money to them.]
+image::financials/refund-screen-3.png[Refund screen that shows how to select the payees and allocate the money to them]
 
 Enter the payee information.
-You can select the payee from the case involvements by clicking in the Payee field and selecting the individual you would like to pay.
+You can select the payee from the case involvements by clicking in the ui:field[Payee] field and selecting the individual you would like to pay.
 
-NOTE: You can add multiple payees by clicking the btn:[Refund] button.
+NOTE: You can add multiple payees by clicking btn:[Refund].
 
-image::financials/refund-screen-4.png[Refund screen highlighting the Transfer Reason section and showing two options in the Invoice Action field.]
+image::financials/refund-screen-4.png[Refund screen highlighting the Transfer Reason section and showing two options in the Invoice Action field]
 
-To complete the refund request, enter an invoice action (No Action or Rescind), enter the reason for the refund, and optionally add comments about the refund.
-After filling in the required information, click the btn:[Create Refund Request] button to create the refund request that somebody else needs to approve.
+To complete the refund request, enter an invoice action (ui:option[No Action] or ui:option[Rescind]), enter the reason for the refund, and optionally add comments about the refund.
+After filling in the required information, click btn:[Create Refund Request] to create the refund request that somebody else must approve.
 
 
-== Approving a refund request
+== Approve a refund request
 
 When a user creates a refund request, it must be approved by a different {product} user.
-The user that should approve the refund request must be a member of the *Financial General* Workflow Role or the *Financial Admin* Workflow Role.
+The user that should approve the refund request must be a member of the ui:role[Financial General Workflow Role] or the ui:role[Financial Admin Workflow Role].
 Those roles are xref:admin:users/accounts.adoc#workflow-roles[set by an administrator].
 
-If a refund request exists, and the user wanting to approve a request is a member of the appropriate Workflow Role, then the refund request shows on their Assignments gadget on their Dashboard.
-It is labeled as _Approve Refund Request_:
+If a refund request exists, and the user wanting to approve a request is a member of the appropriate ui:role[Workflow Role], then the refund request shows on their ui:gadget[Assignments] gadget on their ui:screen[Dashboard].
+It is labeled as ui:label[Approve Refund Request]:
 
-image::financials/dashboard-approve-refund-request.png[A user dashboard showing the assignments gadget with an unassigned task of \'Approve Refund Request'.]
+image::financials/dashboard-approve-refund-request.png[A user dashboard showing the assignments gadget with an unassigned task of "Approve Refund Request"]
 
-If the user clicks the btn:[▶] icon, it auto assigns them the task and displays the Refund Request screen where they can approve or deny the refund request (see below).
+If the user clicks btn:[▶], it assigns them the task and shows the ui:screen[Refund Request] screen where they can approve or deny the refund request:
 
-image::financials/approve-refund-request.png[The refund request screen with buttons to approve or deny the request.]
+image::financials/approve-refund-request.png[The refund request screen with buttons to approve or deny the request]
 
-To approve the refund request, the user needs to click the btn:[Complete] button.
-Or, the user can choose to deny the request by adding comments to the _Deny Comments_ field and then click the btn:[Deny] button.
+To approve the refund request, the user must click btn:[Complete].
+Or, the user can choose to deny the request by adding comments to the ui:field[Deny Comments] field, then clicking btn:[Deny].
 
 Once a refund request is approved, the refund can be sent to the payee.
 
 
-== Sending a refund
+== Send a refund
 
 After the refund request is created and approved, the refund can be sent to the individual.
 Typically, this is done by writing a check to the refund recipient.

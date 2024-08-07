@@ -8,108 +8,109 @@ Individual tills are added to a deposit and all the money in each till makes up 
 [#navigate]
 == Navigate to deposits
 
-Navigate to the deposit search screen by clicking the _Create/Search Deposits_ in the _Accounting_ section of the left navigation bar (see below).
-If you do not have the Accounting section, contact your system administrator.
+Navigate to menu:Left navigation[Accounting > Create/Search Deposits].
+If you do not have the ui:nav[Accounting] section, contact your system administrator.
 
 image::financials/deposit-navigation.png[Left navigation bar with a red box around the Create/Search Deposits link]
 
-After clicking the link, the *Search Deposit* screen shows:
+After clicking the link, the ui:screen[Search Deposit] screen shows:
 
-image::financials/deposit-search-empty.png[The Search Deposit screen.]
+image::financials/deposit-search-empty.png[The Search Deposit screen]
 
-From this screen, you can <<creating-a-deposit,create new deposits>> and <<search,search for and edit>> existing deposits.
+On this screen, you can <<create-a-deposit,create new deposits>> and <<search,search for and edit>> existing deposits.
+
 
 [#search]
 == Search for and edit deposits
 
-To search for existing deposits, enter your search criteria in the top section of the *Search Deposit* screen.
-Likely this involves filling in the _Deposit Date_ field and/or the _Deposit Status_ field for the deposits you are trying to find.
+To search for existing deposits, enter your search criteria in the top section of the ui:screen[Search Deposit] screen.
+This likely involves filling in the ui:field[Deposit Date] field and/or the ui:field[Deposit Status] field for the deposits you are trying to find.
 
-After filling in the search criteria, click the *Search* button to run the search and bring back the deposits that match the search criteria:
+After filling in the search criteria, click btn:[Search] to run the search and show the deposits that match the search criteria:
 
-image::financials/deposit-search.png[The search deposit screen with two deposits showing in the search results.]
+image::financials/deposit-search.png[The search deposit screen with two deposits showing in the search results]
 
-From the search results section, you can:
+In the ui:area[Search Results] section, you can:
 
 * View the details of the deposit.
-* Click the link in the _Deposit No._ column to open the <<deposit-details-screen,Deposit Details Screen>>.
-* Click the up or down arrow in the _Action_ column to reopen or close a deposit.
+* Click the link in the ui:column[Deposit No.] column to open the <<deposit-details-screen,Deposit Details screen>>.
+* Click the up or down arrow in the ui:column[Action] column to reopen or close a deposit.
 
-NOTE: The edit icon in the _Action_ column also opens the <<deposit-details-screen,Deposit Details Screen>>.
+NOTE: The ui:icon[edit] icon in the ui:column[Action] column also opens the <<deposit-details-screen,Deposit Details screen>>.
 
 
 === Deposit details screen
 
-The _Deposit Details_ screen allows you to view and make changes to a deposit.
+Use the ui:screen[Deposit Details] screen to view and make changes to a deposit.
 
-NOTE: Only deposits with an _Open_ status can be edited.
+NOTE: Only deposits with an ui:option[Open] status can be edited.
 
-image::financials/deposit-details.png[The deposit details screen with two tills added to the shown deposit.]
+image::financials/deposit-details.png[The deposit details screen with two tills added to the shown deposit]
 
-To add new tills to an open Deposit, do the following:
+To add new tills to an open ui:entity[Deposit]:
 
-. Open the section titled _Search and add tills to this bank deposit_.
+. Open the section titled ui:panel[Search and add tills to this bank deposit].
 . Search for the tills you want to add.
-. Check each till in the search results you want to add.
-. Finally, click the *Add till to deposit* button.
+. Select each till in the search results you want to add.
+. Finally, click btn:[Add till to deposit].
 
 
-== Creating a deposit
+== Create a deposit
 
-There are 2 ways to create a deposit.
-You can use the <<option-1-deposit-creator-wizard,deposit creator wizard>> or you can <<option-2-create-deposit-manually,manually create a new deposit>> (see below).
+There are two ways to create a deposit.
+You can use the <<option-1-deposit-creator-wizard,deposit creator wizard>> or you can <<option-2-create-deposit-manually,manually create a new deposit>>.
 
 
 === Option 1: deposit creator wizard
 
-<<navigate,Navigate to>> the *Search Deposit* screen and click the btn:[Deposit Creator] button on the same row as the btn:[Search] button.
-The Deposit Creator wizard starts.
+<<navigate,Navigate to>> the ui:screen[Search Deposit] screen and click btn:[Deposit Creator] on the same row as the btn:[Search] button.
+The ui:screen[Deposit Creator] wizard starts.
 
-The first step in the Deposit Creator is to search for and select the tills that should be added to the new deposit.
+The first step in the ui:screen[Deposit Creator] is to search for and select the tills that should be added to the new deposit.
 
-image::financials/deposit-creator.png[The deposit creator screen with numbers 1 through 3 showing various components of the screen.]
+image::financials/deposit-creator.png[The deposit creator screen with numbers 1 through 3 showing various components of the screen]
 
-To add the tills to the Deposit, follow these steps:
+To add the tills to the ui:entity[Deposit], follow these steps:
 
-. Enter the search criteria for the tills you want to add and click the btn:[Search tills] button.
-. Click the link icon in the _Deposit No._ field (#2).
-. Click the btn:[Create New or Choose Existing Bank Deposit] button to go to the next step of the Deposit Creator Wizard.
+. Enter the search criteria for the tills to add, then click btn:[Search tills].
+. Click the link icon in the ui:column[Deposit No.] column (#2).
+. Click btn:[Create New or Choose Existing Bank Deposit] to advance to the next step of the ui:screen[Deposit Creator] wizard.
 
-NOTE: Only tills that are closed and not already part of a deposit can be added to a deposit.
+NOTE: Only tills that are closed and not already part of a ui:entity[Deposit] can be added to a ui:entity[Deposit].
 
-After selecting the tills you want to add to the deposit, you can then choose to add the tills to an existing deposit record, or create a new deposit.
-The image below shows how to create a new deposit:
+After selecting the tills you want to add to the deposit, you can then choose to add the tills to an existing ui:entity[Deposit] record, or create a new deposit.
+The following screenshot shows how to create a new deposit:
 
-image::financials/deposit-creator-popup.png[Deposit creator popup that allows for adding tills to a new deposit or an existing deposit.]
+image::financials/deposit-creator-popup.png[The Deposit Creator popup that allows for adding tills to a new Deposit or an existing Deposit]
 
-To create a new deposit, follow these steps:
+To create a new ui:entity[Deposit], follow these steps:
 
-. Select the radio button _Add selected tills to new bank deposit_.
-. Choose the Deposit Date.
-. Decide whether this should participate in bank reconciliation or not by checking or deselecting the box _For Deposit to Bank_.
-. Finally, click the button *Create New Deposit and add Tills* to create the Deposit record.
+. Select ui:field[Add selected tills to new bank deposit].
+. Select the ui:field[Deposit Date].
+. If the ui:entity[Deposit] should participate in bank reconciliation, select ui:field[For Deposit to Bank].
+. Click btn:[Create New Deposit and add Tills] to create the ui:entity[Deposit] record.
 
 Once you have created the deposit, the dialog closes and the till search screen shows.
-The tills that were added to the Deposit are highlighted green and there is a link in the _Deposit No._ field that you can click to go to the <<deposit-details-screen,Deposit Details>> screen:
+The tills that were added to the ui:entity[Deposit] are highlighted green and there is a link in the ui:column[Deposit No.] column that you can click to show the <<deposit-details-screen,Deposit Details>> screen:
 
-image::financials/deposit-till-link.png[The deposit creator till search with arrows pointing to the link created after adding the tills to a deposit.]
+image::financials/deposit-till-link.png[The Deposit creator till search with arrows pointing to the link created after adding the tills to a Deposit]
 
 
 === Option 2: create deposit manually
 
-<<navigate,Navigate to>> the *Search Deposit* screen and click the btn:[`Create New Bank Deposit`] button next to the btn:[Search] button.
-This displays the **Deposit Creation** screen:
+<<navigate,Navigate to>> the ui:screen[Search Deposit] screen and click btn:[Create New Bank Deposit] next to the btn:[Search] button.
+The ui:screen[Deposit Creation] screen shows:
 
-image::financials/deposit-create-new.png[Create new deposit screen with the deposit data already filled out.]
+image::financials/deposit-create-new.png[Create new deposit screen with the deposit data already filled out]
 
 Fill in the information for the bank deposit.
-Make sure the _Deposit Date_ field is correct, and select the _For Deposit to Bank_ field if you want this deposit to participate in bank reconciliation.
+Make sure the ui:field[Deposit Date] field is correct, and select ui:field[For Deposit to Bank] if you want this deposit to participate in bank reconciliation.
 
-After filling in the required information, click the *Save Bank Deposit* button.
-This creates the Deposit record and displays the **Deposit Details** screen (shown below).
+After filling in the required information, click btn:[Save Bank Deposit] to create the ui:entity[Deposit].
+The ui:screen[Deposit Details] screen shows:
 
-image::financials/deposit-details.png[The deposit details screen showing 2 tills added to the shown deposit.]
+image::financials/deposit-details.png[The deposit details screen showing 2 tills added to the shown deposit]
 
-From this screen you can add new tills to the deposit and close the deposit when everything is final.
+On this screen, you can add new tills to the deposit and close the deposit when everything is final.
 
-For information on how to add new tills, see the <<deposit-details-screen,Deposit Details Screen>>.
+For information on how to add new tills, refer to the <<deposit-details-screen,Deposit Details screen>>.

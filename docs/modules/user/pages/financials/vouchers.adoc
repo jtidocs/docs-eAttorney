@@ -2,34 +2,33 @@
 = Vouchers
 
 A voucher is money you have in the system that needs to be sent out to some other entity.
-To view the existing vouchers or void vouchers, you can go to the Vouchers screen.
-To go there, click the btn:[Vouchers] link in the left navigation pane:
+To show the existing vouchers or void vouchers, navigate to menu:Left navigation[Accounting > Payables > Vouchers]:
 
-image::financials/vouchers-link.png[Accounting section in the left navigation with an arrow pointing to the Vouchers link under the Payables subsection.]
+image::financials/vouchers-link.png[Accounting section in the left navigation with an arrow pointing to the Vouchers link under the Payables subsection]
 
-After clicking the link, the **Voucher Search** screen shows.
+The ui:screen[Voucher Search] screen shows.
 
 
 == Search for vouchers
 
-image::financials/voucher-screen.png[The Vouchers search screen with one search result shown.]
+image::financials/voucher-screen.png[The Vouchers search screen with one search result shown]
 
-If you are searching for a voucher, or all vouchers in a date range, enter that search criteria in the search fields and click the btn:[Search] button.
+If you are searching for a voucher, or all vouchers in a date range, enter the search criteria in the search fields and click btn:[Search].
 
-In the search results section, you can view information about each individual voucher and navigate to the associated case.
+In the ui:area[Search Results] section, you can view information about each voucher and navigate to the associated case.
 You can also void a voucher.
 
 
 == Void a voucher
 
-To void a voucher, for example in case of a clerical error, you can do the following:
+To void a voucher, for example, in case of a clerical error you can do the following:
 
 . Search for the voucher you want to void.
-. In the _Search Results_ section, click the checkbox next to the voucher you want to void.
-. Fill out the _Reason_ column with the reason for voiding the voucher.
-. Click the btn:[Submit] button.
+. In the ui:area[Search Results] section, click the checkbox next to the voucher you want to void.
+. Enter a reason for voiding in the ui:field[Reason] field.
+. Click btn:[Submit].
 
 
 == Write a check for a voucher
 
-To write a check for an existing voucher, see xref:./check_writing.adoc[].
+To write a check for an existing voucher, refer to xref:./check_writing.adoc[].
