@@ -14,7 +14,6 @@ tasks:
     aliases: [build]
     silent: true
     cmds:
-      - task: vale-sync
       - task: antora
       - task: redirect_tense
       - task: pagefind
@@ -41,6 +40,7 @@ tasks:
   antora:
     desc: "Generate HTML with Antora."
     silent: true
+    deps: [prepare]
     cmds:
       - echo "Generating HTML..."
       - npx antora --stacktrace --fetch antora-playbook.yml
@@ -57,6 +57,14 @@ tasks:
     silent: true
     cmds:
       - npx fix_redirect_tense
+
+  prepare:
+    desc: "Runs build preparation steps."
+    silent: true
+    cmds:
+      - task: cleanup
+      - npx patch-package
+      - task: vale-sync
 
 
   # run validity checks ----------------------------------------------
@@ -110,24 +118,9 @@ tasks:
 
   cleanup:
     desc: Removes the build folder and temporary build files.
+    silent: true
     cmds:
       - echo -n "Cleaning up..."
-      - task: cleanup-unix
-      - task: cleanup-windows
+      - npx del-cli {{.BUILD_DIR}} tmp
       - echo "OK"
-    silent: true
 
-  cleanup-unix:
-    platforms: [darwin, amd64]
-    internal: true
-    silent: true
-    cmds:
-      - rm -rf $BUILD_DIR tmp
-
-  cleanup-windows:
-    platforms: [windows]
-    internal: true
-    silent: true
-    cmds:
-      - deltree $BUILD_DIR
-      - deltree tmp

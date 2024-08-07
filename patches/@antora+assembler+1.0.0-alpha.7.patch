@@ -1,0 +1,63 @@
+diff --git a/node_modules/@antora/assembler/lib/.produce-aggregate-document.js.swp b/node_modules/@antora/assembler/lib/.produce-aggregate-document.js.swp
+new file mode 100644
+index 0000000..c73c93c
+Binary files /dev/null and b/node_modules/@antora/assembler/lib/.produce-aggregate-document.js.swp differ
+diff --git a/node_modules/@antora/assembler/lib/produce-aggregate-document.js b/node_modules/@antora/assembler/lib/produce-aggregate-document.js
+index e6d876a..e5adf21 100644
+--- a/node_modules/@antora/assembler/lib/produce-aggregate-document.js
++++ b/node_modules/@antora/assembler/lib/produce-aggregate-document.js
+@@ -110,6 +110,11 @@ function aggregateAsciiDoc (
+     page = new page.constructor(Object.assign({}, page, { contents, mediaType: 'text/asciidoc' }))
+     const { module: module_, relative, origin } = page.src
+     const doc = loadAsciiDoc(page, contentCatalog, asciidocConfig)
++
++    // Allow exclusion of pages
++    const pdfExclude = doc.getAttribute('pdf-exclude')
++    if (pdfExclude) return []
++
+     const refs = doc.getCatalog().refs
+     // NOTE: in Antora, docname is relative src path from module without file extension
+     const docname = doc.getAttribute('docname')
+@@ -132,6 +137,18 @@ function aggregateAsciiDoc (
+         level--
+       } else {
+         let hlevel = level + 1
++
++        // Add support for breaking the flow so the current file content
++        // starts on a new page.
++        const pdfPageBreak = doc.getAttribute('pdf-page-break')
++        if (pdfPageBreak) {
++          if (level > 0 && level <= pdfPageBreak) {
++            buffer.push('[%always]')
++            buffer.push('<<<')
++            buffer.push('')
++          }
++        }
++
+         if (hlevel > 6) {
+           hlevel = 6
+           buffer.push(`[discrete#${idprefix}]`)
+@@ -468,13 +485,18 @@ function generateStem (componentVersion, title) {
+   const segments = []
+   if (name !== 'ROOT') segments.push(name)
+   if (version && version !== 'master') segments.push(version)
+-  segments.push(
+-    title
+-      .toLowerCase()
++
++  let fTitle = title
+       .replace(/&.+?;|[^ \p{Alpha}0-9_\-.]/gu, '')
+-      .replace(/[ _.]/g, '-')
++      .replace(/[ _.]/g, '_')
+       .replace(/--+/g, '-')
+-  )
++  let fVersion = ''
++  if (version) fVersion = '-' + version
++    .replace(/&.+?;|[^ \p{Alpha}0-9_\-.]/gu, '')
++    .replace(/[ _.]/g, '-')
++    .replace(/--+/g, '-')
++
++  segments.push(`${fTitle}${fVersion}`)
+   return path.join(...segments)
+ }
+ 

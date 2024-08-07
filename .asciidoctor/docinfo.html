@@ -1,0 +1,57 @@
+<!-- link href="https://db.onlinewebfonts.com/c/f21923cb0f60b46d41a66875255790b3?family=Neue+Haas+Grotesk+Display+Pro+65+Medium" rel="stylesheet" -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+  /* All UI macros instances have the `ui` class */
+  .doc p code.ui {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: transparent;
+    padding: 0;
+    white-space: pre;
+  }
+
+  .doc b.button,
+  .doc b.menu {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+  }
+
+  .doc .olist.procedure ol {
+    counter-reset: li;
+    padding-left: 0.75rem;
+  }
+
+  .doc .olist.procedure ol > li {
+    list-style: none;
+    border-left: 3px dotted #666;
+    padding-left: 2rem;
+    position: relative;
+  }
+
+  .doc .olist.procedure ol > li::before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1rem;
+    box-sizing: border-box;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    padding: 0.2rem 0 0;
+    color: #fff;
+    background: #666;
+    font-weight: 500;
+    text-align: center;
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .doc .olist.procedure ol > li + li {
+    margin-top: 1rem;
+  }
+
+</style>

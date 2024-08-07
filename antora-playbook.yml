@@ -36,6 +36,10 @@ output:
 #   redirect_facility: netlify
 antora:
   extensions:
+  - require: '@jti/antora-extension-ui_macro'
+    enabled: true
+    debug: false
+    remote: false
   - require: '@jti/antora-extension-repeated_words'
     enabled: true
     debug: false
