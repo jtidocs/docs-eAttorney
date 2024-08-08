@@ -1,9 +1,17 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Financial reports
 
-Financial reports can be accessed using the accounting tab in the left navigation pane, under financial reports (shown as 1).
-When viewing the financial report screen, reports can be selected from the drop-down combo box (shown as 2).
-Once selected, the report shows (in box 3).
-If parameters are required, input must be entered before viewing a report.
+Financial reports are accessible by users assigned to a security group with access to menu:Left navigation[Accounting].
+For more information, refer to xref:admin:users/navigation.adoc[].
 
-image::reports/FinancialReports.png[financial Reports]
+image::reports/FinancialReports.png[Financial Reports]
+
+To show a report based on ui:entity[Financial] information:
+
+[.procedure]
+. Navigate to menu:Left navigation[Accounting > Financial Reports].
+
+. Use the ui:dropdown[dropdown] to select a report to show.
+
+. Once selected, the report shows after the dropdown.
+When required, parameters must be entered before the report shows.

@@ -1,9 +1,15 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Top navigation
 
+The ui:form[Top Navigation] bar shows at the top of the screen.
+It identifies the product and includes buttons for common actions.
+
+NOTE: The top navigation bar has the same appearance for all users, regardless of account permissions.
+
+
 == Left side
 
-The left side of the navigation bar should resemble the bar below:
+The left side of the navigation bar should resemble the following screenshot:
 
 image::navigation/top-left-nav.png["Top left navigation bar"]
 
@@ -15,22 +21,22 @@ Available actions and short descriptions:
 | Action
 
 | xref:dashboard/index.adoc[]
-| Clicking takes you to the Dashboard
+| Click to show the ui:screen[Dashboard].
 
-| Print Icon
-| Opens a print dialog to print the current page
+| ui:icon[Print] icon
+| Click to open a dialog to print the current page.
 
-| Bell Icon
-| Check your notifications
+| ui:icon[Bell] Icon
+| Click to check your notifications.
 
-| Question Icon
-| Help Documentation
+| ui:icon[Question] Icon
+| Click to show help documentation.
 
-| Door Exit Icon
-| Log Out
+| ui:icon[Door Exit] Icon
+| Click to log out.
 
 | xref:searches/top.adoc[]
-| Quick Search Bar
+| Click to search all entities and resources.
 |===
 
 
@@ -66,9 +72,11 @@ No custom hot keys are defined.
 | Focus the top-bar search.
 
 | kbd:[Ctrl + F11] +
-  kbd:[Ctrl + ⇧ + Space]
+kbd:[Ctrl + ⇧ + Space]
+
 | kbd:[⌘ + F11] +
-  kbd:[⌘ + ⇧ + Space]
+kbd:[⌘ + ⇧ + Space]
+
 | Opens the global search popup for menu items.
 |===
 
@@ -106,12 +114,12 @@ No custom hot keys are defined.
 | Navigate to the first item in the bottom toolbar.
 
 | kbd:[Ctrl + ←] +
-  kbd:[Ctrl + ,]
+kbd:[Ctrl + ,]
 | kbd:[⌘ + ,]
 | Navigate to the previous stage (in wizards).
 
 | kbd:[Ctrl + →] +
-  kbd:[Ctrl + .]
+kbd:[Ctrl + .]
 | kbd:[⌘ + .]
 | Navigate to the next stage (in wizards).
 
@@ -158,7 +166,7 @@ No custom hot keys are defined.
 | kbd:[Ctrl + Delete] +
   kbd:[Ctrl + Backspace]
 | kbd:[⌘ + Delete] +
-  kbd:[⌘ + Backspace]
+kbd:[⌘ + Backspace]
 | Remove the current panel.
 
 | kbd:[Ctrl + /]
@@ -198,19 +206,19 @@ No custom hot keys are defined.
 | Description
 
 | kbd:[Ctrl + ←] +
-  kbd:[Ctrl + ,]
+kbd:[Ctrl + ,]
 | kbd:[⌘ + ,]
 | Navigate to the previous stage (in wizards).
 
 | kbd:[Ctrl + →] +
-  kbd:[Ctrl + .]
+kbd:[Ctrl + .]
 | kbd:[⌘ + .]
 | Navigate to the next stage (in wizards).
 
 | kbd:[Ctrl + ⇧ + ↓] +
-  kbd:[Ctrl + ⇧ + ⏎]
+kbd:[Ctrl + ⇧ + ⏎]
 | kbd:[⌘ + ⇧ + ↓] +
-  kbd:[⌘ + ⇧ + ⏎]
+kbd:[⌘ + ⇧ + ⏎]
 | Navigate to the Submit & Pay Fee option.
 |===
 
@@ -224,9 +232,9 @@ No custom hot keys are defined.
 | Description
 
 | kbd:[Ctrl + ⇧ + ↓] +
-  kbd:[Ctrl + ⇧ + ⏎]
+kbd:[Ctrl + ⇧ + ⏎]
 | kbd:[⌘ + ⇧ + ↓] +
-  kbd:[⌘ + ⇧ + ⏎]
+kbd:[⌘ + ⇧ + ⏎]
 | Navigate to the Submit & Pay Fee option.
 
 | kbd:[Ctrl + ⇧ + >]

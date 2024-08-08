@@ -3,6 +3,23 @@
 
 This section describes the administrative features that manage user accounts and the permissions granted to them:
 
-- xref:./accounts.adoc[]
-- xref:./navigation.adoc[]
-- xref:./security_groups.adoc[]
+[.cards.flex.flex-3]
+--
+[.card.link]
+.xref:./accounts.adoc[]
+****
+Learn how to create user accounts, and then manage them.
+****
+
+[.card.link]
+.xref:./navigation.adoc[]
+****
+Learn how to manage navigation for users.
+****
+
+[.card.link]
+.xref:./security_groups.adoc[]
+****
+Learn how to set permissions for users by group.
+****
+--

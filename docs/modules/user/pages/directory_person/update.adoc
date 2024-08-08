@@ -1,8 +1,12 @@
 // vim: tw=0 ai et ts=2 sw=2
-= Updating a directory person
+= Update a directory person
 
-From the directory person view folder, to update a person click menu:Summary[Update Directory Person].
+To update a directory person record:
+
+. Navigate to the ui:form[Directory Person Folder View].
+. Click a directory person.
+. Click the ui:dropdown[Summary] dropdown, then select ui:option[Update Directory Person].
 
 image::directory_person/updateDirectoryPerson.png[Update Directory Person]
 
-You are able to change roles, Name, email, address, telephone, add files, add person to organizations, and do other actions.
+You can change roles, name, email, address, telephone, add files, add person to organizations, and do other actions.

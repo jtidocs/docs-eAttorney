@@ -1,26 +1,32 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Recent reports gadget
 
-The Recent Reports gadget displays a list of recently saved PDF reports with the option to share them using email.
+The ui:gadget[Recent Reports] gadget shows a list of recently saved PDF reports with an option to share them using email.
 
 
+[[add]]
 == Add the gadget
 
-. Open the dashboard.
-. At the top of the dashboard, find the "Dashboard" button, and click the gear icon to show User Settings:
+. Open the ui:screen[Dashboard].
+. At the top of the ui:screen[Dashboard], find the ui:tab[Dashboard] button, then click the ui:icon[gear] icon to show the ui:screen[User Settings] screen.
 +
 image::dashboard/user-settings.png[User settings icon]
 
-. Click the btn:[`+`] button next to the Recent Reports item:
+. Click btn:[`+`] next to the ui:option[Recent Reports] item:
 +
 image::dashboard/add-recent-reports.png[Recent reports add button]
 
 
 == Use the recent reports gadget
 
-The Recent Report gadget must first be added to the Dashboard.
-Once added, it shows on the dashboard:
+To use the ui:gadget[Recent Report] gadget, you must first <<add>> to your ui:screen[Dashboard].
 
 image::dashboard/recent-reports-gadget.png[Recent reports gadget]
 
-Individual PDF reports can be shared using email by clicking the envelope icon next to the desired report.
+To share a PDF report, click the ui:icon[envelope] icon next to a report.
+
+// TODO: Add descriptions for the + icon to the left of the report name.
+// TODO: Add a description of what happens when you click the report name.
+// TODO: Add a description for the "Yes"/"Burbank Courthouse" column.
+
+// TODO: Update the screenshot with a modification timestamp since 2022.

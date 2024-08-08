@@ -1,16 +1,19 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Notepad gadget
 
-The notepad gadget can be added to a dashboard and allows you to take free-text notes.
-It can be added by clicking the gear icon at the top of your dashboard, then clicking the btn:[`+`] button next to the Notepad gadget.
-After clicking the btn:[Close Settings] button, the notepad gadget shows on your dashboard.
+Use the ui:gadget[Notepad] gadget to take free-text notes.
+To add the gadget, click the ui:icon[gear] icon at the top of your ui:screen[Dashboard], click btn:[`+`] next to the ui:option[Notepad] gadget, then click btn:[Close Settings].
 
-image::dashboard/notepad-gadget.png[Notepad gadget with an example note already added.]
+image::dashboard/notepad-gadget.png[An empty Notepad gadget]
 
-To add a note, click the btn:[Add New Note] button, type the text you want in your note, then click the btn:[Add Item] button.
+To add a note, click btn:[Add New Note], type the note text, then click btn:[Add Item].
 
 image::dashboard/notepad-new-note.png[Notepad gadget showing box for adding a new note]
 
-To delete a note, click the trash can icon next to the note.
+// TODO: Add a screenshot showing the gadget with two or more notes.
 
-To edit a note, click the text of the note then make your edits and click the *Update* button.
+To delete a note, click the ui:icon[trash can] icon next to the note.
+
+// TODO: Add a screenshot of a note while updating.
+
+To edit a note, click the text of the note, make your edits, then click btn:[Update].

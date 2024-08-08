@@ -2,26 +2,26 @@
 = Tasks
 
 Tasks can be added to a case and assigned to an individual.
-To navigate to the tasks from the case view, click the Task tab pictured below.
-For information on how to navigate to case view, see xref:./index.adoc[].
+To navigate to the tasks from the case view, click the ui:tab[Task] tab:
 
 image::cases/navigationToTasks.png["Navigation to Tasks View"]
 
+For information on how to navigate to the ui:form[Case View], see xref:./index.adoc[].
 
 == Add a task
 
-Tasks are added by clicking menu:Tasks[Add Task].
+To add a task, click the ui:dropdown[Tasks] dropdown, then click ui:option[Add Task]:
 
 image::cases/addTask.png["Add Task Button"]
 
-In the add case task screen, the required field to save is `Instructions`.
+In the ui:screen[Add Case Task] screen, the required field to save is `Instructions`.
 Instructions are shown to the assigned user in their corresponding workspace:
 
 image::cases/addTaskView.png["Add Task View"]
 
 Updating the assignment also updates the assigned user in the workspace.
 You can also update the assignment from the workspace.
-When complete, you can select the `complete` box to remove the workspace item or use the `Done` result from the workspace.
+When complete, select ui:field[complete] to remove the workspace item, or use the ui:area[Done] result from the workspace.
 
 
 == Checklists
@@ -31,14 +31,14 @@ Checklists are a set of tasks and are configured by an administrator.
 
 === Add a checklist
 
-Checklists are added to cases by clicking menu:Tasks[Add Checklist].
+To add a checklist, click the ui:dropdown[Tasks] dropdown, then click ui:option[Add Checklist]:
 
-image::cases/addChecklist.png["Add Checklist Button"]
+image::cases/addChecklist.png[Add Checklist Button]
 
-The add checklist screen allows the user to select all of the checklist or elements of the checklist to add.
+Use the ui:screen[Add Checklist] screen to select all the checklist items or elements to add.
 Checklists do not allow duplicate items to exist on a case.
 
-For example: a user adds item 1 from checklist and clicks `Save and Assign`.
+For example, a user adds item 1 to a checklist and clicks btn:[Save and Assign].
 Item 1 cannot be added a second time to the case.
 
-image::cases/addChecklistView.png["Add Task View"]
+image::cases/addChecklistView.png[Add Task View]

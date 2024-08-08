@@ -1,13 +1,20 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Person reports
 
-Person reports can be found under the "Reports" tab (shown as 1) in the person folder view.
-For information on how to navigate to the person folder view, see xref:person/index.adoc[].
+image::reports/personReports.png[Person Reports]
 
-The default report, set by the administrator, shows when navigating to the reports tab.
-Reports can be changed by selecting a report from the drop-down menu (shown as 2), and the selected report shows (shown as 3).
+To show a custom report based on ui:entity[Person] information:
 
-Report parameters `personId` and `nameId` are populated with information from the current person record.
-Other required parameters need manual input before a report can be displayed.
+[.procedure]
+. Click the ui:tab[Reports] tab in the ui:entity[Person] ui:form[Folder View].
++
+TIP: To navigate to the ui:entity[Person] ui:form[Folder View], refer to xref:person/index.adoc[].
 
-image::reports/caseReports.png[Case Reports]
+. Use the ui:dropdown[dropdown] to select a report to show.
++
+The system uses the ui:field[personId] and ui:field[nameId] fields in the ui:entity[Person] entity to generate the report.
+When other value are required, the system opens a dialog so they can be entered.
+
+. Once selected, the report shows after the dropdown.
+
+NOTE: The administrator can set which report shows by default.

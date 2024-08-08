@@ -1,11 +1,12 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Create a person
 
-A person can be created while adding defendants or involvements to a case.
-The person can be created by clicking the btn:[`+`] button, on the add screen in the field pictured below and then filling out the launched dialog:
+A ui:entity[Person] can be created while adding defendants or involvements to a ui:entity[Case].
+Click btn:[`+`] to create a new ui:entity[Person]:
 
 image::person/createPerson.png[Creating Person]
 
-After saving, a person can be added to cases by clicking the search icon and finding the stored person:
+After saving, you can add a ui:entity[Person] to cases.
+Click the ui:icon[Search] icon and find the stored person:
 
 image::person/searchPerson.png[Search Person]

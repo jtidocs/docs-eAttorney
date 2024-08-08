@@ -1,14 +1,17 @@
 // vim: tw=0 ai et ts=2 sw=2
 = News gadget
 
-The News gadget displays a message from administrators.
+The ui:gadget[News gadget] shows a message from administrators.
+
 
 == Add the gadget
 
-. Open the dashboard.
-. At the top of the dashboard, find the "Dashboard" button, and click the gear icon to show User Settings:
+. Open the ui:screen[Dashboard].
+. At the top of the ui:screen[Dashboard], find the ui:tab[Dashboard] tab, and click the ui:icon[gear] icon.
+  The ui:screen[User Settings] screen shows.
 +
 image::dashboard/user-settings.png[User settings icon]
-. Click the btn:[`+`] button next to the Recent Reports item:
+
+. Click btn:[`+`] next to the ui:option[News] item:
 +
-image::dashboard/add-news.png[Image of News add button]
+image::dashboard/add-news.png[The User Settings screen with the News gadget add button highlighted]

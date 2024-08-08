@@ -10,17 +10,17 @@ For information on how to navigate to the case folder view, see xref:./index.ado
 
 To add an event:
 
-. Click the drop-down button on menu:Events[Add Event]:
+. Click the ui:dropdown[Events] dropdown, then select ui:option[Add Event]:
 +
 image::cases/addEvent.png[Add Event on Case]
 
-. Fill out the add event screen.
+. Fill in the ui:screen[Add Event] screen.
 . Click btn:[Save].
 
 After the creation of an event, a user can edit and add notes.
-Notes can be added by clicking the notes icon for the corresponding event:
+Click the ui:icon[Notes] icon for an event to add a note.
 
 image::cases/eventOptions.png[Event Options]
 
-Notes added on each even are also added to the case notes.
-Edit an event by clicking the case type, which shows an editing page.
+Notes added to each event are also added to the case notes.
+Edit an event by clicking the ui:entity[Case] type, which shows an editing page.

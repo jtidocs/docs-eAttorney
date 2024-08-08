@@ -1,68 +1,69 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Directory organization
 
-The directory organizations are TBW.
+A ui:entity[Directory Organization] is a non-person entity that is part of the justice system.
+They can represent a court, a law enforcement agency, a prosecutor office, or other organization that needs to be tracked.
 
 
 == Searching for a directory organization
 
-image::directory/DirectoryOrganizationSearchHeader.png[]
+image::directory/DirectoryOrganizationSearchHeader.png[The Directory Organization Search panel]
 
 Criteria:
 
-* Name or Code: Enter the name or code of the organization.
-* Group: Can be used to filter results.
-* Status: current status of the organization, choose from:
-** `All`
-** `Active`
-** `Inactive`
+* ui:field[Name or Code]: Enter the name or code of the organization.
+* ui:dropdown[Group]: Use to filter results.
+* ui:dropdown[Status]: Select the current status of the organization, one of:
+** ui:option[All]
+** ui:option[Active]
+** ui:option[Inactive]
 
-* Resource: Can be used to filter results.
-* Type: type of the organization, choose from:
-** `All`
-** `Court`
-** `Defense`
-** `Law Enforcement`
-** `Non-Agency Specific`
-** `Probation, Parole, Pretrial, Other`
-** `Prosecutor`
+* ui:dropdown[Resource]: Use to filter results.
+* ui:dropdown[Type]: Select the type of the organization, one of:
+** ui:option[All]
+** ui:option[Court]
+** ui:option[Defense]
+** ui:option[Law Enforcement]
+** ui:option[Non-Agency Specific]
+** ui:option[Probation, Parole, Pretrial, Other]
+** ui:option[Prosecutor]
 
-* Active: start and end date of activity of the organization.
+* ui:field[Active]: Start and end date of activity for the organization.
 
 Buttons:
 
-* Search: execute the search, with no criteria, to return a paginated list.
-* Clear: reset search criteria.
-* <<add-dir-org,Add new organization>>: open form to add a new Directory Organization.
-* <<import,Import>>: import a Excel spreadsheet of organizations.
+* btn:[Search]: Execute the search, with no criteria, to return a paginated list.
+* btn:[Clear]: Reset search criteria.
+* <<add-dir-org,btn:[Add new organization]>>: Opens the form to add a new Directory Organization.
+* <<import,btn:[Import]>>: Import a Excel spreadsheet of organizations.
 
 
 [#add-dir-org]
 == Add a directory organization
 
-To add a new Directory Organization, click the btn:[Add New Organization] button:
+To add a new Directory Organization, click btn:[Add New Organization]:
 
-image::directory/DirectoryOrganizationAddForm.png[]
+image::directory/DirectoryOrganizationAddForm.png[The Directory Organization Add form]
 
-* `Org. Type`: Choose the organization type choosing from:
-** `Court`
-** `Defense`
-** `Law Enforcement`
-** `Non-Agency Specific`
-** `Probation, Parole, Pretrial, Other`
-** `Prosecutor`
+* ui:dropdown[Org. Type]: Select the organization type choosing from:
+** ui:option[Court]
+** ui:option[Defense]
+** ui:option[Law Enforcement]
+** ui:option[Non-Agency Specific]
+** ui:option[Probation, Parole, Pretrial, Other]
+** ui:option[Prosecutor]
 
-* Name: The name of the organization.
-* Short Name: The shortened version of the name, sometimes displayed on screens and can be used in documents and reports.
+* ui:field[Name]: The name of the organization.
+* ui:field[Short Name]: The shortened version of the name, sometimes displayed on screens and can be used in documents and reports.
 
-* Code: Unique code for the organization.
-  If you do not want to come up with one, use the btn:[Generate] button to generate one for you.
+* ui:field[Code]: Unique code for the organization.
+If you do not want to come up with one, use the btn:[Generate] button to generate one for you.
 +
 image::directory/DirectoryOrganizationGenerateCodeButton.png[Generate code button]
 
-* Start Date: Date this organization is available in drop downs in the system.
+* Start Date: Date this organization is available in dropdowns in the system.
 
-* End Date: Date this organization is no longer available in drop downs in the system.
+* End Date: Date this organization is no longer available in dropdowns in the system.
 
 * Status: Defines if the organization is active or inactive.
   One of: `Active`, `Inactive`
@@ -97,19 +98,19 @@ Optionally, you can add:
 [#import]
 == Bulk importing directory organizations
 
-Click the btn:[Import] button to enter the format of the requisite Excel file for bulk import.
+Click btn:[Import] to enter the format of the requisite Excel file for bulk import.
 The window also includes a link to a sample file with the required column headers.
-Click the btn:[Choose File] button at the top to choose the file to import.
-Click the btn:[Import] button on the lower right to start the import.
+Click btn:[Choose File] at the top to choose the file to import.
+Click btn:[Import] on the lower right to start the import.
 
-image::directory/DirectoryOrganizationImport.png[]
+image::directory/DirectoryOrganizationImport.png[The Import Directory Organization XLS File dialog]
 
 
 == Edit a directory organization
 
-If you click an organization name, the Update form is shows:
+If you click an organization name, the ui:form[Update] form is shows:
 
-image::directory/DirectoryOrganizationUpdateForm.png[]
+image::directory/DirectoryOrganizationUpdateForm.png[The Directory Organization Update form]
 
 * `Org. Type`: choose the organization type choosing from:
 ** `Court`
@@ -121,16 +122,16 @@ image::directory/DirectoryOrganizationUpdateForm.png[]
 
 * Name: The name of the organization.
 
-* Short Name: The shortened version of the name, sometimes displayed on screens and can be used in documents and reports.
+* Short Name: The shortened version of the name, sometimes shown on screens and can be used in documents and reports.
 
 * Code: Unique code for the organization.
-  If you do not want to come up with one, use the btn:[Generate] button to generate one for you.
+  If you do not want to come up with one, click btn:[Generate] to generate one for you.
 +
 image::directory/DirectoryOrganizationGenerateCodeButton.png[Generate code button]
 
-* Start Date: Date this organization is available in drop downs in the system.
+* Start Date: Date this organization is available in dropdowns in the system.
 
-* End Date: Date this organization is no longer available in drop downs in the system.
+* End Date: Date this organization is no longer available in dropdowns in the system.
 
 * Status: Defines if the organization is active or inactive.
   One of: `Active`, `Inactive`
@@ -162,28 +163,28 @@ Optionally, you can add:
 - xref:./attachment.adoc[Attachments]
 - xref:./attribute.adoc[Attributes]
 
-* **Addresses** - Addresses can be added by clicking the btn:[Add Address] button (shown as 1 below) and filling out the form that shows (shown as 2).
+* **Addresses** - Addresses can be added by clicking btn:[Add Address] (1) and filling out the form that shows (2).
 +
-image::directory/directory-organization-addresses.png[]
+image::directory/directory-organization-addresses.png[Directory Organization Addresses]
 
-* **Contact** - Contacts can be added by clicking the btn:[Add Contact] button (shown as 1 below) and filling out the form that shows (shown as 2).
+* **Contact** - Contacts can be added by clicking btn:[Add Contact] (1) and filling out the form that shows (2).
 +
-image::directory/directory-organization-contact.png[]
+image::directory/directory-organization-contact.png[Directory Organization Contact]
 
-* **Off-Time** - Off time for an organization can be added using the off-time tab (shown below) and clicking the btn:[Add off-time] button.
+* **Off-Time** - Off time for an organization can be added using the off-time tab and clicking btn:[Add off-time]:
 +
-image::directory/directory-organization-off-time.png[]
+image::directory/directory-organization-off-time.png[Directory Organization Off-Time]
 
-* **Resources** - Resources can be found and added inside of a directory organization under the resources tab (shown below).
+* **Resources** - Resources can be found and added to a ui:entity[Directory Organization] under the resources tab:
 +
-image::directory/directory-organization-resource.png[]
+image::directory/directory-organization-resource.png[Directory Organization Resource tab]
 
 
 == Move an organization
 
-Organizations can be moved from one organization to another using the move to function located under `Organizations` on the left hand side, near the left hand side navigation, (shown as 1 below).
+Organizations can be moved from one organization to another using the move to function located under `Organizations` on the left hand side, near the left navigation, (1).
 
-**Organization Name** (shown as 2 below) -> **Move to** (shown as 6 below).
+**Organization Name** (2) -> **Move to** (6).
 Using this feature allows you to mimic the physical structure of an organization or building.
 
 
@@ -191,38 +192,38 @@ Using this feature allows you to mimic the physical structure of an organization
 
 If there are two existing organizations with the same name, a merge operation may be performed to combine the two organizations into one.
 
-To merge two organizations choose one of the duplicated organizations from **Organizations** on the left hand side, near the left hand side navigation, (shown as 1 below).
+To merge two organizations choose one of the duplicated organizations from **Organizations** on the left hand side, near the left hand side navigation, (1).
 
-**Organization Name** (shown as 2 below) -> **Merge into** (shown as 7 below).
+**Organization Name** (2) -> **Merge into** (7).
 A dialog opens asking which organization to keep ("keep" merges existing organization into current, "merge" takes current and merges into existing organization).
 
-image::directory/merge-into.png[]
+image::directory/merge-into.png[The Merge Directory Organization Into dialog]
 
 Also, one can create more details of an organization including Divisions (sub OrgUnit), Locations, Persons using the expanded Organizations panel.
-In the image below, the organization has a location named **Conference Room 1**:
+In the following image, the organization has a location named **Conference Room 1**:
 
-image::directory/DirectoryOrganizationUpdateFormExpanded.png[]
+image::directory/DirectoryOrganizationUpdateFormExpanded.png[The Directory Organization Update form, expanded]
 
 
 == Add an orgunit
 
 Orgunits are subordinate organizations in an organization and can help organize the organization.
 
-To add an orgunit from the organization click btn:[Organizations] on the left hand side, near the left navigation pane, (shown as 1) ```Organization Name``` (shown as 2 below) > ```Add OrgUnit``` (shown as 3 below).
+To add an orgunit from the organization click btn:[Organizations] on the left hand side, near the left navigation pane, (1) ``Organization Name`` (2) > ``Add OrgUnit`` (3).
 
 
 == Add a location
 
 Multiple locations can be added in an organization.
-To add a location from the organization click ```Organizations``` on the left hand side, near the left hand side navigation, (shown as 1 below) ```Organization Name``` (shown as 2 below) > ```Add Location``` (shown as 4 below).
+To add a location from the organization click ``Organizations`` on the left hand side, near the left hand side navigation, (1) ``Organization Name`` (shown as 2 below) > ``Add Location`` (4).
 
 
 == Add a person
 
 Adding a person can be done directly on a directory organization auto filling the individuals organization.
-To add a person from the organization click btn:[Organizations] on the left hand side, near the left navigation pane, (shown as 1 below) ```Organization Name``` (shown as 2 below) > ```Add Person``` (shown as 5 below).
-The Add person navigation shows the add new directory person screen.
+To add a person from the organization click btn:[Organizations] on the left hand side, near the left navigation pane, (1) ``Organization Name`` (2) > ``Add Person`` (5).
+The ui:screen[Add Person] navigation shows the add new directory person screen.
 
 NOTE: For more information on Directory Person, see xref:./person/index.adoc[].
 
-image::directory/directory-organization-options.png[]
+image::directory/directory-organization-options.png[Directory Organization action options]

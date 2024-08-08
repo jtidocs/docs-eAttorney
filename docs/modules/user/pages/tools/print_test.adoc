@@ -67,11 +67,12 @@ If not, investigate the networking / firewall issue mentioned in <<troubleshooti
 
 === Problems launching the service
 
-Edge and Chrome due to security restrictions no longer support running Java Applets in the browser.
-For those user running Edge or Chrome it is recommend that the scan and print service be launched when logging on (see command to launch the service section below).
-For browsers that do still support applets (Internet Explorer) it is recommended that you verify java is installed correctly.
-The easiest way to do that is to visit java.com and click btn:[`Do I have Java?`].
-If java.com successfully verifies that everything is installed correctly you should have no problems launching the service in {product}.
+Due to security restrictions, Microsoft Edge and Google Chrome no longer support running Java applets in the browser.
+// TODO: Add the mentioned service section, including the command to launch the service.
+For those users running Edge or Chrome, {company-full} recommends launching the scan and print service when logging on (refer to the command to launch the service section).
+For browsers still supporting applets, like Internet Explorer, {company} recommends that you verify that Java is installed correctly.
+The easiest way to do that is to visit https://java.com/[java.com^] and click btn:[`Do I have Java?`].
+If https://java.com/[java.com^] successfully verifies that everything is installed correctly you should have no problems launching the service in {product}.
 
 NOTE: the service should only launch once.
 
@@ -84,7 +85,7 @@ See <<network>>.
 
 Due to security restrictions from the browser, these requests do not come from the browser itself but from the {product} app server.
 The {product} app server tries to access the scan service on the client machine.
-The network settings must be setup correctly for the {product} service to run fast / correctly.
+The network settings must be set up correctly for the {product} service to run fast / correctly.
 By default these requests come from the {product} server to the client machine port 8383.
 This port must not be blocked on the user firewall.
 Under normal firewall setup this port is not blocked for local network traffic.

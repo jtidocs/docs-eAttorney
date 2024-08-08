@@ -3,19 +3,23 @@
 == Add VOCA report items
 
 The Federal Victims of Crime Act Report (VOCA) includes victimizations, special classifications, and services.
-Adding these items are found in the drop-down menu from the Victim Tab inside a case.
-The added items are viewable from the Victim Folder view:
+Adding these items are found in the ui:dropdown[Victim] dropdown in a case.
+The added items are viewable from the ui:form[Victim Folder View]:
 
 image::voca/image001.png[VOCA Report]
 
 
 == Generate the VOCA report
 
-To Generate the VOCA Report navigate to the Left Menu and select Searches & Reports.
-In the Reports section select VOCA Report.
-Enter the time-period and the output format.
-If Show Details is selected, links for case and person records are inserted into the report:
+To generate the VOCA report:
 
+[.procedure]
+. Navigate to menu:Left navigation[Searches & Reports > Reports > VOCA Report].
+. Enter the time-period and the output format.
+. If ui:field[Show Details] is selected, links for case and person records are inserted into the report:
++
 image::voca/image002.jpg[VOCA Report]
+
+The following is an example VOCA report:
 
 image::voca/image003.jpg[VOCA Report]

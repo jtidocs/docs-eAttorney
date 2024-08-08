@@ -1,14 +1,17 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Security groups
 
-The *Security Groups* page can be accessed by navigating to menu:Left navigation pane[System Setup > Security] and going to the _Groups_ tab.
+Security groups let you configure permissions for groups of users with similar roles.
+
+To configure security groups, navigate to menu:Left navigation pane[System Setup > Security], then click the ui:tab[Groups] tab.
 
 image::users/SecurityNav.png[Arrow pointing to Security link in System Setup section.]
 
 
 == Permissions
 
-A security group is a group that is assigned various permissions in the system that can be applied to individual users.
+A security group is a set of permissions in the system that can be applied to individual users.
+
 The default security groups and the permissions granted to each:
 
 [cols="<a,^,^,^,^,^", options="header", stripes="even stripes-hover"]

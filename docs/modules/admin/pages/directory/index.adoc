@@ -5,6 +5,6 @@ The directory consists of xref:./person/index.adoc[Persons] and xref:./org_unit.
 xref:./person/index.adoc[Persons] and xref:./org_unit.adoc[Organizations] include all people that are part of agencies and organizations that work with you as the customer, such as police and sheriff departments, probation offices, courts, and attorney offices.
 If a person is not a victim, witness, plaintiff, defendant, or other such involvement on a case, they are likely to be in Directory.
 
-image:directory/DirectoryLeftNav.png[]
+image:directory/DirectoryLeftNav.png[The Directory navigation items]
 
 For information on how directory persons are used on cases, and added through the case screen, see xref:user:directory_person/index.adoc[].

@@ -2,22 +2,22 @@
 = Merge documents
 
 The merge documents utility creates a combined PDF file for printing or downloading.
-To start merging your documents, select the drop-down arrow next to File Cabinet, hover over Utilities, and select Merge Documents.
+To start merging your documents, click the ui:dropdown[File Cabinet] dropdown, hover over ui:option[Utilities], and select ui:option[Merge Documents].
 
-image::merge_documents/merge-docs01.png[Merge documents,300]
+image::merge_documents/merge-docs01.png[Merge documents]
 
-The Merge Documents screen shows:
+The ui:screen[Merge Documents] screen shows:
 
-image::merge_documents/merge-docs02.png[Bulk Merging,700]
+image::merge_documents/merge-docs02.png[Bulk Merging]
 
 . You can select all files.
 . Or you can select individual files.
-. Then select Merge.
-. You can also view your files with the View Document icon.
+. Then click btn:[Merge].
+. You can also view your files with the ui:icon[View Document] icon.
 
-After you select Merge, the documents that you selected merge into one document and show in a new window:
+After you click btn:[Merge], the documents that you selected merge into one document and show in a new window:
 
-image::merge_documents/merge-docs03.png[Bulk Merging,700]
+image::merge_documents/merge-docs03.png[Bulk Merging]
 
 . Expand or collapse your thumbnail icons.
 . Type the page you want to view.
@@ -26,6 +26,6 @@ image::merge_documents/merge-docs03.png[Bulk Merging,700]
 . Rotate your document.
 . Download your document.
 . Print your document.
-. Select from a list of options as shown below.
+. Select from a list of options as shown:
 
-image::merge_documents/merge-docs04.png[Bulk Merging,180]
+image::merge_documents/merge-docs04.png[Bulk Merging]

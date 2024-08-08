@@ -1,7 +1,7 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Directory person and directory organization attachment
 
-image::directory/DirectoryAttachments.png[]
+image::directory/DirectoryAttachments.png[The Directory Attachments tab]
 
 Attachments are documents and images associated with a person or organization.
 Generally this is used for things like an agency seal or logo, bail bond license, proof of residency, head shot of a person or stamp for document stamping.
@@ -9,30 +9,32 @@ Generally this is used for things like an agency seal or logo, bail bond license
 
 == Add an attachment
 
-Click the btn:[Add Attachment] button to add a row to add the document in the grid.
+Click btn:[Add Attachment] to add a row to add the document in the grid.
 
-image::directory/DirectoryAttachmentNewRow.png[]
+image::directory/DirectoryAttachmentNewRow.png[A new attachment row]
 
-* Type: select the type for the attachment.
-* Caption: enter a caption for the image.
-* File Name: click the button to select a file.
-* Stamp: defines this attachment as a stamp usable by the agency.
-* Bulk Stamp: defines this as a stamp usable in scanning utilities.
-* Resizable: allows the stamp to be resized.
-* NOTE: enter note about the file.
-* Roles: choose the roles that have access to this attachment by clicking the button and selecting all of the roles that can access this attachment.
-  If you select none, then it defaults to Everyone.
+* ui:dropdown[Type]: select the attachment type.
+* ui:field[Caption]: enter a caption for the image.
+* ui:field[File Name]: click btn:[Choose File] to select a file to attach.
+* ui:checkbox[Stamp]: select to indicate the attachment is a stamp usable by the agency.
+* ui:checkbox[Bulk Stamp]: select to indicate the attachment is a stamp usable in scanning utilities.
+* ui:checkbox[Resizable]: select to indicate the attachment can be resized.
+* ui:field[Note]: enter note about the file.
+* ui:field[Roles]: select the roles that have access to this attachment.
+  If you select none, then it defaults to ui:option[Everyone].
 +
-image::directory/DirectoryAttachmentRoles.png[]
+image::directory/DirectoryAttachmentRoles.png[The Attachment Access Roles dialog]
 
-* Start Date: first date image is usable.
-* End Date: last date image is usable.
-* Labels: add labels to organize or group attachments.
+* ui:field[Start Date]: set the first date the attachment is usable.
+* ui:field[End Date]: set the last date the attachment is usable.
+* ui:field[Labels]: add labels to organize or group attachments.
 
 
 == Update an attachment
 
-Click the btn:[Edit Attachment] link at the end of the row to make the fields editable.
-Make the required changes and click the btn:[Save] button.
+Click ui:link[Edit Attachment] link at the end of the row to make the fields editable.
+Make the required changes, then click btn:[Save].
 
-image::directory/DirectoryAttachmentNewRow.png[]
+// TODO: Add correct screenshot.
+
+image::directory/DirectoryAttachmentNewRow.png[Replace with correct screenshot]

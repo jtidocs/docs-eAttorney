@@ -3,23 +3,29 @@
 
 Choose one of the following documentation sets:
 
-[.cols-3]
+[.cards.flex.flex-2]
 --
-[.touchable]
-.User guide
+[.card.user.link]
+.xref:user:index.adoc[]
 ****
 Learn how to navigate, use, and work with {product}.
 ****
 
-[.touchable]
-.Admin guide
+[.card.business.link]
+.xref:admin:index.adoc[]
 ****
-Learn how to administer an {product} installation.
+Learn how to manage an {product} installation.
 ****
 
-[.touchable]
-.Business process
+[.card.admin.link]
+.xref:business:index.adoc[]
 ****
 Learn about {product} processes and workflows.
+****
+
+[.card.jda.link]
+.xref:JDA:index.adoc[]
+****
+Learn how to login and use JDA features.
 ****
 --

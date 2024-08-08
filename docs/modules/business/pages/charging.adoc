@@ -7,15 +7,15 @@
 +
 image::charging/image001.png[Charging]
 
-. From the Charges folder view, click the dropdown menu and click btn:[Charging]:
+. In the ui:form[Charges folder View], click the dropdown and select ui:option[Charging]:
 +
 image::charging/image002.png[Charging]
 
-. The Charging widget shows, where the charge can be selected: filed, declined or amended:
+. The ui:widget[Charging] widget shows, where the charge decision can be selected: ui:option[Decline to File], ui:option[File with Court], or ui:option[Replace Charge]:
 +
 image::charging/image003.png[Charging]
 
-. You have ability to make different Decisions on the requested Charges:
+. You can make different Decisions on the requested Charges:
 +
 image::charging/image004.png[Charging]
 
@@ -31,8 +31,8 @@ image::charging/image006.png[Charging]
 +
 image::charging/image007.png[Charging]
 
-. Once you have completed the Charging decision, click the btn:[Save] or btn:[Save and Back] button.
-  The Charges folder view shows the active charges and Charge History:
+. Once you have completed the Charging decision, click btn:[Save] or btn:[Save and Back].
+  The ui:form[Charges Folder View] shows the active charges and ui:panel[Charge History]:
 +
 image::charging/image008.png[Charging]
 
@@ -43,7 +43,7 @@ image::charging/image008.png[Charging]
 +
 image::charging/image009.png[Charging]
 
-. In the Charging Paragraphs folder view, click the btn:[Generate Paragraphs] button:
+. In the ui:form[Charging Paragraphs Folder View], click btn:[Generate Paragraphs]:
 +
 image::charging/image010.png[Charging]
 
@@ -59,7 +59,7 @@ image::charging/image011.png[Charging]
 image::charging/image012.png[Charging]
 
 . The Add Plea Offer form shows.
-  Once the form is filled, click the btn:[Save & Back] button:
+  Once the form is filled, click btn:[Save & Back]:
 +
 image::charging/image013.png[Charging]
 
@@ -89,7 +89,7 @@ image::charging/image017.png[Charging]
 image::charging/image018.png[Charging]
 
 . After clicking the btn:[Update Charge Disposition], all the selected charges show in the top panel, and a blank disposition form shows.
-Once the form is completed, click the btn:[Update Records] button.
+Once the form is completed, click btn:[Update Records].
 
 ** The disposition is added to the selected charges:
 +

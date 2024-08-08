@@ -1,14 +1,15 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Archived search gadget
 
-The Saved Searches gadget displays a list of saved searches with the option to quickly run or open them directly.
-The search can also be expanded to display the search parameters.
+The ui:gadget[Saved Searches] gadget shows a list of saved searches with the option to quickly run or open them directly.
+The search can also be expanded to show the search parameters.
 
 == Add the gadget
 
+[.procedure]
 . Open the dashboard.
 
-. At the top of the dashboard, find the "Dashboard" button, and click the gear icon to go to User Settings:
+. At the top of the dashboard, find the ui:tab[Dashboard] tab, and click the ui:icon[gear] icon to show the ui:screen[User Settings] screen:
 +
 image::dashboard/user-settings.png[User settings icon]
 
@@ -19,25 +20,26 @@ image::dashboard/add-archived-searches.png[Saved Search add button]
 
 == Create an archived search
 
+[.procedure]
 . Browse to a search in the system.
 
-. Fill out the parameters as required and click the btn:[Search] button.
+. Fill out the parameters as required, then click btn:[Search].
 
-. Scroll down to the bottom of the search results and click the Archive Button.
+. Scroll down to the bottom of the search results, then click btn:[Archive].
 
-. A dialog opens prompting you to give the Archived Search a name, and to specify the save format.
+. A dialog opens prompting you to give the ui:entity[Archived Search] a name, and to set the save format.
 
-. Click the Save Icon to finish creating the Archived Search.
+. Click the ui:icon[Save] icon to finish creating the ui:entity[Archived Search].
 +
 image::dashboard/create-archived-search.png[User settings icon]
 
 
 == Use the archived searches gadget
 
-The Archived Searches gadget must first be added to the Dashboard.
-Once added, Archived Searches are displayed:
+The ui:gadget[Archived Searches] gadget must first be added to the Dashboard.
+Once added, ui:entity[Archived Searches] are shown:
 
 image::dashboard/archived-searches-gadget.png[Archived searches gadget]
 
-. Each Archived Search is listed by Date.
-. Click the name of the Archived Search to download the associated file.
+. Each ui:entity[Archived Search] is listed by Date.
+. Click the name of the ui:entity[Archived Search] to download the associated file.

@@ -1,20 +1,22 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Person navigation
 
-Like the xref:./case.adoc[case view], the person view displays a header and a body.
-From this screen it is possible to view and change all information associated with a person including involvements, profile information (name, address, phone), and documents.
+Like the xref:./case.adoc[Case View], the ui:screen[Person View] shows a header and a body.
+Use this screen to show and change all ui:entity[Person] information, including involvements, contact information, and documents.
 
 
 == Header
 
-The person header shows an image of the person, _if available_, plus their name, date of birth, gender, weight, ethnicity, and hair color.
+The ui:form[Person Header] shows an image of the person, _if available_, plus their name, date of birth, gender, weight, ethnicity, and hair color.
 
 image::navigation/person/person-header.png[Person header]
 
 
 == xref:person/index.adoc[Summary]
 
-The person folder view has all information attached to the selected person and links to edit each piece of information.
+Click btn:[Summary] to show the ui:form[Person Folder View].
+The form shows all information associated to the selected ui:entity[Person], including links to edit the information.
+Refer to xref:person/index.adoc[] for more information.
 
 image::navigation/person/person-summary-folderview.png[Person summary folder view]
 
@@ -51,59 +53,61 @@ image::navigation/person/update-contact.png[Update contact form]
 
 image::navigation/person/person-summary-dropdown.png[Summary dropdown]
 
-* `Update Person` info including name, date of birth, and appearance (height, weight).
-  It is also possible to add an image here that shows in the <<header,header>>.
+* Select ui:option[Update Person] to manage information, including name, date of birth, appearance, and a <<header>> photo.
 +
 image::navigation/person/update-person.png[Update person form]
 
-* `Add Address` information to the selected person in the drop-down selector.
+* Select ui:option[Add Address] to add an address for the ui:entity[Person].
 +
 image::navigation/person/add-address.png[Add address to person form]
 
-* `Add E-mail` information to the selected person in the drop-down selector.
+* Select ui:option[Add E-mail] to add an email address for the ui:entity[Person].
 +
 image::navigation/person/add-contact.png[add contact form]
 
-* `Add Telephone` information to the selected person in the drop-down selector.
+* Select ui:option[Add Telephone] to add a telephone number for the ui:entity[Person].
 +
 image::navigation/person/add-telephone.png[Add telephone form]
 
-* `Add Identification` information to the selected person in the drop-down selector.
+* Select ui:option[Add Identification] to add identifying documents for the ui:entity[Person].
 +
 image::navigation/person/add-identification.png[Add identification form]
 
-* `Add Person Attribute`:
-** Add special status to the selected person in the drop-down selector.
+* Select ui:option[Add Person Attribute] to add descriptive attributes for the ui:entity[Person].
 +
 image::navigation/person/add-attribute.png[Add person attribute form]
 
-* `Add Note` to the selected person in the drop-down selector.
+* Select ui:option[Add Note] to add a note to the ui:entity[Person].
 +
 image::navigation/person/add-person-note.png[Add person note form]
 
-* `Search involvements`:
-** Find all involvements for a person by involvement type or date of involvement.
+* Select ui:option[Search involvements] to find all involvements for a ui:entity[Person] by involvement type or date of involvement.
 +
 image::navigation/person/search-involvements.png[search involvements form]
 
-* xref:person/merge.adoc[*Person merge*].
+* Select ui:option[Person Merge (beta)] to xref:person/merge.adoc[].
 
 
 == xref:documents/file_cabinet.adoc[File cabinet]:
+
+Click btn:[File Cabinet] to show the ui:form[File Cabinet Folder View].
+For more information, refer to xref:documents/file_cabinet.adoc[].
+
 
 === Dropdown
 
 image::navigation/person/file-cabinet-dropdown.png[file cabinet dropdown]
 
 
-=== Add person files to the selected person in the drop-down selector
-
+* Select ui:option[Add Person File(s)] to add files to the ui:entity[Person].
++
 image::navigation/person/search-involvements.png[search involvements form]
 
 
 == xref:person/relationships.adoc[Relationships]
 
-The relationship folder view shows all relationships of the selected person and allows for quick editing by clicking a relationship.
+The ui:form[Relationship Folder View] shows all relationships of the selected person and allows for quick editing by clicking a relationship.
+Refer to xref:person/relationships.adoc[] for more information.
 
 image::navigation/person/relationships-folder.png[person relationship folder view]
 
@@ -112,6 +116,6 @@ image::navigation/person/relationships-folder.png[person relationship folder vie
 
 image::navigation/person/add-person-relationship-dropdown.png[add person relationship dropdown]
 
-* *Add Person Relationship* to the selected person in the drop-down selector.
+* Select ui:option[Add Person Relationship] to add a relationship for the ui:entity[Person].
 +
 image::navigation/person/add-relationship.png[add person relationship form]

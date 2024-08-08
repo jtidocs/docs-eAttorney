@@ -4,7 +4,7 @@
 The menus available to a user on the xref:user:navigation/left.adoc[left navigation], xref:user:navigation/case.adoc[case navigation], and xref:user:navigation/person.adoc[person navigation] are determined by their user navigation settings.
 The navigation settings are determined by the xref:users/security_groups.adoc[security group] the user is a member of.
 
-Below are tables the describe what menus are available to each security group.
+The following tables describe menus that are available to each security group.
 
 
 == Left navigation

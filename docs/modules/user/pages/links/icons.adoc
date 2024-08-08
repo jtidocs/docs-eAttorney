@@ -1,68 +1,56 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Icon links
 
-Hovering over an icon link indicates what shows after you click the icon.
+Hovering over an icon link shows a tooltip indicating the icon click action.
 
 
 == Person or directory person record
 
-image:links/personIcon.png[Person icon]
-image:links/dirPersonIcon.png[Directory person icon]
-
-These icons take you to a view of the person or directory person record.
+Click image:links/personIcon.png[Person icon] or image:links/dirPersonIcon.png[Directory person icon] to show the ui:entity[Person] or ui:entity[Directory Person] record.
 
 
 == Add note for record
 
-image:links/newNoteIcon.png[New note icon]
-image:links/noteIcon.png[Note icon]
-
 Some row records allow you to add a note directly.
-Click this icon to open the add notes widget.
+Click image:links/newNoteIcon.png[New note icon] or image:links/noteIcon.png[Note icon] to open the ui:widget[Add Notes] widget.
 
 image::links/addNoteWidget.png[New note widget]
 
 . Enter a search term here to find notes associated with the record.
-. Click this drop-down arrow to toggle the advanced note search <<advanced-note-search,advanced note search>>.
-. Enter case note type and body with text document formatting options.
-. Use this field to add new or existing tags to notes.
+. Click the dropdown to toggle the <<advanced-note-search,Advanced Note Search>>.
+. Enter the case note type and body with text document formatting options.
+. Use the field to add new or existing tags to notes.
 . Create a to-do item for an assignee and set sharing rights for the note.
-. Check the **Include All Notes From Case** checkbox to show a list of all case notes in the popup window.
-. Choose a note color.
-. Choose a note macro.
+. Select ui:field[Include All Notes From Case] to show a list of all case notes in the popup window.
+. Select a note color.
+. Select a note macro.
 
 
 === Advanced note search
 
-The advanced note search provides the option to filter notes by color, tags, note type, sharing level, and by case.
+Use the ui:panel[Advanced Note Search] to filter notes by color, tags, note type, sharing level, and by case.
 
 image::links/addNoteSearchFilter.png[Directory person icon]
 
 
 == View involvements
 
-image:links/viewInvolvementsIcon.png[View involvements icon]
-
-Clicking this icon launches the involvements popup.
-This popup allows you to search for a person involvements on cases based on the involvement type and creation date of the involvement.
+Click image:links/viewInvolvementsIcon.png[View involvements icon] to open the ui:dialog[Involvements] popup.
+Use the popup to search for a ui:entity[Person] involvements on cases based on the involvement Type and creation date of the involvement.
 
 image::links/viewInvolvementsPopup.png[Directory person icon]
 
 
 == Collapse or expand panels
 
-image:links/expandCollapseIcon.png[expand/collapse icon]
-
-This icon is found at the top of most forms.
-Clicking it expands or collapses all panels in the form.
+Click image:links/expandCollapseIcon.png[expand/collapse icon] to expand or collapse all panels in the form.
+This icon shows at the top of most forms.
 
 
 == Lookup
 
-image:links/lookupIcon.png[Lookup icon]
-
-The lookup icon shows next to search boxes in add forms.
-The search may be for a case, person, or other entity.
-Clicking this icon opens an advanced search popup.
+Click image:links/lookupIcon.png[Lookup icon] to open an ui:dialog[Advanced Search] popup.
+The icon shows next to ui:field[Search] field in ui:form[Add] forms.
+The search may be for a ui:entity[Case], ui:entity[Person], or other entity.
 
 image:links/lookupPopup.png[Lookup popup]

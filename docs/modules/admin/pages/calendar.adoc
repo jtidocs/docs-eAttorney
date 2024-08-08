@@ -12,55 +12,59 @@ You can get to the Holiday Calendar by going to menu:Left navigation pane[System
 
 image::HolidayCalendarNav.png[The screen for configuring holidays in {product}]
 
-After clicking the Holiday Calendar link, Holidays Administration page shows.
+After clicking the ui:link[Holiday Calendar] link, Holidays Administration page shows:
 
 image::HolidayCalendarConfig.png[The screen for configuring holidays in {product}]
 
-This screen list all the holidays that are currently configured in the system.
+This screen lists all holidays currently configured in the system.
 If you would like to add more holidays, there are two ways: manually or using import.
 
 
 === Manual addition and editing
 
-To add a new holiday, click the btn:[Add New Holiday] button at the bottom of the screen.
+To add a new holiday, click btn:[Add New Holiday] at the bottom of the screen.
 To edit an existing holiday, click the holiday name:
 
 image::EditHoliday.png[Edit holiday screen with numbers 1 through 8 labeling different controls.]
 
-. `Config Code` - System code used to identify the holiday.
+. ui:field[Config Code]: Set the system code that identifies the holiday.
 
-. `Name` - The name used for the holiday that shows on the calendars.
+. ui:field[Name]: Set the holiday name that shows on the calendars.
 
-. `Date` - The date the holiday occurs this year.
+. ui:field[Date]: Set the date the holiday occurs this year.
 
-. `Type` - There are three options: _Date_, _Cycle_, and _Cycle Last_.
+. ui:dropdown[Type]: Select one of three options:
 
-** `Date` - The holiday occurs on the day entered in the date field (example: Christmas is on December 25 every year).
+** ui:option[Date]: The holiday occurs on the day entered in the date field.
+  For example, Christmas is on December 25 every year.
 
-** `Cycle` - The holiday occurs every year on the same weekday from the start of the month (example: Labor day is the first Monday of September).
+** ui:option[Cycle]: The holiday occurs every year on the same weekday from the start of the month.
+  For example, Labor day is the first Monday of September.
 
-** `Cycle Last` - The holiday occurs every year on the last occurrence of a weekday in a month (example: Thanksgiving is the last Thursday of November).
+** ui:option[Cycle Last]: The holiday occurs every year on the last occurrence of a weekday in a month.
+  For example, Thanksgiving is the last Thursday of November.
 
-. `Recurrence` - Set it to _This Year_ for the holiday to only occur once.
-  Set is to _Every Year_ for the holiday to show every year.
+. ui:dropdown[Recurrence]: Set it to ui:option[This Year] for the holiday to only occur once.
+  Set it to ui:option[Every Year] for the holiday to show every year.
 
-. `Save & Back` - Saves the current settings and returns you to the Holidays Administration page.
+. btn:[Save & Back]: Click to save the current settings and return to the ui:screen[Holidays Administration] page.
 
-. `Save` - Saves the current settings, but keeps you on the Holiday Settings page.
+. btn:[Save]: Click to save the current settings, but stay on the ui:screen[Holiday Settings] page.
 
-. `Cancel` - Discards the changes and returns you to the Holidays Administration page.
+. btn:[Cancel]: Click to discard the changes and return to the ui:screen[Holidays Administration] page.
 
 
 === Import holidays
 
-From the Holidays administration page, you can import holidays from an Excel XLS file by clicking the btn:[Import XLS] button at the bottom of the page.
+On the ui:screen[Holidays Administration] page, you can import holidays from an Excel XLS file by clicking btn:[Import XLS] at the bottom of the page.
 
 image::ImportHolidays.png[Import XLS dialog showing with an arrow pointing to the Import XLS button and numbers 1 through 4 labeling controls on the dialog.]
 
-. *File* - Choose an Excel XLS file in the proper format that has holiday data you want to import into {product}.
-. *Sample* - Download a sample Excel XLS file that has the expected format and a few samples (see below).
-. *Import* - Import the holidays from the file into {product}.
-. *Close* - Close the Import dialog.
+. ui:field[File]: Select an Excel XLS file in the proper format that has holiday data you want to import into {product}.
+. ui:link[Sample]: Download a sample Excel XLS file that has the expected format and a few samples.
+  See the following screenshot.
+. btn:[Import]: Click to import the holidays from the file into {product}.
+. btn:[Close]: Click to close the ui:dialog[Import] dialog.
 
 image::HolidayImportExample.png[Example XLS file with columns for Date, Name, Type, and Frequency.]
 

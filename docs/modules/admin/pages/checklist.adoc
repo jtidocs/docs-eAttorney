@@ -5,7 +5,7 @@ Checklists are managed in the left navigation under menu:System Administration[C
 
 image::ChecklistSetupNavigation.png[Checklist Setup Navigation button]
 
-To add a new checklist definition, click the btn:[Add Definition] button in the bottom right corner:
+To add a new checklist definition, click btn:[Add Definition] in the bottom right corner:
 
 image::AddChecklistDefinitionButton.png[Add Checklist Definition button]
 

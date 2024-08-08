@@ -1,22 +1,42 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Search controls
 
-== Controls
-
 All of the searches listed in this section use the same set of controls:
 
 image::searches/search-controls.png[Bottom Search Controls Toolbar.]
 
-. *Search Button* -  Execute the search.
+. Click btn:[Search] to execute the search.
 
-. *Reset Button* -  Reset all parameters and controls to the default values.
+. Click btn:[Reset] to reset all parameters and controls to default values.
 
-. *Refine Button* -  Enable the Refine Controls on all parameters.
+. Click btn:[Refine] to enable the <<refine>> for all parameters.
+
+. Click btn:[Output] to <<output>>.
+This configuration controls how results are shown by ordering, hiding, and grouping fields.
+
+. Select the results per page.
 +
-Clicking the Refine button adds advanced refinement controls to each parameter on whatever search you are looking at.
+image::searches/search-controls-results-dropdown.png[Bottom Search Controls Results Dropdown.]
+
+. Select fields to configure <<extra>> that can narrow the search.
+
+. Click the ui:icon[Disk Folder] icon to load a previously xref:dashboard/saved_searches.adoc[saved search].
 +
-image::searches/search-controls-refine-dropdown.png[Refine Button Dropdown of Comparison Types.]
+image::searches/search-controls-load-saved-search.png[Bottom Search Controls Load Saved Search.]
+
+. Click the ui:icon[Disk Down Arrow] icon to save the search to your xref:dashboard/saved_searches.adoc[].
 +
+image::searches/search-controls-save-search.png[Bottom Search Controls Save Search.]
+
+
+[[refine]]
+== Refine controls
+
+Clicking btn:[Refine] adds value comparison controls to each parameter in your search.
+
+image::searches/search-controls-refine-dropdown.png[Refine Button Dropdown of Comparison Types]
+
+[%autowidth, cols="a,a", options="header"]
 |===
 | Comparison type
 | Affect on column
@@ -41,11 +61,11 @@ image::searches/search-controls-refine-dropdown.png[Refine Button Dropdown of Co
 
 | `in`
 | Results are in this value.
-  <<opt-in-example,See example.>>
+<<opt-in-example,See example.>>
 
 | `not in`
 | Results are not in this value.
-  <<opt-in-example,See example.>>
+<<opt-in-example,See example.>>
 
 | `blank`
 | Results are blank.
@@ -53,80 +73,72 @@ image::searches/search-controls-refine-dropdown.png[Refine Button Dropdown of Co
 | `not blank`
 | Results are not blank.
 
-| (Comparison Type) + nulls
+| (Comparison{nbsp}Type){nbsp}+{nbsp}nulls
 | Include null value results in addition to your applied comparison type.
 |===
-+
---
-[discrete#opt-in-example]
+
+
+[#opt-in-example]
 === Example of in and not-in comparison types
 
-The *_in_* Comparison Type only works with multi select dropdown values.
+The `in` Comparison Type only works with multiselect dropdown values.
 This example shows how the results are limited to the selected status values of Adult Drug Court and Declined for lack of Investigation.
 No other Statuses are returned in this search.
 
-image::searches/search-controls-refine-dropdown-in.png[Refine Button in Comparison Type example.]
---
+image::searches/search-controls-refine-dropdown-in.png[Refine Button in Comparison Type example]
 
-. *Output Button* -  Execute the search.
-+
-image::searches/search-controls-output-columns.png[Output Button Pop-up Configuration Dialog.]
-+
-. The available results table columns which should be hidden.
-. The available results table columns which should be shown.
-. Move single selected column from Hide to Show.
-. Move all available columns from Hide to Show.
-. Move single selected column from Show to Hide.
-. Move all available columns from Show to Hide.
-. Move selected columns up one slot.
-  Only works on Show side.
-. Move selected columns down one slot.
-  Only works on Show side.
-. Group results by parameters.
-  Differs between Searches based on parameters available in that search.
-+
---
-_Group results by Parameters_ allows you to group the results based on 1 or more of the parameters available for the search.
 
-image:searches/search-controls-output-group-by-dropdown.png[Bottom Search Controls Results Dropdown.]
+[[output]]
+== Configure search output
 
+Click btn:[Output] to show the ui:dialog[Result Columns] dialog:
+
+image::searches/search-controls-output-columns.png[Output configuration dialog]
+
+You can configure the search result output with the following:
+
+. The list of columns to hide from the search results.
+. The list of columns to show in the search results.
+. Click to move selected columns from ui:field[Hide] to ui:field[Show].
+. Click to move all columns from ui:field[Hide] to ui:field[Show].
+. Click to move selected columns from ui:field[Show] to ui:field[Hide].
+. Click to move all columns from ui:field[Show] to ui:field[Hide].
+. Click to move selected columns up one slot.
+Only works in the ui:field[Show] list.
+. Click to move selected columns down one slot.
+Only works in the ui:field[Show] list.
+. Use the ui:dropdown[Group By] dropdown to select a result grouping based on one or more search parameters.
+The groupings and how they work differs between search types and involved parameters.
++
+image::searches/search-controls-output-group-by-dropdown.png[Bottom Search Controls results dropdown]
++
 Select the desired parameter to group your results by in the dropdown.
-To add more groupings, click the green plus button at the top.
-
-image::searches/search-controls-output-group-by-add.png[Bottom Search Controls Results Dropdown.]
-
-*Example of Group By results with _Case Name_ and _Case Type_ dual groupings*:
-
-If grouping is used and there are multiple results which fall under the same grouping, an expansion opens in the results which allows you to see all items in that group.
-This example shows that 4 cases were found which match the same Case Title and the same Case Type:
-
-image::searches/search-controls-output-group-by-results.png[Bottom Search Controls Group By Results Dropdown.]
---
-
-. *Results Dropdown* -  Select the number of results you would like to see per results page.
-
-image::searches/search-controls-results-dropdown.png[Bottom Search Controls Results Dropdown.]
-
-. *Criteria Dropdown* -  Whittle down results based on criteria.
 +
-The Criteria option only shows on the _Search Case_ and the _Search Person Business_ searches.
-This allows you to directly add the Case Id or Person Id into the Criteria Field when doing a search to net the exact result you are looking for.
-In the below example, the Add Criteria dropdown option of Person Id on the Search Person/Business search is selected.
-This enabled a new parameter for entry called Person Id.
-Person Id 2 is included in that Person Id Parameter.
+Click the green btn:[`+`] to add more groupings.
+When shown, click the red btn:[`-`] to remove a grouping.
 +
-image::searches/search-controls-criteria.png[Bottom Search Controls Add Criteria Example.]
-+
-The single result for the person associated with Person Id 2 is the only result as desired.
+image::searches/search-controls-output-group-by-add.png[Bottom Search Controls results dropdown]
 
-. *Disk Folder Icon* - Open a previously xref:dashboard/saved_searches.adoc[saved search].
-+
-If you have run this search before and saved the search, you can rerun that saved search by loading the search with this icon.
-+
-image::searches/search-controls-load-saved-search.png[Bottom Search Controls Load Saved Search.]
 
-. *Disk Down Arrow Icon* - Save the search to your xref:dashboard/saved_searches.adoc[].
+=== Example of Group By results with `Case Name` and `Case Type` dual groupings*:
 
-If you would like to save this search for future use without selecting the same parameters, click this icon.
+If grouping is used and there are multiple results which fall under the same grouping, an expansion opens in the results to show all items in that group.
+This example shows that four cases were found which match the same Case Title and the same Case Type:
 
-image::searches/search-controls-save-search.png[Bottom Search Controls Save Search.]
+image::searches/search-controls-output-group-by-results.png[Bottom Search Controls Group By results dropdown]
+
+
+[[extra]]
+== Extra criteria
+
+Use the dropdown to select ui:option[Case Id] or ui:option[Person Id], which adds the selected field to the search form.
+
+IMPORTANT: The ui:dropdown[Additional Criteria] dropdown only shows on the ui:screen[Search Case] and ui:screen[Search Person/Business] searches.
+
+In the following example, the ui:option[Person Id] is selected in the dropdown on the ui:dialog[Search Person/Business] dialog.
+The selection add the ui:field[Person Id] field to the search form.
+The ui:field[Person Id] is set to `2`.
+
+image::searches/search-controls-criteria.png[Bottom Search Controls Extra Criteria Example]
+
+When the search executes, there is only one result because each ui:field[Person Id] is unique.

@@ -5,7 +5,7 @@
 
 . Creating an investigative request can be done through the Investigation folder view by clicking the Investigation dropdown arrow and then btn:[Add Investigation Request]:
 +
-image::investigate/investigation-dropdown.png[Investigation Drop-down]
+image::investigate/investigation-dropdown.png[Investigation dropdown]
 
 . Click the **Request Details** text box and add details:
 +
@@ -39,7 +39,7 @@ image::investigate/UnassignedWorkQueue.png[Unassigned Investigation Requests Que
 +
 image::investigate/Unassigned.png[Unassigned link]
 
-. Click the btn:[`+`] button that shows to navigate into a directory search where you can choose the request assignee:
+. Click btn:[`+`] to navigate into a directory search where you can choose the request assignee:
 +
 image::investigate/+button.png[+ button to click when adding an assignment]
 +
@@ -68,28 +68,28 @@ image::investigate/CompleteStatus.png[Set status to complete]
 
 . Once an assignee is set on an Investigation Request, a work queue called `Investigation Requests` is assigned to the request assignee:
 +
-image::investigate/InvestigationRequestsQueue.png[]
+image::investigate/InvestigationRequestsQueue.png[The Investigative Requests queue]
 
 . Clicks the work queue to view the list of unassigned investigation requests.
 +
-image::investigate/InvestigationRequestTasks.png[]
+image::investigate/InvestigationRequestTasks.png[Investigative Request Tasks]
 
-. When the request is complete, click the results and select `Complete` from the dropdown list:
+. When the request is complete, click the results and select ui:option[Complete] in the dropdown:
 +
-image::investigate/2Results.png[]
+image::investigate/2Results.png[The results link]
 +
-image::investigate/CompleteResult.png[]
+image::investigate/CompleteResult.png[Selecting Complete in the Results dropdown]
 +
 This changes the status of the request to completed and closes out the workflow.
 The work queue drops off the queue on refresh.
 
 . You can reassign the request by clicking your username in the `Assigned` column.
 +
-image::investigate/Assigned.png[]
+image::investigate/Assigned.png[A username link in the Assigned column]
 
-. Click the btn:[`+`] button that shows to navigate into a directory search where you can choose the new request assignee:
+. Click btn:[`+`] to navigate into a directory search where you can choose the new request assignee:
 +
-image::investigate/+button.png[]
+image::investigate/+button.png[The + button]
 +
 image::investigate/SelectDirPerson.png[Search and select the Directory person to assign]
 

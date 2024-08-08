@@ -1,14 +1,26 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Case reports
 
-Reports based off of case information can be found under the "Reports" tab (shown as 1) in the case folder view.
-For information on how to navigate to the case folder, see xref:cases/index.adoc[].
-
-The default report, set by the administrator, shows when navigating to the reports tab.
-
-Reports can be selected from the drop-down combo box (shown as 2), and they show, as shown by #3.
-
-For a case report, the `caseid` report parameter is populated with the id of the current case.
-Other required parameters need manual input before viewing a report.
-
 image::reports/caseReports.png[Case reports]
+
+To show reports based on ui:entity[Case] information:
+
+[.procedure]
+. Click the ui:tab[Reports] tab in the ui:entity[Case] ui:form[Folder View].
++
+TIP: To navigate to the ui:entity[Case] ui:form[Folder View], refer to xref:cases/index.adoc[].
+
+. Use the ui:dropdown[dropdown] to select a report to show.
++
+The system uses the ui:field[caseId] field in the ui:entity[Case] entity to generate the report.
+When other values are required, the system opens a dialog so they can be entered.
+
+. Once selected, the report shows after the dropdown.
+
+NOTE: The administrator can set which report shows by default.
+
+
+== Default reports
+
+Case summary:: Provides a summary of ui:entity[Case] components including involvements, charges, events, documents, and communication.
+Case involvements:: Provides a list of involvements and justice personnel on a ui:entity[Case] along with their contact information.

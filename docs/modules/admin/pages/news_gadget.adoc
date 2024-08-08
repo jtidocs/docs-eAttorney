@@ -1,7 +1,7 @@
 // vim: tw=0 ai et ts=2 sw=2
 = News gadget configuration
 
-The News Gadget displays a message from administrators on users dashboards.
+The ui:gadget[News Gadget] shows a message from administrators on users dashboards.
 To learn how users can add the gadget to their dashboards, see xref:user:dashboard/news.adoc[].
 
 
@@ -24,7 +24,7 @@ image::NewsGadgetConfiguration1.png[News gadget configuration, part 1]
 
 . In the text box, enter the message you want to display on users dashboard news gadget.
   This is a WYSIWYG (What You See Is What You Get) editor, with a tool bar that allows for formatting items, inserting tables or links.
-  You can also click the btn:[Source Code] button circled in red to edit the HTML directly.
+  You can also click btn:[Source Code], circled in red, to edit the HTML directly.
   This needs to be done if adding an image.
   See <<add-images>>.
 +
@@ -39,8 +39,8 @@ image::NewsGadgetConfiguration2.png[News gadget configuration, part 2]
 +
 image:NewsGadgetNavigation.png[News Gadget link on left hand navigation]
 
-. This opens the "Search Static Resources" form.
-  Click the btn:[Add New Resource] button.
+. This opens the ui:form[Search Static Resources] form.
+  Click btn:[Add New Resource].
 +
 image::NewsGadgetStaticResource.png[Static Resource page for news gadget configuration]
 
@@ -54,10 +54,10 @@ image::NewsGadgetStaticResource.png[Static Resource page for news gadget configu
 +
 image::NewsGadgetImageConfiguration1.png[News gadget configuration]
 
-. Click the btn:[Choose File] button to select the image to select the image.
+. Click btn:[Choose File] to select the image to select the image.
 
 . Click btn:[Save] at the bottom to save the changes.
-. Click the btn:[Back to Static Resources] button.
+. Click btn:[Back to Static Resources].
   The image is now added as a static resource.
 
 
@@ -86,7 +86,7 @@ image::NewsGadgetImageUrl.png[Static Resource page for news gadget configuration
   See <<news-gadget-edit>>.
   Otherwise, ensure you are on the "Search Static Resources" form, and click a News Gadget.
 
-. In the text editor, click the btn:[Source Code] button in the tool bar.
+. In the text editor, click btn:[Source Code] in the tool bar.
 . Add the following line where you want the image to show:
 +
 [source, html]

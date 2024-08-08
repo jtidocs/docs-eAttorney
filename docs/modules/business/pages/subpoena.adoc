@@ -14,29 +14,29 @@
 +
 image::subpoena/update-planning-sheet1.png[Update Planning Sheet]
 
-. From the Update Planning Sheet screen, there are two ways to choose an event:
+. On the ui:screen[Update Planning Sheet] screen, there are two ways to choose an event:
 +
 --
-- Use the drop-down arrow next to Event Types.
+- Use the ui:dropdown[Event Types] dropdown.
   This allows choosing one event.
 +
 image::subpoena/update-planning-sheet2.png[Update Planning Sheet]
 
-- Use the look-up list next to Event Types.
+- Use the lookup list next to ui:dropdown[Event Types].
   This allows choosing one or many events.
 +
 image::subpoena/update-planning-sheet3.png[Update Planning Sheet]
 --
 
-. Select the Service Method:
+. Select the ui:dropdown[Service Method]:
 +
 image::subpoena/update-planning-sheet4.png[Update Planning Sheet]
 
-. Select the Subpoena Type:
+. Select the ui:dropdown[Subpoena Type]:
 +
 image::subpoena/update-planning-sheet5.png[Update Planning Sheet]
 
-. Type a note.
+. Enter a note.
 
 . When the planning sheet is finished, click btn:[Save and Back]:
 +
@@ -45,19 +45,19 @@ image::subpoena/update-planning-sheet6.png[Update Planning Sheet]
 
 == Subpoena planning
 
-. Generate a subpoena by clicking the Events dropdown arrow, hovering over Subpoenas, and then clicking the btn:[Subpoena Planning] button:
+. Generate a subpoena by clicking the ui:dropdown[Events] dropdown, hovering over ui:option[Subpoenas], then selecting ui:option[Subpoena Planning]:
 +
-image::subpoena/subpoenas-dropdown.png[Subpoenas Drop-down]
+image::subpoena/subpoenas-dropdown.png[Subpoenas dropdown]
 
-. In the View Planning Sheet folder view, click btn:[Generate Subpoena]:
+. In the ui:form[View Planning Sheet Folder View], click btn:[Generate Subpoena]:
 +
 image::subpoena/view-planning-sheet-folder-view.png[View Planning Sheet Folder View]
 
-. In the Generate Subpoena pop-up, select the drop down arrow:
+. In the ui:dialog[Generate Subpoena] popup, click the ui:dropdown[Event] dropdown:
 +
 image::subpoena/generate-subpoena-dialogue-box1.png[Subpoena image]
 
-. Choose the event for the Subpoena:
+. Select the event for the Subpoena:
 +
 image::subpoena/generate-subpoena-dialogue-box2.png[Subpoena image]
 

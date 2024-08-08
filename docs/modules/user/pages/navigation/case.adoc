@@ -1,8 +1,7 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Case navigation
 
-The image below shows a case view.
-This page consists of three main parts:
+A ui:screen[Case Navigation] screen:
 
 . <<header,A header>>.
 . <<buttons,Navigation buttons>>.
@@ -14,114 +13,110 @@ image::navigation/case/full-case-page.png[The full case screen]
 [#header]
 == Header
 
-The Case header provides a lot of information at a glance and allows you to make quick updates to the case.
+The ui:form[Case Header] shows a lot of information and allows you to make quick updates to the case.
 
 image::navigation/case/case-header-numbered.png[case header with numbered]
 
-. Special Status Banner shows if there is a special status on the case being viewed.
-. Financials Banner shows if there is a balance on the case.
-. Charge and Case Number.
-. Case name.
-. Case status hyper linked to update form and <<sharebook-widget,sharebook>> button.
+. The ui:area[Special Status Banner] shows if there is a special status on the case being viewed.
+. The ui:area[Financials Banner] shows if there is a balance on the case.
+. The ui:entity[Charge] and ui:field[Case Number].
+. The ui:field[Case Name].
+. The ui:link[Case status] linked to the ui:form[Update] form and <<sharebook-widget,sharebook>> button.
 
-. Event and Attorney Information:
+. ui:area[Event and Attorney] information:
 
-.. Received: The date the case entered the system.
-.. Next: The next scheduled event date.
-.. Attorney: Assigned Prosecuting Attorney.
-.. Defense: Defense attorney assigned.
+.. ui:field[Received]: the date the case entered the system.
+.. ui:field[Next]: the next scheduled event date.
+.. ui:field[Attorney]: assigned Prosecuting Attorney.
+.. ui:field[Defense]: defense attorney assigned.
 
 . Widgets:
-** Send email widget  -  Opens an email <<send-email-widget,pop up window>>:
-+
-image:navigation/case/sendemail-icon.png[email icon]
+* image:navigation/case/icon-envelope.svg[The email icon, 24, 24]
+The ui:widget[Send Email] widget: opens an <<send-email-widget,email popup>>.
 
-** Case watch widget - Adds this case to your watched cases list:
-+
-image:navigation/case/casewatch-icon.png[case watch icon]
+* image:navigation/case/icon-favorite.svg[The case watch icon, 24, 24]
+The ui:widget[Case Watch] widget: adds this case to your watched cases list.
 
-** Joined case widget - Opens a <<joined-case-widget,popup>> that shows joined case information:
-+
-image:navigation/case/case-joinder-icon.png[joined case icon]
+* image:navigation/case/icon-joinder.svg[The joined case icon, 24, 24]
+The ui:widget[Joined Case] widget: opens a <<joined-case-widget,popup>> that shows joined case information.
 
-** Case note widget  -  Opens a <<case-note-widget,pop up window>> that allows quick adding of notes to the case:
-+
-image:navigation/case/addnote-icon.png[add note icon]
+* image:navigation/case/icon-edit2.svg[add note icon, 24, 24]
+The ui:widget[Case Note] widget: opens a <<case-note-widget,popup window>> that allows quick adding of notes to the case.
 
 
 [#buttons]
 == Navigation buttons
 
-Directly below the header is a row of buttons.
-Each button when clicked changes the data displayed in the <<folder,case folder>> of the page.
-Most of the buttons have a caret beside it.
-The caret opens a dropdown menu with a list of links to add or update data on the case.
+Under the header is a row of buttons.
+Each button, when clicked, changes the data shown in the page <<folder,Case Folder View>>.
+Most of the buttons have a dropdown beside it.
+The dropdown has a list of options to add or update data on the case.
 
 image::navigation/case/navigation-buttons.png[navigation buttons]
 
 
 === Add or update dropdown menus
 
-The caret symbol next to each navigation button, when clicked, displays a dropdown menu of available actions for the relevant subset of data.
-Each of these options navigates you to some version of a form (add or update).
+The caret symbol next to each navigation button, when clicked, shows a dropdown of available actions for the relevant subset of data.
+Click an option to navigate you to the associated ui:form[Add Form] or ui:form[Update Form].
+
 
 ==== xref:cases/index.adoc[Case summary]
 
 image::navigation/case/summary-dropdown.png[summary dropdown menu]
 
-The summary dropdown menu provides links to update case information, add a special status or case number, or join cases.
+The ui:dropdown[Summary] dropdown has options to update case information, add a special status or case number, or join cases.
 
-* The *Update Case Information* link navigates to the form pictured below.
-  This form allows you to update the received date of the case, the case type, the case status, and the status date.
-  _All fields on this form are required for submission_.
+* Select ui:option[Update Case Information] to update the received date of the case, the case type, the case status, and the status date.
+NOTE:: All fields on this form are required for submission.
 +
 image::navigation/case/update-case-info-form.png[update case info form]
 
-* If you want to add a special status to a case then the `Add Case Special Status` link takes you to the form you need.
-  This form has only two required fields _status and start date_.
-  The other included fields, which are optional, are category, value, and end date.
-  Category and Status are lookup list fields, which means the available options show in a dropdown when the fields are clicked.
+* Select ui:option[Add Case Special Status] to add a special status to a case.
+The form has only two required fields, ui:dropdown[Status] and ui:field[Start Date].
+The other included, optional fields are ui:dropdown[Category], ui:field[Value], and ui:field[End Date].
+The ui:dropdown[Category] and ui:dropdown[Status] fields are dropdowns, so they show their available options when clicked.
 +
 image::navigation/case/special-status-form.png[add case special status form]
 
-* The *Add Case Number* form can be reached through the link of the same name in the summary dropdown menu.
-  With this form case numbers from other agencies (court, defense) can be added to the system to compensate for data sharing needs.
+* Select ui:option[Add Case Number] to add case numbers from other agencies, like courts or defense.
+These alternate case numbers facilitate case data sharing.
 +
 image::navigation/case/add-case-number-form.png[add case number form]
 
-* The *Join Case* link connects to a page built to manage case joinders.
-  This form has two panels, a view and an add form.
+* Select ui:option[Join Case] to manage ui:entity[Case Joinders].
+This form has two panels showing ui:form[View] and ui:form[Add] forms.
 +
 image::navigation/case/join-case-form.png[join case form]
 
-.. The Case Joinders panel shows joinders that exist on the case.
-   A red icon shows next to the main case of the joinder and a blue icon shows beside the current case.
+.. The ui:panel[Case Joinders] panel shows ui:entity[Joinders] associated with the case.
+A red icon shows next to the ui:entity[Joinder] main case and a blue icon shows beside the current case.
 
-.. Clicking this link allows you to edit the joinder on 4 fields, name, joinder type, description, and purpose.
+.. Click a ui:entity[Joinder] link to edit the ui:entity[Joinder] fields, ui:field[Name], ui:dropdown[Joinder Type], ui:field[Description], and ui:dropdown[Purpose].
 
-.. The Add Case Joinder Panel creates a new case joinder to the selected case.
+.. The ui:panel[Add Case Joinder] panel creates a new ui:entity[Case Joinder] associated with the selected case.
 
-.. Clicking the green btn:[Add Case] button opens a xref:searches/case.adoc[case search] pop up.
+.. Click btn:[Add Case] to open a xref:searches/case.adoc[] popup.
 
 
 ==== xref:../cases/involvements.adoc[Case involvement]
 
 image::navigation/case/case-involvement-dropdown.png[case involvement dropdown menu]
 
-* *Add Involvement* - Add existing/new person and involvement type (complainant, witness, victim) to the selected case.
+* Select ui:option[Add Involvement] to add an existing/new person and involvement type, including ui:option[Complainant], ui:option[Witness], or ui:option[Victim], to the selected case.
 +
 image::navigation/case/add-involvement-form.png[add involvement form]
 
-* *Add Justice Personnel* to the case adds the case to the `My Recent Cases` gadget to the corresponding justice personnel.
+* Select ui:option[Add Justice Personnel] to add the case to the ui:gadget[My Recent Cases] gadget for the corresponding justice personnel.
 +
 image::navigation/case/add-justice-personnel.png[add justice personnel form]
 
-* *Add Defendant* - Create a sub case and a party to the case.
-  The sub case is added to help aid in financials.
+* Select ui:option[Add Defendant] to create a subcase and a party to the case.
+The subcase is added to aid financials.
 +
 image::navigation/case/add-defendant.png[add defendant form]
 
-* *Add Bail* information and conditions for the selected case involvement in the drop-down selector.
+* Select ui:option[Add Bail] to add ui:entity[Bail] information and conditions for the selected case involvement.
 +
 image::navigation/case/add-bail.png[add bail form]
 
@@ -130,18 +125,18 @@ image::navigation/case/add-bail.png[add bail form]
 
 image::navigation/case/victim-dropdown.png[victim dropdown menu]
 
-* *Add Victimization* type to the selected victim in the drop-down selector.
-  Adding victimization requires a victim in case involvements.
+* Select ui:option[Add Victimization] to add a victimization type to a victim.
+Adding a victimization type requires a victim in ui:entity[Case Involvements].
 +
 image::navigation/case/add-victimization-form.png[add victimization form]
 
-* *Add Special Classification* type to a selected victim in the drop-down selector.
-  These special classifications are used inside of the VOCA report.
+* Select ui:option[Add Special Classification] to add a special classification for a victim.
+The special classifications are used in VOCA reports.
 +
 image::navigation/case/add-special-classification.png[add special classification form]
 
-* *Add Service* provided to a selected victim in the drop-down selector.
-Services added show up in the VOCA report.
+* Select ui:option[Add Service] to record a service provided to a victim.
+The services show in VOCA reports.
 +
 image::navigation/case/add-special-classification.png[add services form]
 
@@ -150,32 +145,33 @@ image::navigation/case/add-special-classification.png[add services form]
 
 image::navigation/case/charges-dropdown.png[charges dropdown menu]
 
-* *Add Charges* information to the selected involvement in the drop-down selector on the top of the form.
+* Select ui:option[Add Charges] to add charge information to the involvement.
 +
 image::navigation/case/add-charge.png[add charge form]
 
-* *Add Plea Offer* information to the selected involvement located in the drop-down selector.
+// TODO: check that this is the correct screenshot.
+* Select ui:option[Add Plea Offer] to add plea offer information to the involvement.
 +
 image::navigation/case/add-special-classification.png[add services form]
 
-* **Add Charge Characteristic**s to case charges (misdemeanor, felony).
-  The desired charge can be selected from the drop-down selector.
+* Select ui:option[Add Charge Characteristic] to add a ui:entity[Case] charge characteristic, like ui:option[Misdemeanor] or ui:option[Felony].
 +
 image::navigation/case/charge-characteristic.png[add charge characteristic form]
 
-* *Add Charge Intoxicant* adds an intoxicant to selected individual from the drop-down selector.
+* Select ui:option[Add Charge Intoxicant] to add an intoxicant to the selected individual.
 +
 image::navigation/case/add-charge-intoxicant.png[add charge intoxicant form]
 
-* *Add Exhibit* to document and track history.
+* Select ui:option[Add Exhibit] to document and track history.
 +
 image::navigation/case/add-exhibit.png[add exhibit form]
 
-* *Dispose Charges* by selecting the plea and disposition type for each count being disposed.
+* Select ui:option[Dispose Charges] to dispose charges.
+Select the ui:column[Plea] and ui:column[Disposition Type] for each charge to dispose.
 +
 image::navigation/case/dispose-charges.png[dispose charges form]
 
-* *Sentencing*  Add a sentence to a charge on this screen that is organized by count.
+* Select ui:option[Sentencing] to add a sentence to a charge, organized by count.
 +
 image::navigation/case/sentencing.png[sentencing form]
 
@@ -184,7 +180,7 @@ image::navigation/case/sentencing.png[sentencing form]
 
 image::navigation/case/events-dropdown.png[event dropdown menu]
 
-* *Add Event* - Add a scheduled event (hearing, conference, meeting) with related involvements or case personnel.
+* Select ui:option[Add Event] to add a scheduled event, like a hearing, conference, or meeting, with related ui:entity[Involvements] or ui:entity[Case Personnel].
 +
 image::navigation/case/add-event.png[add event form]
 
@@ -193,30 +189,28 @@ image::navigation/case/add-event.png[add event form]
 
 image::navigation/case/file-cabinet-dropdown.png[file cabinet dropdown menu]
 
-* `Add Case File(s)` by uploading or choosing to xref:documents/scan.adoc[scan].
-  Notes can be added to the file at the same time.
+* Select ui:option[Add Case File(s)] to add files for the ui:entity[Case] by uploading or choosing to xref:documents/scan.adoc[scan].
+Notes can be added to the file at the same time.
 +
 image::navigation/case/add-file.png[add file form]
 
-* xref:documents/generation.adoc[*Generate template*] by selecting one of the templates in the dropdown.
+* Select ui:option[Generate template] to xref:documents/generation.adoc[generate a document from a template].
 +
 image::navigation/case/generate-form.png[generate template form]
 
-* *Utilities*:
-** *Bates Stamp* Apply this stamp to the chosen document.
-** *Merge Documents* - The merge document folder view allows you to merge documents that are located inside the case Filing Cabinet.
-   Multiple documents of different file extensions can be merged together into a single PDF.
+* Select ui:option[Utilities] to access these utilities:
+** Select ui:option[Bates Stamp] to apply a stamp to a document.
+** Select ui:option[Merge Documents] to merge documents in the ui:form[Filing Cabinet] into a single PDF.
 
-* xref:documents/viewer.adoc[*Document viewer*] allows you to view a selected document, annotate it, and apply stamps.
-  All files for the case are available for selection in the Documents menu on the left.
+* Select ui:option[Doc Viewer] to use the xref:documents/viewer.adoc[Document viewer] to show a ui:entity[Case] document, annotate it, and apply stamps.
 
 
 ==== Discovery
 
 image::navigation/case/discovery-dropdown.png[discovery dropdown menu]
 
-* *Add Discovery Packet* - Add documents to a packet to allow for sharing for a period of time.
-  Learn more about xref:discovery_packets/index.adoc[discovery packets] and how to xref:discovery_packets/create.adoc[create] them.
+* Select ui:option[Add Discovery Packet] to add documents to a packet that can be shared for some time.
+Learn more about xref:discovery_packets/index.adoc[Discovery Packets] and how to xref:discovery_packets/create.adoc[create] them.
 +
 image::navigation/case/add-discovery-packet.png[add discovery packet form]
 
@@ -225,9 +219,9 @@ image::navigation/case/add-discovery-packet.png[add discovery packet form]
 
 image::navigation/case/financials-dropdown.png[financials dropdown menu]
 
-* xref:financials/cash_receipts.adoc[*Cash Receipts*].
+* Select ui:option[Cash Receipts] to manage the ui:entity[Case] xref:financials/cash_receipts.adoc[Cash Receipts].
 
-* *Case Ledger*:
+* Select ui:option[Case Ledger] to review the xref:cases/financials.adoc#ledger[Case Ledger].
 +
 image::navigation/case/add-special-classification.png[add services form]
 
@@ -236,7 +230,7 @@ image::navigation/case/add-special-classification.png[add services form]
 
 image::navigation/case/investigation-dropdown.png[investigation dropdown menu]
 
-* *Add Investigative Request*:
+* Select ui:option[Add Investigative Request] to add an investigative request to the ui:entity[Case].
 +
 image::navigation/case/add-investigative-request.png[add investigative request form]
 
@@ -245,7 +239,8 @@ image::navigation/case/add-investigative-request.png[add investigative request f
 
 image::navigation/case/task-dropdown.png[tasks dropdown menu]
 
-* *Add Case Task* - Case tasks added show up in the manual work queue for individuals added to the Assign To field:
+* Select ui:option[Add Case Task] to add a task to the ui:entity[Case].
+Case tasks show in the manual work queue for individuals added to the ui:field[Assign To] field.
 +
 image::navigation/case/add-task.png[add task form]
 
@@ -254,7 +249,7 @@ image::navigation/case/add-task.png[add task form]
 
 image::navigation/case/communication-dropdown.png[communications dropdown menu]
 
-* *Add Communication* - Document and store communication between case involvements:
+* Select ui:option[Add Communication] to document and store communication between case involvements.
 +
 image::navigation/case/add-communication.png[add communication form]
 
@@ -263,7 +258,7 @@ image::navigation/case/add-communication.png[add communication form]
 
 image::navigation/case/nc-financial-dropdown.png[Non-collectible financials dropdown menu]
 
-* *Add Non-collectible Financial* Document non-collectible financials not collected by this institution:
+* Select ui:option[Add Non-collectible Financial] to document non-collectible financials not collected by this institution.
 +
 image::navigation/case/add-nc-financial.png[Add non-collectible financial form]
 
@@ -271,88 +266,89 @@ image::navigation/case/add-nc-financial.png[Add non-collectible financial form]
 [#folder]
 == Case folder
 
-The body of the case page displays case data in panes (determined by the active link).
+[cols="10a,35a", options="header"]
+|===
+| Tab
+| Description
 
-* xref:cases/index.adoc[Case summary]: +
-  The case folder displays case involvements and involvement type, other case numbers attached to the case, justice personnel with their corresponding role in the case, the status of the case, and another special status.
-  The case folder view allows for easy editing by clicking case numbers, justice personnel, and other links.
+| xref:cases/index.adoc[Case summary]
+|
+The ui:entity[Case Folder] shows:
 
-* xref:cases/involvements.adoc[Case involvements]: +
-  Case involvement folder view has all information on a case about all involvements, justice personnel, and bail information.
-  The view also supports adding and editing notes for individuals on the case.
+* Case involvements and involvement type.
+* Other case numbers attached to the case.
+* Justice personnel with their corresponding role in the case.
+* The ui:entity[Case] status and another special status.
 
-* xref:cases/victim.adoc[Victim]: +
-  Victim folder view has all information and links to edit all victims, special victim classifications, and services provided to victims in a case.
+| xref:cases/involvements.adoc[Case{nbsp}involvements]
+| Use the ui:form[Case Involvement Folder View] to show case information about involvements, justice personnel, and bail, and to add or edit notes for individuals on the case.
 
-* xref:cases/charges.adoc[Charges]: +
-  The charge folder view shows all charges of involvements, charge characteristics, sentencing, exhibits, and inactive charges on the case.
-  The folder view also allows for easy editing by clicking exhibits, charges, and other links.
+| xref:cases/victim.adoc[Victim]
+| Use the ui:form[Victim Folder View] to edit ui:entity[Case] victims, special victim classifications, and services provided to victims.
 
-* xref:cases/events.adoc[Events]: +
-  The event folder view displays all events for a given case plus date/time, category, related personnel, notes, and type.
-  The folder view also allows for quick editing by clicking the case text or note icon.
+| xref:cases/charges.adoc[Charges]
+| Use the ui:form[Charge Folder View] to show ui:entity[Case] charges of involvements, charge characteristics, sentencing, exhibits, and inactive charges, and to edit exhibits and charges.
 
-* xref:documents/file_cabinet.adoc[File cabinet]: +
-  The file cabinet folder view shows all documents associated with the case.
+| xref:cases/events.adoc[Events]
+| Use the ui:form[Event Folder View] to show and edit ui:entity[Case] events, date/time, category, related personnel, notes, and type.
 
-* xref:cases/discovery.adoc[Discovery]: +
-  The discovery folder view shows all discovery items associated with the case.
+| xref:documents/file_cabinet.adoc[File cabinet]
+| Use the ui:form[File Cabinet Folder View] to show ui:entity[Case] documents.
 
-* xref:cases/financials.adoc[Financials]: +
-  The financials button navigates to the case ledger which shows all financial interactions that have taken place on a case.
+| xref:cases/discovery.adoc[Discovery]
+| Use the ui:form[Discovery Folder View] to show ui:entity[Case] discovery items.
 
-* xref:cases/investigation.adoc[Investigation]: +
-  The investigation task folder view shows the collections tasks assigned to the selected case.
-  The folder view gives easy access to edit each task.
-  To edit a task, click the date.
+| xref:cases/financials.adoc[Financials]
+| Click btn:[Financials] to show the ui:entity[Case Ledger], which shows recorded ui:entity[Case] financial interactions.
 
-* xref:cases/tasks.adoc[Tasks]: +
-  The case tasks folder view shows all tasks attached to the case.
+| xref:cases/investigation.adoc[Investigation]
+| Use the ui:form[Investigation Task Folder View] to show and edit the ui:entity[Case] collection tasks.
 
-* xref:cases/communication.adoc[Communication]: +
-  The communication folder view shows all communications in the case.
-  The folder view also allows for easy editing by clicking each communication item.
+// TODO: Explain the difference between a "task" (⬇︎) and a "collection task" (⬆︎).
+| xref:cases/tasks.adoc[Tasks]
+| Use the ui:form[Case Tasks Folder View] to show ui:entity[Case] tasks.
 
-* xref:cases/non-collectible_financial.adoc[Non-collectible financials]: +
-  Non-collectible Financials folder view shows the collections of non collectibles attached to the selected case.
-  The folder view gives easy access to edit each item.
-  To edit an item, click the paper icon.
+| xref:cases/communication.adoc[Communication]
+| Use the ui:form[Communication Folder View] to show and edit ui:entity[Case] communications.
 
-* xref:reports/case.adoc[Reports]: +
-  The report folder view loads the case summary report by default with a dropdown menu to select a different report to run on the case.
+| xref:cases/non-collectible_financial.adoc[Non-collectible financials]
+| Use the ui:form[Non-collectible Financials Folder View] to show and edit the ui:entity[Case] collections of non-collectibles.
+
+| xref:reports/case.adoc[Reports]
+| Use the ui:form[Report Folder View] to show the ui:form[Case Summary] report by default.
+Other reports can be selected in the dropdown.
+|===
 
 
 === Send email widget
 
 image::navigation/case/send-email-widget-modal.png[send email widget]
 
-The send email widget is a form that enables you to send a quick email regarding a case directly from the case page.
-There is also a checkbox that includes a link to the case directly in the email.
+Use the ui:widget[Send Email] widget to send an email regarding the ui:entity[Case].
+Select ui:field[Include Link to Case] to include a link to the case in the email.
 
 
 === Joined case widget
 
 image::navigation/case/joined-cases-modal.png[joined case widget]
 
-The joined case widget shows cases that are related to the current case.
-The lead case and related cases case numbers and titles are listed as links so that you can navigate quickly to a related case.
-There is also a link to the Related Case update form included in the pop up.
+Use the ui:widget[Joined Case] widget to show cases related to the current case.
+Click the ui:entity[Case] number or title to show the lead or related cases.
 
 
 === Case note widget
 
 image::navigation/case/add-note-modal.png[case note widget]
 
-The case note widget allows you to search, print, edit, or add a case note.
-The widget shows a paged list of all notes added to a case.
-The search returns a list of all notes with the keyword in the body or the title.
-To edit a note, click the note you wish to edit in the list.
-The note transforms into an input field.
+Use the ui:widget[Case Note] widget to search, print, edit, or add a ui:entity[Case] note.
+The widget shows a paged list of notes added to a ui:entity[Case].
+The search returns a list of notes where the note title or body has the keywords.
+Click a note to edit it.
 
 
 === Sharebook widget
 
 image::navigation/case/sharebook-modal.png[sharebook widget]
 
-The sharebook widget allows you to add informal notes to the case.
-The note only has the note text, the creation date, and the person who added it.
+Use the ui:widget[Sharebook] widget to add informal notes to the case.
+An informal note only includes the note text, the creation date, and the author.

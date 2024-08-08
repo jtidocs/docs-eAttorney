@@ -1,29 +1,30 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Charges
 
-Charges can be accessed by clicking the "Charges" tab in the case folder view.
-For information on how to navigate to the case folder view, see xref:./index.adoc[].
+Charges can be accessed by clicking the ui:tab[Charges] tab in the ui:form[Case Folder View].
+For information on how to navigate to the ui:form[Case Folder View], refer to xref:./index.adoc[].
 
-The charges screen displays all charges on defendants connected to the case.
+The ui:screen[Charges] screen shows all charges on defendants connected to the case.
 Charges can be updated by clicking the corresponding charge:
 
 image::cases/chargeOptions.png[Charge Options]
 
-Other options can be selected from the charges tab drop down menu these options include the following.
+Other options can be selected from the ui:dropdown[Charges] dropdown.
+The options include:
 
-. Add Charge.
-. Charging Decision.
-. Add Plea.
-. Add Charge Characteristic.
-. Add Charge Intoxicant.
-. Add Exhibit.
-. Dispose Charges.
-. Sentencing.
-. Update charges.
+. ui:option[Add Charge]
+. ui:option[Charging Decision]
+. ui:option[Add Plea]
+. ui:option[Add Charge Characteristic]
+. ui:option[Add Charge Intoxicant]
+. ui:option[Add Exhibit]
+. ui:option[Dispose Charges]
+. ui:option[Sentencing]
+. ui:option[Update charges]
 
 
 == Add items
 
-When adding charges, pleas, exhibits, or other items, a defendant must be selected from the drop-down, then fill out the required fields marked with an asterisk.
+When adding charges, pleas, exhibits, or other items, a defendant must be selected from the dropdown, then fill in the required fields marked with an asterisk.
 
 image::cases/addCharge.png[Charge Options]

@@ -1,6 +1,6 @@
 site:
   title: eAttorney documentation
-  url: https://docs.journaltech.com/
+  url: https://documentation.journaltech.com/
   start_page: eAttorney:ROOT:index.adoc
 content:
   sources:

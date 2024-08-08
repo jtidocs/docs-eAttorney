@@ -3,15 +3,15 @@
 
 == Update screen hyperlinks
 
-Hyperlinks in a folder screen open the update screen for that row of data.
-For example, clicking the btn:[Defendant] link opens the update screen for that party record.
+Links in a folder screen open the ui:screen[Update] screen for that row of data.
+For example, clicking the ui:link[Defendant] link opens the ui:screen[Update] screen for that party record.
 
 image::links/hyperlinkUpdate.png[New note widget]
 
-From this screen you can update the record that you clicked on in the previous screen:
+On this screen, you can update the record that you clicked on the previous screen:
 
 image::links/updateParty.png[Update party]
 
-If that record is deletable, a btn:[Delete Record] button shows on the bottom right of the update screen.
+If that record is deletable, a btn:[Delete Record] button shows on the bottom right of the ui:screen[Update] screen.
 
 image::links/deleteButton.png[Delete button]

@@ -22,7 +22,7 @@ image::statute-search.png[Add statute configuration screen]
 
 == Search results
 
-Statutes include these main parts listed in statute search results, plus other information shown below:
+Statutes include these main parts listed in statute search results, plus other information:
 
 * Section Number.
 * Section Name.
@@ -35,16 +35,16 @@ Statutes include these main parts listed in statute search results, plus other i
 [#add-edit]
 == Adding and editing a statute
 
-Add a new statute by clicking the btn:[New Statute] button in the <<search,Statute Search>> screen.
+Add a new statute by clicking btn:[New Statute] in the <<search,Statute Search>> screen.
 
-Edit an existing statute by clicking the *Statute No.* link in the search results of the <<search,Statute Search>> screen.
+Edit an existing statute by clicking the ui:link[Statute No.] link in the search results of the <<search,Statute Search>> screen.
 
-Below are the options available when adding or editing a statute:
+The following options are available when adding or editing a statute:
 
 image::StatuteAddConfiguration.png[Add statute configuration screen]
 
 Among these options, `Config Code`, `Section Number`, and `Status` are required, while `Config Code` must also be unique.
-Most of these fields are text fields with the exceptions listed below:
+Most of these fields are text fields, with the following exceptions:
 
 
 === Lookup lists
@@ -77,7 +77,7 @@ Dropdown options for some fields are configured to show values from the followin
 
 image::StatuteCollectionConfiguration.png["The Statute Reporting Categories panel, Keywords panel, and Fines, Bails, and Sentencing Guidelines panel are shown on the New Statute screen"]
 
-Collection fields available on a statute consist of the following entity types and are configured in the panes below on the "Add Statute" screen:
+Collection fields available on a statute consist of the following entity types and are configured in the following panes on the ui:screen[Add Statute] screen:
 
 * Statute Reporting Categories.
 ** Jurisdiction (Lookup List: JURISDICTIONS).

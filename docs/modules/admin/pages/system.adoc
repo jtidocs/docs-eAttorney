@@ -3,8 +3,7 @@
 
 == Documentation
 
-. To view the system documentation, type in the following addition to your already existing URL: `/ecms/admin/documentation`.
-  An example is shown below.
+. To view the system documentation, type in the following addition to your already existing URL: `/ecms/admin/documentation`:
 +
 image::System-Documentation4.png[System Documentation]
 
@@ -15,11 +14,10 @@ image::System-Documentation1.png[System Documentation]
 
 == Data dictionary
 
-. To view the data dictionary, navigate to System Setup, click btn:[Metadata], and then select Entities.
+. To view the data dictionary, navigate to System Setup, click btn:[Metadata], and then select ui:option[Entities].
 +
 image::System-Documentation2.png[System Documentation]
 
-. Click the btn:[Data Dictionary] button on the far right.
-  This downloads your data dictionary.
+. Click btn:[Data Dictionary] to download your data dictionary.
 +
 image::System-Documentation3.png[System Documentation]

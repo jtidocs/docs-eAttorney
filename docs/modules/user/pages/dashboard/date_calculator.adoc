@@ -1,32 +1,45 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Date calculator gadget
 
-The date calculator can be used to calculate dates based on several criteria.
-The gadget can be added by clicking the gear icon at the top of your dashboard, then clicking the btn:[`+`] button next to the Date Calculator gadget.
-After clicking the *Close Settings* button, the date calculator gadget shows on your dashboard.
+The ui:gadget[Date Calculator] gadget can be used to calculate dates based on several criteria.
+The gadget can be added by clicking the gear icon at the top of your dashboard, then clicking btn:[`+`] next to the ui:gadget[Date Calculator] gadget.
+After clicking the btn:[Close Settings] button, the date calculator gadget shows on your dashboard.
 
 image::dashboard/date-calculator.png["Date calculator gadget that is calculating 3 months and 1 week out from January 1, 2021"]
 
 
-== Field descriptions
+[%autowidth, cols="a,a",options="header"]
+|===
+| Field
+| Description
 
-* *Start Date:* The date to use as the start of your calculation.
-* *Period:* One of two options:
+| ui:field[Start Date]
+| The date to use as the start of your calculation.
+
+| ui:field[Period]
+| One of two options:
+
+. A number that is based on the time frame selected in the ui:field[Timeframe] field.
+
+. A date expression that can use a combination of years (`y`), months (`m`), weeks (`w`), and days (`d`) as input.
 +
---
-. A number that is based on the time frame selected in the `Timeframe` field.
+For example: a ui:field[Period] of `5y+3m+1w-1d` would calculate the date that is 5 years, 3 months, 1 week, minus one day out from the date selected in the ui:field[Start Date] field.
 
-. A date expression that can use a combination of years (y), months (m), weeks (w), and days (d) as input.
-  Example: a Period of `5y+3m+1w-1d` would calculate the date that is 5 years, 3 months, 1 week, minus one day out from the date selected in the Start Date field.
---
+| ui:dropdown[Timeframe]
+| The unit of time to use for the ui:field[Period].
+  Valid values are: ui:option[Business Days], ui:option[Calendar Days], ui:option[Months], ui:option[Weeks], ui:option[Years].
 
-* `Timeframe`: the unit of time to use for the Period.
-  Valid values are: Business Days, Calendar Days, Months, Weeks, Years.
-  Example: to calculate 15 business days from now, you would enter `15` as the Period and `Business Days` as the time frame.
+For example: to calculate 15 business days from now, you would enter `15` as the ui:field[Period] and ui:option[Business Days] as the ui:dropdown[Timeframe].
 
-* *End Date:* This is the date that is calculated based on the criteria you enter.
-  Below the End Date field is a description of how many calendar days and business days are between the Start Date and the End Date.
+| ui:field[End Date]
+| This is the date that is calculated based on the criteria you enter.
+  After the ui:field[End Date] field is a description of how many calendar days and business days are between the ui:field[Start Date] and the ui:field[End Date].
 
-* *Avoid weekends and holidays:* If this is checked, and the end date would have fallen on a weekend or holiday (holidays are set by your administrator), then the end date is instead the next available work day.
+| ui:field[Avoid weekends and holidays]
+| Select to adjust an ui:field[End Date] that would have fallen on a weekend or holiday to the next available work day.
+  Holidays are set by your administrator.
 
-* *Avoid off times for <User Name>:* If this is checked, and the end date would have fallen on a day that you have scheduled off (off time is configured on the DirPerson record by an administrator), then the end date is instead the next available day after the scheduled time off.
+| ui:field[Avoid off times for <User Name>]
+| Select to adjust an ui:field[End Date] that would have fallen on a day that you have scheduled off to the next available work day.
+  Off time is configured on the ui:entity[DirPerson] record by an administrator.
+|===

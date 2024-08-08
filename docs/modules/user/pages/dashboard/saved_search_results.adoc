@@ -1,28 +1,32 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Saved search results gadget
 
-The Saved Search Results gadget displays the real-time results of a saved search.
+The ui:gadget[Saved Search Results] gadget shows the real-time results of a saved search.
 
 
+[[add]]
 == Add the gadget
 
-. Open the dashboard.
-. At the top of the dashboard, find the "Dashboard" button, and click the gear icon to go to User Settings:
+. Open the ui:screen[Dashboard].
+. At the top of the ui:screen[Dashboard], find the ui:tab[Dashboard] button, then click the ui:icon[gear] icon.
 +
 image::dashboard/user-settings.png[User settings icon]
++
+The ui:screen[User Settings] screen shows.
 
-. Click the btn:[`+`] button next to the Saved Search Results item:
+. Click btn:[`+`] next to the ui:option[Saved Search Results] item:
 +
 image::dashboard/save-search-results.png[Saved search results add button]
 
-. Click the "Close Settings" button (found below the list of available gadgets).
+. Click btn:[Close Settings] button, after the list of available gadgets.
+  The ui:screen[Dashboard] screen shows with the new gadget added.
 
-. Find the "Saved Search Results" widget, and click the gear icon to go to settings:
+. Find the ui:gadget[Saved Search Results] gadget, then click its ui:icon[gear] icon to show the ui:dialog[gadget settings]:
 +
 image::dashboard/saved-search-results-gear.png[Saved search results configure button]
 
-. Configure the Gadget by setting the Saved Search to use.
-. The Number of results to show per page.
+. Select the ui:entity[Saved Search] to use.
+. Set the number of results to show per page.
 . Click btn:[Submit].
 +
 image::dashboard/save-search-results-configure.png[Saved search results configuration]
@@ -30,8 +34,9 @@ image::dashboard/save-search-results-configure.png[Saved search results configur
 
 == Use the saved search results gadget
 
-The Saved Search Results gadget must first be added to the Dashboard and configured.
-Once added, saved search results show on your Dashboard.
+To use the ui:gadget[Saved Search Results] gadget, you must first <<add>> to your Dashboard and configure it.
+Once added, saved search results show on your ui:screen[Dashboard].
+
 Results can be used to:
 
 . Quickly link to associated search results.

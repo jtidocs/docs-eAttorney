@@ -1,12 +1,12 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Document definitions
 
-A Document Definition is a file type.
+A ui:entity[Document Definition] is a file type.
 When you add a file/document to a case or person record, you select the document definition for the file.
 The document definition has metadata information about the file that can be used throughout the system.
 
-You can get to the Document Definitions settings page by going to menu:Left navigation pane[System Administration > Document Definitions].
-From there, you can search for or add a Document Definition.
+You can get to the ui:screen[Document Definitions] settings page by navigating to menu:Left navigation pane[System Administration > Document Definitions].
+There, you can search for or add a ui:entity[Document Definition].
 
 
 == Search document definitions
@@ -68,7 +68,7 @@ Here are the Form Types you can choose from:
 | Use this Form Type for Document Definitions that represent a mugshot.
 
 | Scan/Upload
-| Set the Form Type to Scan/Upload to have a Document Definition show on the *File Type* field on the Add File forms for a case or person.
+| Set the Form Type to Scan/Upload to have a Document Definition show on the ui:field[File Type] field on the ui:form[Add File] forms for a case or person.
 |===
 
 
@@ -80,13 +80,13 @@ This allows you generate documents from a case or person record.
 To add a JDA template to a Document Definition, expand the *Template Information* section, then click the *JDA Template* radio button.
 Finally, click the *Select JDA Template* and choose your template.
 
-See below for an example:
+See the following for an example:
 
 image::JDAChooseTemplate.png[Document Definition details screen with an arrow pointing to the Select JDA Template button and an arrow pointing to a template in a popup window that is displayed.]
 
-Click the *Save* button at the bottom of the screen after selecting your template.
+Click btn:[Save] button at the bottom of the screen after selecting your template.
 
-Now you can generate a document using the template you picked for that Document Definition by going to a Case and selecting *Generate Template* from the *File Cabinet* menu.
+Now you can generate a document using the template you picked for that ui:entity[Document Definition] by navigating to a Case and selecting ui:option[Generate Template] from the ui:dropdown[File Cabinet] dropdown.
 
 image::GenerateTemplateOption.png[Arrow pointing to Generate Template option in the File Cabinet menu item on a case record.]
 

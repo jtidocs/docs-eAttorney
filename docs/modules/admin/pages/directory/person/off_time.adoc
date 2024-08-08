@@ -18,17 +18,17 @@ image::directory/dir-person-search.png[:Directory Person search screen with numb
 
 == View and add off-time
 
-After clicking the individual's name, the Directory Person edit screen shows.
-Click the btn:[Off-Time] tab to view and manage off-time for the person:
+After clicking a name, the ui:screen[Directory Person] screen shows.
+Click the ui:tab[Off-Time] tab to view and manage off-time for the person:
 
 image::directory/dir-person-off-time.png[Directory Person screen with the Off-Time tab selected and an arrow pointing to the Add Off-Time button.]
 
-To add Off-Time for the person, click the btn:[Add Off-Time] button.
+To add Off-Time for the person, click btn:[Add Off-Time].
 The following dialog shows:
 
 image::directory/dir-person-add-off-time.png[Add Off-Time pop-up]
 
-Fill in the information for when the off-time is scheduled and then click the btn:[Add] button.
+Fill in the information for when the off-time is scheduled and then click btn:[Add].
 The new entry shows on the Off-Time tab.
 
 NOTE: Off-Time shows on the calendar for that Directory Person.

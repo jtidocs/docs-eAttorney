@@ -1,6 +1,6 @@
 name: eAttorney
 title: eAttorney documentation
-version: 2022.x
+version: ~
 nav:
 - modules/ROOT/nav.adoc
 - modules/user/nav.adoc
@@ -10,3 +10,6 @@ nav:
 asciidoc:
   attributes:
     product: eAttorney
+    company-full: Journal Technologies, Inc.
+    company: JTI
+

@@ -11,18 +11,18 @@ image::directory/organization-and-other-addresses.png[Directory Person screen wi
 
 An Organization Address shows when a Directory Person is added to a xref:directory/org_unit.adoc[].
 
-To add a person to an organization, click the btn:[Add Organization] button.
-This shows the Organization Search pop-up:
+To add a person to an organization, click btn:[Add Organization].
+This shows the ui:dialog[Organization Search] pop-up:
 
 image::directory/organization-address-search.png["Organization search pop-up with number 1 labeling the search criteria section, number 2 labeling the search button, and number 3 labeling the search results."]
 
-In the pop-up window, enter the search criteria for the organization you want to add (1), click the btn:[Search] button (2), and click the organization link in the search results (3).
+In the pop-up window, enter the search criteria for the organization you want to add (1), click btn:[Search] (2), then click the organization link in the search results (3).
 
-After clicking the organization in the search pop-up, the organization shows in the _Organization Address_ panel:
+After clicking the organization in the search pop-up, the organization shows in the ui:panel[Organization Address] panel:
 
 image::directory/organization-address.png[Organization Address panel with an address showing.]
 
-After adding the organization, click the btn:[Save] button on the Directory Person record to save the changes.
+After adding the organization, click btn:[Save] on the ui:entity[Directory Person] record to save the changes.
 
 
 == Other addresses
@@ -30,8 +30,8 @@ After adding the organization, click the btn:[Save] button on the Directory Pers
 Besides organization addresses, other addresses can also be added to a Directory Person record.
 These addresses could represent a mailing address, physical address, or work address.
 
-To add a personal address to a Directory Person, click the btn:[Add Address] button in the _Other Addresses_ panel.
+To add a personal address to a ui:entity[Directory Person], click btn:[Add Address] in the ui:panel[Other Addresses] panel.
 
 image::directory/other-address.png[Other Addresses panel showing with a new address added]
 
-Enter the information for the address, then click the btn:[Save] button on the Directory Person record.
+Enter the information for the address, then click btn:[Save] on the ui:entity[Directory Person] record.

@@ -1,24 +1,24 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Bates stamping
 
-. From the "File Cabinet" folder view, click the dropdown menu:
+. On the ui:form[File Cabinet Folder View], click the dropdown menu:
 +
 image::bates-stamp/image001.jpg[Bates stamping]
 
-. Hover over "Utilities" and click btn:[Bates Stamp].
-  The Bates Stamp screen shows:
+. Hover over ui:option[Utilities] and select ui:option[Bates Stamp].
+  The ui:screen[Bates Stamp] screen shows:
 +
 image::bates-stamp/image002.png[Bates stamping]
 
-. The Bates Stamp screen provides the following capabilities:
+. The ui:screen[Bates Stamp] screen provides the following capabilities:
 +
 image::bates-stamp/image003.jpg[Bates stamping]
 
-** Select stamp location:
+** Select the stamp location:
 +
 image::bates-stamp/image004.jpg[Bates stamping]
 
-** Select stamp color:
+** Select the stamp color:
 +
 image::bates-stamp/image005.jpg[Bates stamping]
 
@@ -32,12 +32,12 @@ image::bates-stamp/image007.jpg[Bates stamping]
 
 . Select some documents or all.
 
-. Once selected and ordered, click the btn:[Stamp] button.
+. Once selected and ordered, click btn:[Stamp].
 
-. Once the documents are Bates stamped, they are listed in the Already Stamped section of the Bates Stamp screen:
+. Once the documents are stamped, they are listed in the ui:panel[Already Stamped] section of the ui:screen[Bates Stamp] screen:
 +
 image::bates-stamp/image008.jpg[Bates stamping]
 
-. The Top Left stamp shows as follows:
+. The ui:option[Top Left] stamp shows as follows:
 +
 image::bates-stamp/image009.png[Bates stamping]
