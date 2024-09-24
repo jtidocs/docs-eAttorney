@@ -1,25 +1,21 @@
 // vim: tw=0 ai et ts=2 sw=2
 = User guide
 
-[discrete]
 == Prerequisites
 
 *Preferred Browser:* latest Chrome browser.
 
 *Supported Browsers:* latest Chrome, Firefox, Safari, Edge browsers, or Internet Explorer 11+.
 
-[.sect1]
---
-[discrete]
+
 == Navigation
 
 * xref:navigation/top.adoc[]
 * xref:navigation/left.adoc[]
 * xref:navigation/case.adoc[]
 * xref:navigation/person.adoc[]
---
 
-[discrete]
+
 == Cases
 
 Add, edit, and view cases.
@@ -27,7 +23,6 @@ Add, edit, and view cases.
 See the xref:cases/index.adoc[] for help with cases.
 
 
-[discrete]
 == Persons
 
 Add, edit, and view person records.
@@ -35,7 +30,6 @@ Add, edit, and view person records.
 See the xref:person/index.adoc[] for help with person records.
 
 
-[discrete]
 == Dashboard
 
 * xref:dashboard/index.adoc[]
@@ -51,7 +45,6 @@ See the xref:person/index.adoc[] for help with person records.
 * xref:dashboard/notepad.adoc[]
 
 
-[discrete]
 == Documents
 
 * xref:documents/index.adoc[]
@@ -61,7 +54,6 @@ See the xref:person/index.adoc[] for help with person records.
 * xref:documents/scan.adoc[]
 
 
-[discrete]
 == Financials
 
 * xref:financials/index.adoc[]
@@ -71,7 +63,6 @@ See the xref:person/index.adoc[] for help with person records.
 * xref:financials/restitution.adoc[]
 
 
-[discrete]
 == Reports
 
 * xref:reports/case.adoc[]
@@ -79,7 +70,6 @@ See the xref:person/index.adoc[] for help with person records.
 * xref:reports/financial.adoc[]
 
 
-[discrete]
 == Searches
 
 * xref:searches/top.adoc[]
