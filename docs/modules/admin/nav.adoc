@@ -16,6 +16,8 @@
 **** xref:directory/person/addresses.adoc[]
 **** xref:directory/person/off_time.adoc[]
 
+*** xref:directory/attribute.adoc[]
+
 ** xref:statutes.adoc[]
 ** xref:statute_text.adoc[]
 ** xref:news_gadget.adoc[]
@@ -26,4 +28,5 @@
 ** xref:calendar.adoc[]
 ** xref:performance_logs.adoc[]
 ** xref:help_notes.adoc[]
+** xref:report_admin.adoc[]]
 ** xref:system.adoc[]

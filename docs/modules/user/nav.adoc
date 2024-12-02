@@ -24,6 +24,7 @@
 *** xref:dashboard/interest_calculator.adoc[]
 *** xref:dashboard/news.adoc[]
 *** xref:dashboard/notepad.adoc[]
+*** xref:dashboard/notifications.adoc[]
 *** xref:dashboard/recent_reports.adoc[]
 *** xref:dashboard/saved_search_results.adoc[]
 *** xref:dashboard/saved_searches.adoc[]
