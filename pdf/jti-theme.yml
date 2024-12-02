@@ -2,6 +2,15 @@ extends: default-with-font-fallbacks
 role:
   red:
     font-color: #ff0000
+  ui:
+    font-family: NHaasGrotesk-medium
+    font-color: #000
+button:
+  font-family: NHaasGrotesk-medium
+  font-style: normal
+menu:
+  font-family: NHaasGrotesk-medium
+  font-style: normal
 font:
   catalog:
     merge: true
@@ -10,6 +19,11 @@ font:
       italic: NHaasGrotesk-italic.ttf
       bold: NHaasGrotesk-bold.ttf
       bold_italic: NHaasGrotesk-bold_italic.ttf
+    NHaasGrotesk-medium:
+      normal: NHaasGrotesk-medium.ttf
+      italic: NHaasGrotesk-medium_italic.ttf
+      bold: NHaasGrotesk-medium.ttf
+      bold_italic: NHaasGrotesk-medium_italic.ttf
     M+ 1p Fallback: mplus1p-regular-fallback.ttf
   fallbacks:
   - M+ 1p Fallback
