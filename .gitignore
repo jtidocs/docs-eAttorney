@@ -12,7 +12,6 @@ bin/task*
 
 # Antora
 build/
-pdf/
 antora-assembler.dist.yml
 antora-playbook.dist.yml
 
@@ -34,7 +33,7 @@ node_modules/
 
 # Ruby bits
 .bundle/
-Gemfile*
+Gemfile.lock
 
 # Task
 Taskfile.dist.yml
@@ -48,3 +47,13 @@ vale/vale.dist.ini
 # Vim
 *.swp
 *.swo
+
+# macOS
+**/.DS_Store
+
+# Jetbrains
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/

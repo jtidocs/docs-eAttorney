@@ -1,0 +1,72 @@
+extends: default-with-font-fallbacks
+role:
+  red:
+    font-color: #ff0000
+font:
+  catalog:
+    merge: true
+    NHaasGrotesk:
+      normal: NHaasGrotesk-normal.ttf
+      italic: NHaasGrotesk-italic.ttf
+      bold: NHaasGrotesk-bold.ttf
+      bold_italic: NHaasGrotesk-bold_italic.ttf
+    M+ 1p Fallback: mplus1p-regular-fallback.ttf
+  fallbacks:
+  - M+ 1p Fallback
+  - Helvetica
+title-page:
+  background-color: #f4f4f2
+  background-image: image:title-background.svg[]
+  font-color: #2c2829
+  font-family: NHaasGrotesk
+  text-align: center
+  title:
+    font-color: #2c2829
+    font-size: 44pt
+  subtitle:
+    font-color: #2c2829
+    font-size: 32pt
+  revision:
+    font-color: #666
+  authors:
+    font-color: #2c2829
+    font-size: 32pt
+    font-weight: bold
+header:
+  background-color: #168cbf
+  height: 0.25in
+  margin: 0
+footer:
+  font-color: #fff
+  line-height: 1
+  background-color: #3f3b3c
+  height: 54pt
+  margin: [18pt, 0, 0, 0]
+  padding: [18, 0]
+  recto:
+    left:
+      content: '{copyright}'
+    right:
+      content: '*{chapter-title}* | {page-number} of {page-count}'
+  verso:
+    left:
+      content: '{page-number} of {page-count} | *{chapter-title}*'
+    right:
+      content: '{copyright}'
+base:
+  font-family: NHaasGrotesk
+  font-size: 11
+page:
+  size: Letter
+  margin: [72pt, 36pt, 72pt, 36pt]
+  margin-inner: 90pt
+  margin-outer: 54pt
+  initial-zoom: Fit
+table:
+  grid-width: [1, 0]
+  head:
+    border-top-width: 0
+  cell:
+    padding: 5
+  foot:
+    border-bottom-width: 0
