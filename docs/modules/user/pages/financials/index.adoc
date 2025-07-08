@@ -1,7 +1,7 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Financials
 
-Financials is only approved for individuals with the financial workflow enabled on their account.
+Financials are only available for users with financial permissions set up on their accounts.
 Financials can be broken down in the following categories: bail, cash receipts, check writing, creating invoices, deposits, pay plans, refund, restitution, transfers, and vouchers.
 Each category is defined more in detail on a separate page.
 

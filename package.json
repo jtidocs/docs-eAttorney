@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jti/doctools": "1.1.24"
+    "@jti/doctools": "1.3.9"
   }
 }

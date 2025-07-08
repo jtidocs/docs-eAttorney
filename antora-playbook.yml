@@ -40,6 +40,9 @@ antora:
     enabled: true
     debug: false
     remote: false
+  - require: '@jti/antora-extension-nav_check'
+    enabled: true
+    debug: false
   - require: '@jti/antora-extension-repeated_words'
     enabled: true
     debug: false

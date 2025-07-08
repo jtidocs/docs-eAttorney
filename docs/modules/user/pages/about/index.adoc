@@ -8,6 +8,7 @@ A web-based Case and Matter Management System with integrated document managemen
 
 {product} includes the following features:
 
+
 === Case management
 
 * **Supports Civil and Criminal Case Types**.
@@ -35,7 +36,7 @@ A web-based Case and Matter Management System with integrated document managemen
 
 * *Witness Planning Sheet*: Provides a subpoena planning tool to direct the types of subpoenas to be generated and the type of involved names to be subpoenaed for each type of judicial event.
 
-* *Brief Bank for motions files and legal analysis of issues*: Prosecutor-created associated keywords that enable topical organization to documents so that the research can be performed now and located at a later date when similar issues arise.
+* *Brief Bank for motions files and legal analysis of issues*: Prosecutor-created associated keywords that support topical organization to documents, allowing research to be conducted now and found later when similar issues arise.
 
 
 === Document management

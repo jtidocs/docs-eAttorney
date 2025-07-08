@@ -3,7 +3,7 @@
 
 The VOCA report provides complete victim information to help with the Victims of Crime Act grant reporting.
 
-The *VOCA Report* can be accessed by going to menu:Left navigation pane[Searches & Reports > VOCA Report].
+Access the VOCA report by navigating to menu:Left navigation pane[Searches & Reports > VOCA Report].
 
 image::searches/voca-report-link.png[VOCA Report link left nav]
 
@@ -12,11 +12,11 @@ image::searches/voca-report-link.png[VOCA Report link left nav]
 
 image::searches/voca-report-params.png[VOCA Report parameters guide]
 
-. *Start Date / End Date* - Required.
-  Limit results to a Date Range.
-. *Show Details* - Enable clickable hyperlinks in the report to take you to cases or names.
-. *Output Format* - Select the desired file type of the document to be generated.
-. **Run* - Generate the report in the current active browser tab.
+. ui:field[Start Date] / ui:field[End Date]: required.
+  Use to limit results to a date range.
+. ui:field[Show Details]: Use to turn on clickable links in the report to show ui:entity[Cases] or names.
+. ui:field[Output Format]: Select the desired ui:entity[Document] file type to generate.
+. btn:[Run]: click to generate the report in the current active browser tab.
 . *Run in New Tab* - Generate the report in a new browser tab.
 . *Run & Archive* - Generate the report and archive it.
 . *Save As* - Save the report to your saved reports.

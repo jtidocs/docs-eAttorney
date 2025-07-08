@@ -1,7 +1,7 @@
 // vim: tw=0 ai et ts=2 sw=2
 = Search controls
 
-All of the searches listed in this section use the same set of controls:
+All searches listed in this section use the same set of controls:
 
 image::searches/search-controls.png[Bottom Search Controls Toolbar.]
 
@@ -9,7 +9,7 @@ image::searches/search-controls.png[Bottom Search Controls Toolbar.]
 
 . Click btn:[Reset] to reset all parameters and controls to default values.
 
-. Click btn:[Refine] to enable the <<refine>> for all parameters.
+. Click btn:[Refine] to turn on the <<refine>> for all parameters.
 
 . Click btn:[Output] to <<output>>.
 This configuration controls how results are shown by ordering, hiding, and grouping fields.

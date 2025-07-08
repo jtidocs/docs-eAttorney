@@ -2,7 +2,51 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
 
-  /* All UI macros instances have the `ui` class */
+  body {
+    /* colors */
+    --color-white: #fff;
+    --color-smoke-10: #fefefe;
+    --color-smoke-30: #fafafa;
+    --color-smoke-50: #f5f5f5;
+    --color-smoke-70: #f0f0f0;
+    --color-smoke-90: #e1e1e1;
+    --color-gray-10: #c1c1c1;
+    --color-gray-30: #9c9c9c;
+    --color-gray-40: #8e8e8e;
+    --color-gray-50: #808080;
+    --color-gray-70: #5d5d5d;
+    --color-black: #000;
+
+    /* JTI Colors */
+    --color-jti-glacier: #f4f4f2; /* off-white */
+    --color-jti-silver: #8f9194; /* medium grey */
+    --color-jti-dark-silver: #3f3b3c; /* dark grey */
+    --color-jti-carbon: #2c2829; /* carbon black */
+    --color-jti-jade: #3c9; /* medium green */
+    --color-jti-aqua: #20bcc8; /* cyan-ish */
+    --color-jti-triumph: #168cbf; /* medium blue */
+    --color-jti-royal: #2b57ab; /* dark blue */
+    --color-jti-plum: #821293; /* medium purple */
+    --color-jti-ruby: #d920a2; /* pink */
+    --color-jti-breaking: #ff6262; /* For Breaking Changes in the release notes */
+
+    /* JTI product colors */
+    --color-jti-eattorney: #2d4d92;
+    --color-jti-ecourt: #49bc94;
+    --color-jti-edefender: #d91ea0;
+    --color-jti-eprosecutor: #2673ba;
+    --color-jti-esupervision: #811191;
+
+    /* JTI role colors */
+    --color-jti-user: #49bc94;
+    --color-jti-business: #811191;
+    --color-jti-admin: #2673ba;
+
+    --border-radius: 0.25rem;
+    --border-radius-large: 0.5rem;
+  }
+
+    /* All UI macros instances have the `ui` class */
   .doc p code.ui {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -54,4 +98,40 @@
     margin-top: 1rem;
   }
 
+  .doc .olist.procedure ol.loweralpha > li::before,
+  .doc .olist.procedure ol[type=a] > li::before {
+    content: counter(li, lower-alpha);
+  }
+
+  .doc .olist.procedure ol.upperalpha > li::before {
+    content: counter(li, upper-alpha);
+  }
+
+  .doc .olist.procedure ol.lowerroman > li::before,
+  .doc .olist.procecure ol[type=i] > li::before {
+    content: counter(li, lower-roman);
+  }
+
+  .doc .olist.procedure ol.upperroman > li::before {
+    content: counter(li, upper-roman);
+  }
+
+  .workingtime {
+    border-radius: 1em;
+    background: #fefefe;
+    color: #000;
+    width: auto;
+    max-width: fit-content;
+    padding-right: 0.5em;
+    margin-bottom: 1em !important;
+  }
+
+  .workingtime p {
+    padding: 0.25em;
+  }
+
+  .workingtime p::before {
+    content: "Working time: ";
+    padding-left: 0.5em;
+  }
 </style>
